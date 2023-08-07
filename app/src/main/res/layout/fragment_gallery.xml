@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/headlineTextView2"
+        app:layout_constraintTop_toBottomOf="@+id/headlineTextView2"
+        tools:context=".GalleryFragment">
+
+        <TextView
+            android:id="@+id/headlineTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:layout_marginTop="108dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:fontFamily="sans-serif"
+            android:text="@string/f.lass"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/contentTextView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/f.immer"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView1" />
+
+        <TextView
+            android:id="@+id/headlineTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="sans-serif"
+            android:text="@string/f.jedes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@id/contentTextView1" />
+
+        <TextView
+            android:id="@+id/headlineTextView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/f.nichts"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView2" />
+
+        <TextView
+            android:id="@+id/headlineTextView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/f.orga"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView3" />
+
+        <TextView
+            android:id="@+id/contentTextView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/f.ruck"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView2"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView2"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView2" />
+
+        <TextView
+            android:id="@+id/contentTextView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/f.dingen"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView3"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView3"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView3" />
+
+        <TextView
+            android:id="@+id/contentTextView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/f.vorfreude"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView4"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView4"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView4" />
+
+        <TextView
+            android:id="@+id/headlineTextView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/f.teiglinge"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@id/contentTextView4" />
+
+        <TextView
+            android:id="@+id/contentTextView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/f.daumen"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView5"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView5"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView5" />
+
+        <TextView
+            android:id="@+id/ueberschrift2"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/menu_gallery"
+            android:textSize="35dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="148dp"
+            android:layout_height="328dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contentTextView5"
+            app:srcCompat="@drawable/bild6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

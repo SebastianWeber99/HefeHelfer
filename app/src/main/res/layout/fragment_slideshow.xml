@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".SlideshowFragment">
+
+        <TextView
+            android:id="@+id/headlineTextView1"
+            android:background="@drawable/textview_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/s.einwaagen"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.531"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/headlineTextView2"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/s.mehl"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@+id/linealEditText" />
+
+        <!-- New TextView -->
+        <!-- Keine weiteren Views -->
+
+        <!-- New EditText for Input -->
+        <EditText
+            android:id="@+id/inputEditText1"
+            android:layout_width="125dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="10dp"
+            android:hint="@string/s.Mehlvolumen"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <EditText
+            android:id="@+id/inputEditText2"
+            android:layout_width="126dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="10dp"
+            android:hint="@string/s.Durchmesser"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linealEditText" />
+
+        <!-- New TextView for Output -->
+        <TextView
+            android:id="@+id/outputTextView1"
+            android:layout_width="115dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="@string/s.Gramm"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/outputTextView2"
+            android:layout_width="115dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="@string/s.Gramm"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button2"
+            app:layout_constraintTop_toBottomOf="@+id/linealEditText" />
+
+        <TextView
+            android:id="@+id/headlineTextView3"
+            android:layout_width="0dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="10dp"
+            android:focusableInTouchMode="true"
+            android:text="@string/s.Hefe"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView1" />
+
+        <TextView
+            android:id="@+id/headlineTextView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:layout_marginTop="20dp"
+            android:focusableInTouchMode="true"
+            android:text="@string/s.Knetmaschine"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@+id/outputTextView1" />
+
+        <TextView
+            android:id="@+id/headlineTextView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:focusableInTouchMode="true"
+            android:text="@string/s.Arbeitsfläche"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@+id/EditText1" />
+
+        <TextView
+            android:id="@+id/headlineTextView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:focusableInTouchMode="true"
+            android:text="@string/s.ohneArbeitsflaeche"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/ueberschrfit2"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/s.Überschrift"
+            android:textSize="35dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:text="@string/s.BBQ"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ueberschrfit2" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="80dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="5dp"
+            android:text="@string/s.go"
+            app:layout_constraintEnd_toStartOf="@+id/outputTextView1"
+            app:layout_constraintStart_toEndOf="@+id/inputEditText1"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="80dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="5dp"
+            android:text="@string/s.go"
+            app:layout_constraintEnd_toStartOf="@+id/outputTextView2"
+            app:layout_constraintStart_toEndOf="@+id/inputEditText2"
+            app:layout_constraintTop_toBottomOf="@+id/linealEditText" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/s.mehlwaage"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView2" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/s.Hefewaage"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView3" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/s.Schüssel"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView6" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/s.Arbeitsflaeche"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView5" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/s.Kneter"
+            android:textAlignment="center"
+
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView4" />
+
+
+
+
+        <EditText
+            android:id="@+id/linealEditText"
+            android:layout_width="40mm"
+            android:layout_height="20mm"
+            android:layout_margin="16dp"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:editable="false"
+            android:background="@drawable/deine_lineal_grafik"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:inputType="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <ImageView
+            android:id="@+id/EditText1"
+            android:layout_width="25mm"
+            android:layout_height="25mm"
+            android:layout_marginTop="16dp"
+
+            android:editable="false"
+            android:inputType="none"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.939"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/bild20"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <ImageView
+            android:id="@+id/EditText2"
+            android:layout_width="25mm"
+            android:layout_height="25mm"
+            android:layout_margin="16dp"
+            android:layout_marginTop="16dp"
+
+            android:editable="false"
+            android:inputType="none"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:srcCompat="@drawable/bild19"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <ImageView
+            android:id="@+id/EditText3"
+            android:layout_width="25mm"
+            android:layout_height="25mm"
+            android:layout_margin="16dp"
+            android:layout_marginTop="16dp"
+
+            android:editable="false"
+            android:inputType="none"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.991"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/bild22"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <ImageView
+            android:id="@+id/EditText4"
+            android:layout_width="25mm"
+            android:layout_height="25mm"
+            android:layout_margin="16dp"
+            android:layout_marginTop="16dp"
+
+            android:editable="false"
+            android:inputType="none"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            app:srcCompat="@drawable/bild21"
+/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="258dp"
+            android:layout_height="178dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="33dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/EditText3"
+            app:srcCompat="@drawable/bild7" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
