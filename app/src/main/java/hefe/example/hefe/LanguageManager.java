@@ -8,6 +8,7 @@ import java.util.Locale;
 
 public class LanguageManager {
     private Context ct;
+
     public LanguageManager (Context ctx){
         ct = ctx;
     }
