@@ -22,16 +22,16 @@
             android:title="@string/menu_fach"/>
 
 
-        <item
-            android:id="@+id/nav_spenden"
-            android:icon="@drawable/bild12"
-            android:title="@string/menu_spenden"/>
+
         <item
             android:id="@+id/nav_rechner"
             android:icon="@drawable/bild88"
             android:title="@string/Rezeptrechner"/>
 
-
+        <item
+            android:id="@+id/nav_spenden"
+            android:icon="@drawable/bild12"
+            android:title="@string/menu_spenden"/>
 
     </group>
 

@@ -23,7 +23,6 @@
     <string name="Code21">Geçmişi geride bırakın ve geleceğe odaklanın.</string>
     <string name="Code22">İçgüdülerinize güvenin, onlar size yol gösterecektir.</string>
     <string name="Code23">Arkadaşlarınızın desteğinden faydalanacaksınız.</string>
-    <string name="Code24">Bugün risk almak için iyi bir gün.</string>
     <string name="Code25">Hayallerinizi gerçeğe dönüştürme gücüne sahipsiniz.</string>
     <string name="Code26">Başkalarına size davranılmasını istediğiniz gibi davranın.</string>
     <string name="Code27">Yaratıcılığınıza hayran kalacaksınız.</string>
@@ -140,5 +139,6 @@
     <string name="zutat5">Malzeme 5</string>
     <string name="zutat6">Malzeme 6</string>
     <string name="Multiplikator">Çarpan</string>
+    <string name="Rezeptrechner">Tarif hesaplayıcı</string>
 
 </resources>

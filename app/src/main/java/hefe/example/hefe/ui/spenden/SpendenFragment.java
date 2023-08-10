@@ -111,7 +111,7 @@ public class SpendenFragment extends Fragment {
                             @Override
                             public void onAdDismissedFullScreenContent() {
                                 // Called when ad is dismissed.
-                                // Set the ad reference to null so you don't show the ad a second time.
+                                // You don't need to clear the reward here.
                                 Log.d(TAG, "Ad dismissed fullscreen content.");
                                 rewardedAd = null;
                             }
@@ -137,6 +137,7 @@ public class SpendenFragment extends Fragment {
                         });
                     }
                 });
+
 
         // Find views by their IDs
         headlineTextView1 = rootView.findViewById(R.id.headlineTextView1);
@@ -204,9 +205,7 @@ public class SpendenFragment extends Fragment {
                 isTextView41Visible = !isTextView41Visible;
                 updateVisibility(button5, isTextView41Visible);
                 updateVisibility(textView41, isTextView41Visible);
-                isTextView23Visible = !isTextView23Visible;
-                updateVisibility(textView23, isTextView23Visible);
-                updateConstraints();
+
             }
         });
 
@@ -246,7 +245,73 @@ public class SpendenFragment extends Fragment {
         // Update the visibility of textView23 based on its saved state
         updateVisibility(textView23, isTextView23Visible);
 
+
+//Das ist der Part, für die Anzeige von dem PFeil + String den kannst so lassen
+        String dynamicText4 = getString(R.string.spenden_GeldfürunsereKaffeekasse);
+        String dynamicText3 = getString(R.string.spenden_kostenloser);
+        String dynamicText2 = getString(R.string.spenden_keks);
+        String dynamicText1 = getString(R.string.settings_sebi);
+        String dynamicText = getString(R.string.settings_michi);
+
+
+        // Den dynamischen Text in headlineTextView1 einfügen
+        headlineTextView2.setText(dynamicText);
+        headlineTextView2.setText(" \u25BC " + dynamicText);
+
+        headlineTextView3.setText(dynamicText1);
+        headlineTextView3.setText(" \u25BC " + dynamicText1);
+
+        headlineTextView7.setText(dynamicText2);
+        headlineTextView7.setText(" \u25BC " + dynamicText2);
+
+        headlineTextView8.setText(dynamicText3);
+        headlineTextView8.setText(" \u25BC " + dynamicText3);
+
+        headlineTextView9.setText(dynamicText4);
+        headlineTextView9.setText(" \u25BC " + dynamicText4);
+
+
+
+
+
         return rootView;
+    }
+        @Override
+        public void onResume() {
+            super.onResume();
+
+            // Retrieve the saved reward status and visibility status of textView23
+            isRewardEarned = sharedPreferences.getBoolean(SP_KEY_IS_REWARD_EARNED, false);
+            isTextView23Visible = sharedPreferences.getBoolean(SP_KEY_IS_TEXTVIEW23_VISIBLE, false);
+
+            // Update the visibility of the reward
+            updateRewardVisibility();
+            // Update the visibility of textView23 based on its saved state
+            updateVisibility(textView23, isTextView23Visible);
+
+    }
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        // Speichern Sie den Zustand des Rewards in den Bundle
+        outState.putBoolean(SP_KEY_IS_REWARD_EARNED, isRewardEarned);
+        outState.putBoolean(SP_KEY_IS_TEXTVIEW23_VISIBLE, isTextView23Visible);
+    }
+
+    @Override
+    public void onViewStateRestored(@Nullable Bundle savedInstanceState) {
+        super.onViewStateRestored(savedInstanceState);
+
+        // Stellen Sie den Zustand des Rewards aus dem Bundle wieder her
+        if (savedInstanceState != null) {
+            isRewardEarned = savedInstanceState.getBoolean(SP_KEY_IS_REWARD_EARNED, false);
+            isTextView23Visible = savedInstanceState.getBoolean(SP_KEY_IS_TEXTVIEW23_VISIBLE, false);
+
+            // Aktualisieren Sie die Sichtbarkeit von Belohnung und TextView23
+            updateRewardVisibility();
+            updateVisibility(textView23, isTextView23Visible);
+        }
     }
 
     // Method to update the visibility of a TextView
@@ -320,18 +385,8 @@ public class SpendenFragment extends Fragment {
 
                     // Show a random message as a reward
                     String randomMessage = getRandomMessageFromResources();
-                    textView23.setText(" " + randomMessage);
+                    showReward(randomMessage);
 
-                    // Make textView23 visible since the reward has been shown
-                    textView23.setVisibility(View.VISIBLE);
-
-                    // Set the flag to indicate that the reward has been earned
-                    isRewardEarned = true;
-
-                    // Save the reward status in SharedPreferences
-                    SharedPreferences.Editor editor = sharedPreferences.edit();
-                    editor.putBoolean(SP_KEY_IS_REWARD_EARNED, true);
-                    editor.apply();
                 }
             });
         } else {
@@ -366,7 +421,7 @@ public class SpendenFragment extends Fragment {
                 R.string.Code21,
                 R.string.Code22,
                 R.string.Code23,
-                R.string.Code24,
+
                 R.string.Code25,
                 R.string.Code26,
                 R.string.Code27,
@@ -410,6 +465,17 @@ public class SpendenFragment extends Fragment {
             Toast.makeText(getActivity(), "No app can handle this action.", Toast.LENGTH_SHORT).show();
         }
     }
+    private void showReward(String rewardMessage) {
+        // Set the reward message to the textView23
+        textView23.setText(" " + rewardMessage);
 
+        // Make textView23 visible since the reward has been shown
+        textView23.setVisibility(View.VISIBLE);
+
+        // Save the reward status in SharedPreferences
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putBoolean(SP_KEY_IS_REWARD_EARNED, true);
+        editor.apply();
+    }
     // Rest of your methods...
 }

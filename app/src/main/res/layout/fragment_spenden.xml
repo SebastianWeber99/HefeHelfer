@@ -203,7 +203,7 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button6" />
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
         <TextView
             android:id="@+id/textView41"
@@ -221,7 +221,7 @@
             android:id="@+id/headlineTextView9"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/textview_border"
             android:clickable="true"
             android:focusable="true"
@@ -251,14 +251,31 @@
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             android:background="@drawable/pergament"
             android:elevation="4dp"
-            android:textSize="22dp"
-android:fontFamily="@font/mystic"
+            android:fontFamily="@font/mystic"
             android:padding="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:hyphenationFrequency="full"
             app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pergament"
+            android:elevation="4dp"
+            android:fontFamily="@font/mystic"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:hyphenationFrequency="full"
+            app:layout_constraintTop_toBottomOf="@+id/button6" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

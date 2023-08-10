@@ -2,6 +2,7 @@
 <resources>
     <string name="menu_fach">Technische termen</string>
     <string name="menu_settings">Instellingen</string>
+    <string name="menu_spenden">Steun ons!</string>
     <string name="f.lass">Neem de tijd</string>
     <string name="f.immer">Steeds weer ziet u op het internet zogenaamde \"express recepten\" om brood te bakken. Deze beloven vers, zelfgebakken brood binnen een paar uur - meestal met behulp van zeer grote hoeveelheden gist. Dit kan natuurlijk handig zijn als u spontaan vers brood wilt bakken en niet veel tijd hebt. Wanneer u echter regelmatiger bakt en geïnteresseerd bent in een veel intensievere smaak, raad ik u aan om over te schakelen op de zogenaamde \"lang houdbare\" methode. Gebruik deze rekenmachine om de optimale hoeveelheid gist te berekenen voor uw favoriete recept.</string>
     <string name="f.jedes">Elk brood verdient het om gebakken te worden!</string>
@@ -108,7 +109,6 @@
     <string name="Code21">Laat het verleden achter je en richt je op de toekomst.</string>
     <string name="Code22">Trouw op je instinct, het zal je leiden.</string>
     <string name="Code23">Je zult profiteren van de steun van je vrienden.</string>
-    <string name="Code24">Vandaag is een goede dag om een risico te nemen.</string>
     <string name="Code25">Je hebt de kracht om je dromen waar te maken.</string>
     <string name="Code26">Behandel anderen zoals je zelf behandeld wilt worden.</string>
     <string name="Code27">Jouw vindingrijkheid zal bewonderd worden.</string>
@@ -128,6 +128,7 @@
     <string name="app_name">GistHelper</string>
     <string name="nav_header_title">Gist rekenmachine</string>
     <string name="menu_home">Gist rekenmachine</string>
+    <string name="menu_gallery">Tips voor bakken</string>
     <string name="menu_slideshow">penis</string>
     <string name="rechner.beschreibung">Welkom bij onze handige receptenconverter! Met deze slimme tool kun je eenvoudig de hoeveelheden van een bestaand recept omrekenen. Of je nu een recept hebt gevonden voor een heerlijk brood maar er twee wilt maken, of je wilt gewoon een kleinere portie maken, met deze calculator is het eenvoudig!  Stel je voor dat je een fantastisch recept hebt gevonden waar je van gaat watertanden. Maar dan komt het moment dat je je realiseert dat de hoeveelheden maar voor één portie zijn. Geen zorgen, met onze receptencalculator is dit geen probleem meer!  Je hoeft niet langer alle ingrediënten twee keer in je hoofd uit te rekenen of moeizaam om te rekenen. Het enige wat je hoeft te doen is de hoeveelheden van de ingrediënten in het formulier invoeren en de gewenste vermenigvuldigingsfactor selecteren. Als je twee keer zoveel wilt klaarmaken, kies je gewoon een vermenigvuldiger van 2. En als je maar de helft van het recept wilt maken, kies je een vermenigvuldigingsfactor van 0,5. Natuurlijk kun je ook andere factoren kiezen.</string>
     <string name="rechner.Rezeptrechner">Recept calculator</string>

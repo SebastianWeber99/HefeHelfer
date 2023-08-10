@@ -145,6 +145,16 @@ public class SlideshowFragment extends Fragment {
             }
         });
 
+        String dynamicText1 = getString(R.string.s_einwaagen);
+        String dynamicText = getString(R.string.s_Knetmaschine);
+
+        headlineTextView4.setText(dynamicText);
+        headlineTextView4.setText(" \u25BC " + dynamicText);
+
+        headlineTextView1.setText(dynamicText1);
+        headlineTextView1.setText(" \u25BC " + dynamicText1);
+
+
         return rootView;
     }
 

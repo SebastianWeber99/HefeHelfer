@@ -97,6 +97,29 @@ public class GalleryFragment extends Fragment {
                 updateConstraints();
             }
         });
+        // Den dynamischen Text aus der Ressourcendatei holen
+        String dynamicText4 = getString(R.string.f_teiglinge);
+        String dynamicText3 = getString(R.string.f_orga);
+        String dynamicText2 = getString(R.string.f_nichts);
+        String dynamicText1 = getString(R.string.f_jedes);
+        String dynamicText = getString(R.string.f_lass);
+
+        // Den dynamischen Text in headlineTextView1 einfügen
+        headlineTextView1.setText(dynamicText);
+        headlineTextView1.setText(" \u25BC " + dynamicText);
+
+        headlineTextView2.setText(dynamicText1);
+        headlineTextView2.setText(" \u25BC " + dynamicText1);
+
+        headlineTextView3.setText(dynamicText2);
+        headlineTextView3.setText(" \u25BC " + dynamicText2);
+
+        headlineTextView4.setText(dynamicText3);
+        headlineTextView4.setText(" \u25BC " + dynamicText3);
+
+        headlineTextView5.setText(dynamicText4);
+        headlineTextView5.setText(" \u25BC " + dynamicText4);
+
 
         return rootView;
     }
@@ -137,7 +160,11 @@ public class GalleryFragment extends Fragment {
             constraintSet.connect(R.id.headlineTextView5, ConstraintSet.TOP, R.id.headlineTextView4, ConstraintSet.BOTTOM, 16);
         }
 
-        constraintSet.applyTo(constraintLayout);
+        constraintSet.applyTo(constraintLayout);}
+
+
+
     }
-}
+
+
 

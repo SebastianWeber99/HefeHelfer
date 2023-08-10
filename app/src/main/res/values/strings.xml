@@ -24,15 +24,15 @@
 
     <string name="menu_spenden">Unterstütze uns!</string>
 
-    <string name="f.lass">\u25BCLass dir Zeit</string>
+    <string name="f.lass">Lass dir Zeit</string>
 
     <string name="f.immer">Immer wieder sieht man sogenannte „Express Rezepte“ fürs Brotbacken im Internet.\nDiese versprechen ein frisches, selbstgemachtes Brot innerhalb weniger Stunden - meist mithilfe von sehr großen Mengen Hefe. Das kann natürlich nützlich sein, wenn man spontan frisches Brot backen will und dafür kaum Zeit hat. \nSollte man jedoch regelmäßiger backen und Interesse an einem deutlich intensiveren Geschmack haben, rate ich dazu, auf die sogenannte „Langzeitführung“ umzusteigen. \nFür die optimale Hefemengen-Berechnung deines Lieblingsrezeptes dient dir dieser Rechner.</string>
 
-    <string name="f.jedes">\u25BCJedes Brot verdient es, ausgebacken zu werden!</string>
+    <string name="f.jedes">Jedes Brot verdient es, ausgebacken zu werden!</string>
 
-    <string name="f.nichts">\u25BCNichts überstürzen</string>
+    <string name="f.nichts">Nichts überstürzen</string>
 
-    <string name="f.orga">\u25BCOrganisiere dich vor dem Backen</string>
+    <string name="f.orga">Organisiere dich vor dem Backen</string>
 
     <string name="f.ruck">Rückschläge gehören dazu - auch beim Brotbacken.\n Besonders am Anfang wirst du viele Fehler machen: \n versehentlich falsch verwendete Zutaten, fehlerhafte Mengenangaben oder eine klassische Übergare. \n Oftmals sieht der Teig danach aus, als müsste man ihn entsorgen. Mein Rat an dich: Gib dem Teig eine Chance und schieb ihn in den Ofen.\n \n Vielleicht überrascht dich das Ergebnis und du entdeckst ein neues Lieblingsprodukt.</string>
 
@@ -40,11 +40,11 @@
 
     <string name="f.vorfreude">Trotz nachvollziehbarer Vorfreude aufs Backen, ist eine strukturierte Vorbereitung sinnvoll und notwendig. \n Jeder, dem schon einmal während des Knetvorgangs mit der Hand aufgefallen ist, dass eine Zutat fehlt und diese anschließend versucht hat, mit teigverschmierten Händen aus dem Schrank zu holen und abzuwiegen, weiß wovon ich spreche. \n Überlege dir deshalb vor dem Backen was du brauchst und richte es dir ordentlich auf deine Arbeitsfläche.\n Falls dir ein Material fehlt, werde kreativ. \n So kann zum Beispiel ein Nudelsieb mit eingelegtem Küchentuch eine super Alternative zu einem Gärkörbchen sein oder du nutzt eine Blumenspritze, um Schwaden im Ofen zu erzeugen. </string>
 
-    <string name="f.teiglinge">\u25BCWann sind mein Teig bzw. meine Teiglinge fertig ?</string>
+    <string name="f.teiglinge">Wann sind mein Teig bzw. meine Teiglinge fertig ?</string>
 
     <string name="f.daumen">Besonders am Anfang ist es schwierig,einTeiggefühl zu entwickeln.\n Wie lange muss ich meinen Teig noch kneten oder wie lange muss mein Teig noch ruhen. \n Das sind 2 Fragen welche ich mir oft am Anfang gestellt habe. Dafür gibt es einfache Tricks: \n\n Knetzeit: Hierfür kannst du ein Stücken vom Teig nehmen, welches etwa Walnussgroß ist und ihn zwischen deinen Händen halten. Ziehe das Teigstücken mit beiden Händen vorsichtig und gefühlvoll auseinander, sodass sich eine Dünne Teigschicht bildet. Diese Teigschicht, sollte so dünn gezogen werden, das Licht hindurchscheinen kann. Reißt diese dünne Teigschicht, ist der Teig nocht nicht genug geknetet.\n \n Gardauer: Für dieses „Problem“ gibt es die sogenannte Daumenprobe. \n Drücke mit deinem Daumen eine leichte Kerbe in deinen Teig/Teigling. \n Federt die Kerbe direkt zurück, ist der Teig nocht nicht ganz bereit. \n Federt die Kerbe gar nicht in die Ursprungsform zurück, ist der Teig zu lange in der Gare. \n Für die optimale Gardauer, federt die Kerbe leicht zurück, jedoch nicht in die 100%ige Ausgangform."</string>
 
-    <string name="s.einwaagen">\u25BCKeine Waage für die Einwaagen </string>
+    <string name="s.einwaagen">Keine Waage für die Einwaagen </string>
 
     <string name="s.mehl">Mehl ohne Waage auswiegen</string>
 
@@ -56,7 +56,7 @@
 
     <string name="s.Hefe">Hefe ohne Waage abwiegen</string>
 
-    <string name="s.Knetmaschine">\u25BCKneten ohne Knetmaschine</string>
+    <string name="s.Knetmaschine">Kneten ohne Knetmaschine</string>
 
     <string name="s.Arbeitsfläche">Kneten mit Arbeitsfläche</string>
 
@@ -156,9 +156,9 @@
 
     <string name="settings.Entwickler">Die Entwickler stellen sich vor:</string>
 
-    <string name="settings.michi">\u25BCMichi</string>
+    <string name="settings.michi">Michi</string>
 
-    <string name="settings.sebi">\u25BCSebi</string>
+    <string name="settings.sebi">Sebi</string>
 
     <string name="VorstellungMichi">"Mein Name ist Michael. Meine berufliche Reise begann mit einer Ausbildung zur Fachkraft für Lebensmitteltechnik. Schon damals war mir klar, dass ich meine Leidenschaft für Lebensmittel und Technik verbinden möchte, um innovative Produkte zu entwickeln und die Lebensmittelindustrie voranzubringen. \n In den folgenden zwei Jahren durfte ich im Bereich Qualitätswesen tätig sein und habe so einen tiefen Einblick in die Prozesse und Standards gewonnen, die für die Herstellung hochwertiger und sicherer Lebensmittel unerlässlich sind. \n Nach meiner Ausbildung habe ich mich weitergebildet und den Techniker in der Fachrichtung Lebensmitteltechnik abgeschlossen. Nun stehe ich kurz vor einem neuen Kapitel in meinem beruflichen Werdegang: \n Demnächst werde ich ein Biochemie Studium beginnen. Ich freue mich sehr auf diese Herausforderung, da ich dadurch mein Wissen erweitern und vertiefen kann, um noch tiefer in die wissenschaftlichen Aspekte der Lebensmittelentwicklung einzutauchen.\n Abseits meiner beruflichen Laufbahn sind Fussball und Musikverein meine großen Leidenschaften. Im Fußball habe ich nicht nur die Möglichkeit, mich sportlich zu betätigen, sondern auch im Team zu arbeiten und gemeinsam Ziele zu erreichen. In meiner Freizeit bin ich immer offen für neue Erfahrungen. Gerne unternehme ich Wanderungen, um die Natur zu genießen und probiere mich auch gerne in der Küche aus, um neue Rezepte zu kreieren. "</string>
 
@@ -235,8 +235,6 @@
     <string name="Code22">Vertraue auf deine Instinkte, sie werden dich leiten.</string>
 
     <string name="Code23">Du wirst von der Unterstützung deiner Freunde profitieren.</string>
-
-    <string name="Code24">Heute ist ein guter Tag, um ein Risiko einzugehen.</string>
 
     <string name="Code25">Du hast die Kraft, deine Träume wahr werden zu lassen.</string>
 

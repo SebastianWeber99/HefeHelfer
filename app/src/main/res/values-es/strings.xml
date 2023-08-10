@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Ayudante de levadura</string>
+    <string name="nav_header_title">Calculadora de levadura</string>
+    <string name="menu_home">Calculadora de levadura</string>
+    <string name="menu_gallery">Consejos para hornear</string>
     <string name="menu_slideshow">"Pastelería navideña "</string>
     <string name="menu_fach">Términos técnicos</string>
     <string name="menu_settings">Ajustes</string>
+    <string name="menu_spenden">¡Apóyenos!</string>
     <string name="f.lass">Tómate tu tiempo</string>
     <string name="f.immer">Una y otra vez se ven en Internet las llamadas \"recetas exprés\" para hacer pan. Prometen pan fresco y casero en pocas horas, normalmente con la ayuda de grandes cantidades de levadura. Por supuesto, esto puede ser útil si quieres hornear pan fresco de forma espontánea y no tienes mucho tiempo. Sin embargo, si hornea con más regularidad y le interesa un sabor mucho más intenso, le aconsejo que cambie al método denominado \"de larga duración\". Utilice esta calculadora para calcular la cantidad óptima de levadura para su receta favorita.</string>
     <string name="f.jedes">Todos los panes merecen ser horneados!</string>
@@ -75,6 +79,18 @@
     <string name="VorstellungMichi">Me gustaría combinar la alimentación y la tecnología para desarrollar productos innovadores y hacer avanzar la industria alimentaria. En los dos años siguientes, me permitieron trabajar en el departamento de calidad, con lo que adquirí un profundo conocimiento de los procesos y normas esenciales para la producción de alimentos seguros y de alta calidad. Tras mi aprendizaje, continué mi formación y me gradué como técnico en tecnología alimentaria. Ahora estoy a punto de iniciar un nuevo capítulo en mi carrera: pronto empezaré una licenciatura en bioquímica. Estoy muy ilusionado con este reto, ya que me permitirá ampliar y profundizar mis conocimientos para ahondar aún más en los aspectos científicos del desarrollo alimentario. Al margen de mi carrera profesional, el fútbol y el club de música son mis grandes pasiones. En el fútbol no sólo tengo la oportunidad de practicar deporte, sino también de trabajar en equipo y conseguir objetivos juntos. En mi tiempo libre, siempre estoy abierto a nuevas experiencias. Me gusta ir de excursión para disfrutar de la naturaleza y también probar suerte en la cocina para crear nuevas recetas.</string>
     <string name="VorstelungSebi">Me llamo Sebastian y me complace presentarme ante ustedes. Mi trayectoria comenzó con el bachillerato en la Escuela Técnica Superior, donde descubrí mi entusiasmo por la tecnología y la innovación. A continuación, cursé estudios de informática, que me introdujeron en el fascinante mundo de la programación y las tecnologías digitales. Durante mis estudios, desarrollé una pasión especial por el campo de la conducción autónoma. La idea de que los vehículos naveguen de forma autónoma con ayuda de inteligencia artificial y algoritmos avanzados me fascina enormemente. Es un campo que está en constante crecimiento y tendrá un impacto significativo en el futuro de la movilidad. Además de mi carrera profesional, soy un ávido ciclista de montaña. Explorar la naturaleza y experimentar la emoción de la conducción todoterreno me proporciona el tiempo de descanso que necesito del ajetreo y el bullicio de la vida cotidiana. Me ayuda a despejarme y a recargar las pilas para dedicarme a mis proyectos y retos.</string>
     <string name="h.sinn">Esta calculadora está diseñada para ayudarle a encontrar la cantidad óptima de levadura para su receta. Esto puede ser útil si, por ejemplo, encuentra una receta que desea hornear pero no está satisfecho con el tiempo de reposo indicado para la masa o si prefiere almacenar la masa en el frigorífico en lugar de a temperatura ambiente. Para ello, sume la harina utilizada en la receta (independientemente del tipo de harina) e introdúzcala en peso de harina. A continuación, piense en el tiempo que desea dejar reposar la masa: introduzca las horas y los minutos en el campo correspondiente. En el último campo, introduzca la temperatura a la que debe reposar la masa. Una vez introducidas las tres cosas, haga clic en -Calcular-. A continuación se calculan en gramos las cantidades necesarias de levadura fresca, levadura seca o masa madre.</string>
+    <string name="action_settings">¡Apóyenos!</string>
+    <string name="spenden.unterstuetzen">¿Cómo puede apoyarnos?</string>
+    <string name="spenden.arten">Puede apoyarnos de tres maneras diferentes.   Tienes la opción de comprar una deliciosa galleta digital de la fortuna por solo 1€ y recibir una futura lectura directamente después de la compra.  Pero no te preocupes, la aplicación por supuesto sigue siendo gratuita en cualquier forma y se puede utilizar sin donaciones sin ningún tipo de restricciones.  Si no quiere gastar dinero en esta galleta, puede hacer clic en el botón de la galleta de la fortuna -gratis- en su lugar. Todo lo que tienes que hacer es ver un breve vídeo promocional en su totalidad y recibirás inmediatamente tu lectura de la fortuna sin tener que pagar nada.  Y si no te gusta una galleta de la fortuna o una lectura del futuro, todavía hay otra manera de apoyarnos.  Si quieres, puedes utilizar el botón de nuestra página Ko-Fi para dejar una contribución para nuestro fondo de café.  Pero, de nuevo, el uso de la aplicación sigue siendo gratuito y sin restricciones. Tu ayuda es muy apreciada en cualquiera de sus formas, ¡y te damos las gracias por tu apoyo!</string>
+    <string name="spenden.keks">Galleta de la fortuna por 1</string>
+    <string name="spenden.Kaffeekasse">Fondo para el café</string>
+    <string name="spenden.kostenloser">galleta de la fortuna gratis</string>
+    <string name="spenden.buttonKeks">Galleta de la fortuna</string>
+    <string name="spenden.txtkeks">Con este botón puede comprar una deliciosa galleta digital de la suerte por sólo 1 euro y recibir después su lectura personal del futuro. La galleta de la suerte no sólo le alegrará, sino que también le permitirá conocer su futuro. Tenga en cuenta que la galleta de la fortuna se compra con dinero real.</string>
+    <string name="spenden.txtkostenkeks">Con este botón especial obtendrás una galleta de la fortuna gratis.   Es muy sencillo: pulsa el botón, mira el breve anuncio que aparece y, tras cerrarlo, obtendrás inmediatamente la interpretación de tu futuro.  Lo mejor es que esta versión de la galleta es completamente gratuita para ti. Al mismo tiempo, es una gran oportunidad para nosotros, ya que los ingresos por publicidad nos permiten seguir mejorando la aplicación para que puedas disfrutarla y beneficiarte de ella aún más.  ¿A qué espera? ¡Consigue tu galleta de la fortuna gratis y recibe una emocionante lectura del futuro!</string>
+    <string name="spenden.GeldfürunsereKaffeekasse">Dinero para nuestro fondo de café</string>
+    <string name="spenden.txtKaffekasse">Si hace clic en este botón, accederá directamente a nuestra página Ko-Fi.   Allí tienes la posibilidad de aportarnos una cantidad de libre elección a nuestro fondo para el café con el método de pago que prefieras. Con este dinero podemos comprar nuestro elixir de la vida, el café, y también trabajar por las noches en mejoras para la aplicación. Porque como dice el refrán:  -Cree en los milagros, en el amor y sobre todo en el café.   Tu apoyo es una gran ayuda para que la aplicación sea aún mejor y más fácil de usar.  Estamos increíblemente agradecidos por cada contribución que nos permite continuar con nuestra pasión por esta aplicación y mejorarla constantemente.  Así que, si quieres apoyarnos y darnos una taza de café, nos encantará cualquier contribución que puedas hacer.  Por supuesto, es importante para nosotros señalar que no deberías gastarte hasta el último céntimo en esta aplicación. Si ya estás luchando por reunir dinero para gastos importantes como el alquiler, simplemente disfruta de esta maravillosa aplicación gratuita y guarda tu dinero para las cosas que realmente te importan.  Tu satisfacción y bienestar son muy importantes para nosotros y no queremos que supongas una carga económica de ningún tipo.  El uso de la app sigue siendo totalmente gratuito e ilimitado, por lo que puedes disfrutar de ella en cualquier momento sin ninguna preocupación.</string>
+    <string name="Spracheaendern">Idioma requerido</string>
     <string name="Code1">Hoy es tu día de suerte. Sigue adelante con valentía</string>.
     <string name="Code2">Pronto experimentarás una alegría inesperada</string>.
     <string name="Code3">Cree en ti mismo, porque eres más capaz de lo que crees</string>.
@@ -98,7 +114,6 @@
     <string name="Code21">Deja atrás el pasado y céntrate en el futuro.</string>
     <string name="Code22">Confía en tus instintos, ellos te guiarán.</string>
     <string name="Code23">Te beneficiarás del apoyo de tus amigos.</string>
-    <string name="Code24">Hoy es un buen día para arriesgarse.</string>
     <string name="Code25">Tienes el poder de hacer realidad tus sueños.</string>
     <string name="Code26">Trata a los demás como quieres que te traten.</string>
     <string name="Code27">Tu ingenio será admirado.</string>
@@ -115,6 +130,16 @@
     <string name="Code38">Confía en tu capacidad para superar obstáculos.</string>
     <string name="Code39">Eres único, muestra al mundo tu individualidad.</string>
     <string name="Code40">Hoy es un día para ayudar a los demás.</string>
+    <string name="rechner.beschreibung">¡Bienvenido a nuestro práctico conversor de recetas! Con esta inteligente herramienta podrás convertir fácilmente las cantidades de una receta existente. Tanto si has encontrado una receta para una deliciosa barra de pan pero quieres hacer dos, como si simplemente quieres hacer una porción más pequeña, ¡esta calculadora te lo pone fácil! Imagina que has encontrado una receta fantástica que te hace la boca agua. Pero llega un momento en que te das cuenta de que las cantidades son sólo para una ración. No te preocupes, con nuestro conversor de recetas esto ya no es un problema. Ya no tienes que calcular todos los ingredientes dos veces mentalmente ni convertirlos laboriosamente. Todo lo que tiene que hacer es introducir las cantidades de ingredientes en el formulario y seleccionar el multiplicador deseado. Si quieres preparar el doble de cantidad, sólo tienes que elegir un multiplicador de 2. Y si sólo quieres preparar la mitad de la receta, elige un multiplicador de 0,5. Por supuesto, también puedes elegir otros factores.</string>
+    <string name="rechner.Rezeptrechner">Calculadora de recetas</string>
+    <string name="Zutat1">Ingrediente 1</string>
+    <string name="zutat2">Ingrediente 2</string>
+    <string name="zutat3">Ingrediente 3</string>
+    <string name="zutat4">Ingrediente 4</string>
+    <string name="zutat5">Ingrediente 5</string>
+    <string name="zutat6">Ingrediente 6</string>
+    <string name="Multiplikator">Multiplicador</string>
+    <string name="Rezeptrechner">Calculadora de recetas</string>
 
 
 </resources>
