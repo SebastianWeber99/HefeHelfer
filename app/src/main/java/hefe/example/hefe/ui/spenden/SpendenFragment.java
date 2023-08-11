@@ -19,7 +19,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import hefe.example.hefe.R;
+import com.android.billingclient.api.BillingClient;
+import com.android.billingclient.api.BillingClientStateListener;
+import com.android.billingclient.api.BillingResult;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
@@ -32,11 +34,15 @@ import com.google.android.gms.ads.rewarded.RewardItem;
 import com.google.android.gms.ads.rewarded.RewardedAd;
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 
+
 import java.util.Random;
+
+import hefe.example.hefe.R;
 
 public class SpendenFragment extends Fragment {
 
     private RewardedAd rewardedAd;
+    private BillingClient billingClient;
     private final String TAG = "SpendenFragment";
 
     // UI Elements
@@ -477,5 +483,6 @@ public class SpendenFragment extends Fragment {
         editor.putBoolean(SP_KEY_IS_REWARD_EARNED, true);
         editor.apply();
     }
-    // Rest of your methods...
+
+
 }
