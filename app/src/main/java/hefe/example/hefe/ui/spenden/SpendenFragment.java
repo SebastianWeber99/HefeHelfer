@@ -19,9 +19,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import hefe.example.hefe.R;
+
 import com.android.billingclient.api.BillingClient;
-import com.android.billingclient.api.BillingClientStateListener;
 import com.android.billingclient.api.BillingResult;
+import com.android.billingclient.api.PurchasesUpdatedListener;
+import com.android.billingclient.api.QueryProductDetailsParams;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
@@ -34,15 +37,11 @@ import com.google.android.gms.ads.rewarded.RewardItem;
 import com.google.android.gms.ads.rewarded.RewardedAd;
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 
-
 import java.util.Random;
-
-import hefe.example.hefe.R;
 
 public class SpendenFragment extends Fragment {
 
     private RewardedAd rewardedAd;
-    private BillingClient billingClient;
     private final String TAG = "SpendenFragment";
 
     // UI Elements
@@ -143,6 +142,8 @@ public class SpendenFragment extends Fragment {
                         });
                     }
                 });
+
+
 
 
         // Find views by their IDs
@@ -282,18 +283,18 @@ public class SpendenFragment extends Fragment {
 
         return rootView;
     }
-        @Override
-        public void onResume() {
-            super.onResume();
+    @Override
+    public void onResume() {
+        super.onResume();
 
-            // Retrieve the saved reward status and visibility status of textView23
-            isRewardEarned = sharedPreferences.getBoolean(SP_KEY_IS_REWARD_EARNED, false);
-            isTextView23Visible = sharedPreferences.getBoolean(SP_KEY_IS_TEXTVIEW23_VISIBLE, false);
+        // Retrieve the saved reward status and visibility status of textView23
+        isRewardEarned = sharedPreferences.getBoolean(SP_KEY_IS_REWARD_EARNED, false);
+        isTextView23Visible = sharedPreferences.getBoolean(SP_KEY_IS_TEXTVIEW23_VISIBLE, false);
 
-            // Update the visibility of the reward
-            updateRewardVisibility();
-            // Update the visibility of textView23 based on its saved state
-            updateVisibility(textView23, isTextView23Visible);
+        // Update the visibility of the reward
+        updateRewardVisibility();
+        // Update the visibility of textView23 based on its saved state
+        updateVisibility(textView23, isTextView23Visible);
 
     }
     @Override
@@ -483,6 +484,5 @@ public class SpendenFragment extends Fragment {
         editor.putBoolean(SP_KEY_IS_REWARD_EARNED, true);
         editor.apply();
     }
-
-
+    // Rest of your methods...
 }
