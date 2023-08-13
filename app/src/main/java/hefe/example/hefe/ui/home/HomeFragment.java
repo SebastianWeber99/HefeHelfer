@@ -24,7 +24,7 @@ import java.util.TimeZone;
 
 public class HomeFragment extends Fragment {
     private EditText numberField;
-    private ImageButton calculateButton;
+    private Button calculateButton;
     private TextView resultLabel;
     private TextView resultLabel2;
     private TextView resultLabel3;

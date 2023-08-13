@@ -269,7 +269,6 @@
             android:gravity="center"
             android:hyphenationFrequency="full"
             android:fontFamily="@font/mystic"
-
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
