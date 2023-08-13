@@ -7,11 +7,13 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,10 +23,18 @@ import androidx.fragment.app.Fragment;
 
 import hefe.example.hefe.R;
 
+import com.android.billingclient.api.AcknowledgePurchaseParams;
 import com.android.billingclient.api.BillingClient;
+import com.android.billingclient.api.BillingClientStateListener;
+import com.android.billingclient.api.BillingFlowParams;
 import com.android.billingclient.api.BillingResult;
+import com.android.billingclient.api.ConsumeParams;
+import com.android.billingclient.api.ConsumeResponseListener;
+import com.android.billingclient.api.ProductDetails;
+import com.android.billingclient.api.Purchase;
 import com.android.billingclient.api.PurchasesUpdatedListener;
 import com.android.billingclient.api.QueryProductDetailsParams;
+import com.android.billingclient.api.QueryPurchasesParams;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
@@ -37,7 +47,10 @@ import com.google.android.gms.ads.rewarded.RewardItem;
 import com.google.android.gms.ads.rewarded.RewardedAd;
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 import com.google.android.gms.ads.rewarded.ServerSideVerificationOptions;
+import com.google.common.collect.ImmutableList;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class SpendenFragment extends Fragment {
@@ -68,6 +81,11 @@ public class SpendenFragment extends Fragment {
     private RewardedAd rewardedAd;
     private SharedPreferences pref;
     private SharedPreferences.Editor editor;
+
+    private BillingClient billingClient;
+    private List<ProductDetails> productDetailsList;
+    private  Handler handler;
+    ProgressBar progress_circular;
 
 
     @SuppressLint("MissingInflatedId")
@@ -153,10 +171,32 @@ public class SpendenFragment extends Fragment {
 
         button6 = rootView.findViewById(R.id.button6);
         button4 = rootView.findViewById(R.id.button4);
+        productDetailsList = new ArrayList<>();
+
+        billingClient = BillingClient.newBuilder(this.getActivity())
+                .enablePendingPurchases()
+                .setListener(
+                        (billingResult, list) -> {
+                            if(billingResult.getResponseCode()==BillingClient.BillingResponseCode.OK && list != null) {
+                                for (Purchase purchase: list){
+                                    this.verifyPurchase(purchase);
+                                }
+                            }
+                        }
+                ).build();
+        connectGooglePlayBilling();
+
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 click(v);
+            }
+        });
+
+        button6.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                launchPurchaseFlow(productDetailsList.get(0));
             }
         });
 
@@ -184,6 +224,9 @@ public class SpendenFragment extends Fragment {
         headlineTextView9.setText(dynamicText4);
         headlineTextView9.setText(" \u25BC " + dynamicText4);
 
+
+
+
         return rootView;
     }
 
@@ -197,6 +240,23 @@ public class SpendenFragment extends Fragment {
         if(!val.equals("n/a")) {
             textView23.setText(val);
         }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        billingClient.queryPurchasesAsync(
+                QueryPurchasesParams.newBuilder().setProductType(BillingClient.ProductType.INAPP).build(),
+                (billingResult, list) -> {
+                    if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+                        for (Purchase purchase : list) {
+                            if (purchase.getPurchaseState() == Purchase.PurchaseState.PURCHASED && !purchase.isAcknowledged()) {
+                                verifyPurchase(purchase);
+                            }
+                        }
+                    }
+                }
+        );
     }
 
     public void click(View view){
@@ -218,6 +278,134 @@ public class SpendenFragment extends Fragment {
             });
         } else {
             Log.d(TAG, "The rewarded ad wasn't ready yet.");
+        }
+    }
+
+    void showProducts() {
+
+        ImmutableList<QueryProductDetailsParams.Product> productList = ImmutableList.of(
+                //Product 1
+                QueryProductDetailsParams.Product.newBuilder()
+                        .setProductId("glueckskeks")
+                        .setProductType(BillingClient.ProductType.INAPP)
+                        .build()
+        );
+
+        QueryProductDetailsParams params = QueryProductDetailsParams.newBuilder()
+                .setProductList(productList)
+                .build();
+
+        billingClient.queryProductDetailsAsync(params, (billingResult, list) -> {
+            //Clear the list
+            productDetailsList.clear();
+
+            Log.d(TAG,"Size "+list.size());
+
+            Log.d(TAG, "inside postDelayed");
+            //Adding new productList, returned from google play
+            productDetailsList.addAll(list);
+
+            //Since we have one product, we use index zero (0) from list
+            ProductDetails productDetails = list.get(0);
+
+            //Getting product details
+            String price = productDetails.getOneTimePurchaseOfferDetails().getFormattedPrice();
+            String productName = productDetails.getName();
+            Log.d(TAG, price + " " + productName);
+
+            //Handler to delay by two seconds to wait for google play to return the list of products.
+//            handler.postDelayed(() -> {
+//                Log.d(TAG, "inside postDelayed");
+//                //Adding new productList, returned from google play
+//                productDetailsList.addAll(list);
+//
+//                //Since we have one product, we use index zero (0) from list
+//                ProductDetails productDetails = list.get(0);
+//
+//                //Getting product details
+//                String price = productDetails.getOneTimePurchaseOfferDetails().getFormattedPrice();
+//                String productName = productDetails.getName();
+//                Log.d(TAG, price + " " + productName);
+//                //Updating the UI
+//                //If the product is not showing then it means that you didn't properly setup your Testing email.
+////                button6.setText(price +"  -  "+productName);
+////
+////                //Showing the button.
+////                button6.setVisibility(View.VISIBLE);
+////                progress_circular.setVisibility(View.INVISIBLE);
+//
+//            }, 2000);
+        });
+    }
+
+    public void connectGooglePlayBilling() {
+        billingClient.startConnection(new BillingClientStateListener() {
+            @Override
+            public void onBillingServiceDisconnected() {
+                connectGooglePlayBilling();
+            }
+
+            @Override
+            public void onBillingSetupFinished(@NonNull BillingResult billingResult) {
+                if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+                    showProducts();
+                    Log.d(TAG, "show Products");
+                }
+            }
+        });
+
+    }
+
+    public void launchPurchaseFlow(ProductDetails productDetails) {
+        ImmutableList<BillingFlowParams.ProductDetailsParams> productDetailsParamsList =
+                ImmutableList.of(
+                        BillingFlowParams.ProductDetailsParams.newBuilder()
+                                .setProductDetails(productDetails)
+                                .build()
+                );
+        BillingFlowParams billingFlowParams = BillingFlowParams.newBuilder()
+                .setProductDetailsParamsList(productDetailsParamsList)
+                .build();
+        billingClient.launchBillingFlow(this.getActivity(), billingFlowParams);
+    }
+
+    public void verifyPurchase(Purchase purchase) {
+        ConsumeParams consumeParams = ConsumeParams.newBuilder()
+                .setPurchaseToken(purchase.getPurchaseToken())
+                .build();
+        ConsumeResponseListener listener = (billingResult, s) -> {
+            if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+//                String randomMessage = getRandomMessageFromResources();
+//                showReward(randomMessage);
+//                Log.d(TAG, "Try to show text");
+                Log.d(TAG, "give User Item");
+            }
+        };
+
+        billingClient.consumeAsync(consumeParams, listener);
+    }
+
+
+
+    public void verifyPayment(Purchase purchase) {
+
+
+        if (purchase.getPurchaseState() == Purchase.PurchaseState.PURCHASED) {
+            if (!purchase.isAcknowledged()) {
+                AcknowledgePurchaseParams acknowledgePurchaseParams =
+                        AcknowledgePurchaseParams.newBuilder()
+                                .setPurchaseToken(purchase.getPurchaseToken())
+                                .build();
+                billingClient.acknowledgePurchase(acknowledgePurchaseParams, billingResult -> {
+
+                    if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+                        // 1 - True
+                        // 0 - False
+                        // pref.setRemoveAd(1);
+                    }
+
+                });
+            }
         }
     }
 
