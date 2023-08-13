@@ -42,7 +42,24 @@ import java.util.Random;
 
 public class SpendenFragment extends Fragment {
 
+    private TextView headlineTextView1;
+    private TextView ueberschrift2;
+    private TextView headlineTextView2;
+    private TextView headlineTextView3;
+    private TextView textView17;
+    private TextView textView18;
+    private TextView headlineTextView6;
+    private TextView headlineTextView7;
+    private TextView headlineTextView8;
+    private TextView headlineTextView9;
+    private TextView textView20;
+    private TextView textView22;
+    private TextView textView41;
+    private TextView textView42;
 
+    private Button button6;
+
+    private Button button4;
     private static final String SP_KEY_IS_REWARD_EARNED = "is_reward_earned";
     private SharedPreferences sharedPreferences;
     private TextView textView23;
@@ -124,6 +141,31 @@ public class SpendenFragment extends Fragment {
                 click(v);
             }
         });
+
+        //Das ist der Part, für die Anzeige von dem PFeil + String den kannst so lassen
+        String dynamicText4 = getString(R.string.spenden_GeldfürunsereKaffeekasse);
+        String dynamicText3 = getString(R.string.spenden_kostenloser);
+        String dynamicText2 = getString(R.string.spenden_keks);
+        String dynamicText1 = getString(R.string.settings_sebi);
+        String dynamicText = getString(R.string.settings_michi);
+
+
+        // Den dynamischen Text in headlineTextView1 einfügen
+        headlineTextView2.setText(dynamicText);
+        headlineTextView2.setText(" \u25BC " + dynamicText);
+
+        headlineTextView3.setText(dynamicText1);
+        headlineTextView3.setText(" \u25BC " + dynamicText1);
+
+        headlineTextView7.setText(dynamicText2);
+        headlineTextView7.setText(" \u25BC " + dynamicText2);
+
+        headlineTextView8.setText(dynamicText3);
+        headlineTextView8.setText(" \u25BC " + dynamicText3);
+
+        headlineTextView9.setText(dynamicText4);
+        headlineTextView9.setText(" \u25BC " + dynamicText4);
+
         return rootView;
     }
 
