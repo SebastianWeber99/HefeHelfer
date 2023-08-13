@@ -135,6 +135,24 @@ public class SpendenFragment extends Fragment {
         editor = pref.edit();
         textView23 = rootView.findViewById(R.id.textView23);
         button5 = rootView.findViewById(R.id.button5);
+        // Find views by their IDs
+        headlineTextView1 = rootView.findViewById(R.id.headlineTextView1);
+        ueberschrift2 = rootView.findViewById(R.id.ueberschrift2);
+        headlineTextView2 = rootView.findViewById(R.id.headlineTextView2);
+        headlineTextView3 = rootView.findViewById(R.id.headlineTextView3);
+        textView17 = rootView.findViewById(R.id.textView17);
+        textView18 = rootView.findViewById(R.id.textView18);
+        headlineTextView6 = rootView.findViewById(R.id.headlineTextView6);
+        headlineTextView7 = rootView.findViewById(R.id.headlineTextView7);
+        headlineTextView8 = rootView.findViewById(R.id.headlineTextView8);
+        headlineTextView9 = rootView.findViewById(R.id.headlineTextView9);
+        textView20 = rootView.findViewById(R.id.textView20);
+        textView22 = rootView.findViewById(R.id.textView22);
+        textView41 = rootView.findViewById(R.id.textView41);
+        textView42 = rootView.findViewById(R.id.textView42);
+
+        button6 = rootView.findViewById(R.id.button6);
+        button4 = rootView.findViewById(R.id.button4);
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
