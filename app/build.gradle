@@ -5,13 +5,18 @@ plugins {
 android {
     namespace 'hefe.example.hefe'
     compileSdk 33
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
 
     defaultConfig {
         applicationId "hefe.example.hefe"
         minSdk 24
         targetSdk 33
-        versionCode 7
-        versionName "7"
+        versionCode 8
+        versionName "8"
         resConfig("en,de,pl,fr,es,hr,tr,nl,it,cn,ja,ru,uk,ar,zh")
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
