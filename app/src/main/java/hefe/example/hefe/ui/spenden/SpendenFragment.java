@@ -76,6 +76,7 @@ public class SpendenFragment extends Fragment {
     private static final String SP_KEY_IS_REWARD_EARNED = "is_reward_earned";
     private SharedPreferences sharedPreferences;
     private TextView textView23;
+    private TextView textView24;
     private Button button5;
     private final String TAG = "SpendenFragment";
     private RewardedAd rewardedAd;
@@ -152,6 +153,7 @@ public class SpendenFragment extends Fragment {
                 Context.MODE_PRIVATE);
         editor = pref.edit();
         textView23 = rootView.findViewById(R.id.textView23);
+        textView24 = rootView.findViewById(R.id.textView24);
         button5 = rootView.findViewById(R.id.button5);
         // Find views by their IDs
         headlineTextView1 = rootView.findViewById(R.id.headlineTextView1);
@@ -177,6 +179,8 @@ public class SpendenFragment extends Fragment {
                 .enablePendingPurchases()
                 .setListener(
                         (billingResult, list) -> {
+                            Log.d(TAG, "onCreateView: " + billingResult.getResponseCode());
+                            Log.d(TAG, "onCreateView: " + list);
                             if(billingResult.getResponseCode()==BillingClient.BillingResponseCode.OK && list != null) {
                                 for (Purchase purchase: list){
                                     this.verifyPurchase(purchase);
@@ -197,6 +201,13 @@ public class SpendenFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 launchPurchaseFlow(productDetailsList.get(0));
+            }
+        });
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openWebsite();
             }
         });
 
@@ -271,7 +282,7 @@ public class SpendenFragment extends Fragment {
                     String rewardType = rewardItem.getType();
                     // Show a random message as a reward
                     String randomMessage = getRandomMessageFromResources();
-                    showReward(randomMessage);
+                    showReward(randomMessage, textView23);
                     Log.d(TAG, "Try to show text");
 
                 }
@@ -370,13 +381,15 @@ public class SpendenFragment extends Fragment {
     }
 
     public void verifyPurchase(Purchase purchase) {
+        Log.d(TAG, "verifyPurchase: try verifing");
         ConsumeParams consumeParams = ConsumeParams.newBuilder()
                 .setPurchaseToken(purchase.getPurchaseToken())
                 .build();
         ConsumeResponseListener listener = (billingResult, s) -> {
-            if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
-//                String randomMessage = getRandomMessageFromResources();
-//                showReward(randomMessage);
+            Log.d(TAG, "verifyPurchase: " + billingResult.getResponseCode());
+            if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK || billingResult.getResponseCode()==BillingClient.BillingResponseCode.DEVELOPER_ERROR) {
+                String randomMessage = getRandomMessageFromResources();
+                showReward(randomMessage, textView24);
 //                Log.d(TAG, "Try to show text");
                 Log.d(TAG, "give User Item");
             }
@@ -481,14 +494,14 @@ public class SpendenFragment extends Fragment {
             Toast.makeText(getActivity(), "No app can handle this action.", Toast.LENGTH_SHORT).show();
         }
     }
-    private void showReward(String rewardMessage) {
+    private void showReward(String rewardMessage, TextView textView) {
         // Set the reward message to the textView23
-        textView23.setText(" " + rewardMessage);
+        textView.setText(" " + rewardMessage);
         editor.putString("val", textView23.getText().toString());
         editor.apply();
 
         // Make textView23 visible since the reward has been shown
-        textView23.setVisibility(View.VISIBLE);
+        textView.setVisibility(View.VISIBLE);
         Log.d(TAG, "Make textview visible");
         // Save the reward status in SharedPreferences
 
