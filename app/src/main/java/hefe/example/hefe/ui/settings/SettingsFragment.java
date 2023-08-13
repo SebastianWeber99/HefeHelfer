@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -36,6 +37,8 @@ public class SettingsFragment extends Fragment {
     private ImageButton languageSA;
     private ImageButton languageCN;
 
+    private TextView versionText;
+
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_settings, container, false);
@@ -54,6 +57,7 @@ public class SettingsFragment extends Fragment {
         languagePL = rootView.findViewById(R.id.languagePL);
         languageSA = rootView.findViewById(R.id.languageSA);
         languageCN = rootView.findViewById(R.id.languageCN);
+        versionText = rootView.findViewById(R.id.Version);
 
         LanguageManager languageManager = new LanguageManager(getActivity());
 
@@ -118,6 +122,7 @@ public class SettingsFragment extends Fragment {
         try {
             pInfo = this.getContext().getPackageManager().getPackageInfo(this.getContext().getPackageName(), 0);
             String version = pInfo.versionName;
+            versionText.setText("Version: " + version);
             Log.d(TAG, "onCreateView: " + version);
         } catch (PackageManager.NameNotFoundException e) {
             throw new RuntimeException(e);
