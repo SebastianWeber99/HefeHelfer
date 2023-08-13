@@ -251,7 +251,7 @@
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
 
             android:fontFamily="@font/mystic"
             android:textSize="24sp"
@@ -266,7 +266,7 @@
             android:id="@+id/textView24"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/pergament"
+
             android:gravity="center"
             android:hyphenationFrequency="full"
             android:fontFamily="@font/mystic"

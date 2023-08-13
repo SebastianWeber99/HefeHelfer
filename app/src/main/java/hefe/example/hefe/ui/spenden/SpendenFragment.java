@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 
 import hefe.example.hefe.R;
@@ -87,6 +88,11 @@ public class SpendenFragment extends Fragment {
     private List<ProductDetails> productDetailsList;
     private  Handler handler;
     ProgressBar progress_circular;
+    private boolean isTextView17Visible = false;
+    private boolean isTextView18Visible = false;
+    private boolean isTextView20Visible = false;
+    private boolean isTextView41Visible = false;
+    private boolean isTextView42Visible = false;
 
 
     @SuppressLint("MissingInflatedId")
@@ -174,6 +180,16 @@ public class SpendenFragment extends Fragment {
         button6 = rootView.findViewById(R.id.button6);
         button4 = rootView.findViewById(R.id.button4);
         productDetailsList = new ArrayList<>();
+        textView17.setVisibility(View.GONE);
+        textView18.setVisibility(View.GONE);
+        button6.setVisibility(View.GONE);
+        textView20.setVisibility(View.GONE);
+        button5.setVisibility(View.GONE);
+        textView41.setVisibility(View.GONE);
+        button4.setVisibility(View.GONE);
+        textView42.setVisibility(View.GONE);
+
+
 
         billingClient = BillingClient.newBuilder(this.getActivity())
                 .enablePendingPurchases()
@@ -235,8 +251,49 @@ public class SpendenFragment extends Fragment {
         headlineTextView9.setText(dynamicText4);
         headlineTextView9.setText(" \u25BC " + dynamicText4);
 
-
-
+        headlineTextView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                isTextView17Visible = !isTextView17Visible;
+                updateVisibility(textView17, isTextView17Visible);
+                updateConstraints();
+            }
+        });
+        headlineTextView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                isTextView18Visible = !isTextView18Visible;
+                updateVisibility(textView18, isTextView18Visible);
+                updateConstraints();
+            }
+        });
+        headlineTextView7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                isTextView20Visible = !isTextView20Visible;
+                updateVisibility(button6, isTextView20Visible);
+                updateVisibility(textView20, isTextView20Visible);
+                updateConstraints();
+            }
+        });
+        headlineTextView8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                isTextView41Visible = !isTextView41Visible;
+                updateVisibility(button5, isTextView41Visible);
+                updateVisibility(textView41, isTextView41Visible);
+                updateConstraints();
+            }
+        });
+        headlineTextView9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                isTextView42Visible = !isTextView42Visible;
+                updateVisibility(button4, isTextView42Visible);
+                updateVisibility(textView42, isTextView42Visible);
+                updateConstraints();
+            }
+        });
 
         return rootView;
     }
@@ -250,6 +307,7 @@ public class SpendenFragment extends Fragment {
                 Context.MODE_PRIVATE).getString("val", "n/a");
         if(!val.equals("n/a")) {
             textView23.setText(val);
+            textView24.setText(val);
         }
     }
 
@@ -509,5 +567,16 @@ public class SpendenFragment extends Fragment {
         editor.putBoolean(SP_KEY_IS_REWARD_EARNED, true);
         editor.apply();
     }
-    // Rest of your methods...
+    private void updateVisibility(View view, boolean isVisible) {
+        view.setVisibility(isVisible ? View.VISIBLE : View.GONE);
+    }
+    private void updateConstraints() {
+        ConstraintLayout.LayoutParams layoutParams = (ConstraintLayout.LayoutParams) textView17.getLayoutParams();
+        layoutParams.topToBottom = isTextView17Visible ? R.id.headlineTextView2 : R.id.headlineTextView2;
+        textView17.setLayoutParams(layoutParams);
+        textView17.requestLayout();
+    }
+
+
+
 }
