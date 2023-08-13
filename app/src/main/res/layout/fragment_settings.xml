@@ -16,7 +16,6 @@
             android:id="@+id/ueberschrift"
             android:layout_width="wrap_content"
             android:layout_height="51dp"
-            android:fontFamily="sans-serif-medium"
             android:text="@string/menu_settings"
             android:textSize="35dp"
             android:textStyle="italic"
