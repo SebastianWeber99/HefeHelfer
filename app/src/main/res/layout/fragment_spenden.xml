@@ -20,8 +20,8 @@
             android:layout_width="wrap_content"
             android:layout_height="51dp"
             android:layout_marginTop="24dp"
-
             android:text="@string/menu_spenden"
+
             android:textSize="35dp"
             android:textStyle="italic"
             app:layout_constraintEnd_toEndOf="parent"
@@ -149,29 +149,41 @@
         app:layout_constraintTop_toBottomOf="@+id/textView22"        />
 
 
-        <Button
+        <androidx.constraintlayout.utils.widget.MotionButton
             android:id="@+id/button4"
             android:layout_width="147dp"
             android:layout_height="100dp"
+            android:background="@drawable/button_background_3d"
             android:text="@string/spenden.Kaffeekasse"
+            android:autoSizeTextType="uniform"
+            android:layout_gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/white"
             app:layout_constraintTop_toBottomOf="@+id/textView42" />
 
-        <Button
+        <androidx.constraintlayout.utils.widget.MotionButton
             android:id="@+id/button5"
             android:layout_width="147dp"
             android:layout_height="100dp"
             android:text="@string/spenden.kostenloser"
+            android:background="@drawable/button_background_3d"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
             android:onClick="click"
+            android:layout_gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView41" />
 
-        <Button
+        <androidx.constraintlayout.utils.widget.MotionButton
             android:id="@+id/button6"
             android:layout_width="147dp"
             android:layout_height="100dp"
+            android:background="@drawable/button_background_3d"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
             android:text="@string/spenden.buttonKeks"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

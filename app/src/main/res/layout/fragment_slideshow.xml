@@ -33,12 +33,13 @@
 
         <TextView
             android:id="@+id/headlineTextView2"
-            android:layout_width="380dp"
-            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="80dp"
             android:clickable="true"
             android:focusable="true"
             android:focusableInTouchMode="true"
+            android:gravity="center"
             android:text="@string/s.mehl"
             android:textSize="22sp"
             android:textStyle="bold"
@@ -96,11 +97,13 @@
 
         <TextView
             android:id="@+id/headlineTextView3"
-            android:layout_width="0dp"
-            android:layout_height="53dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="10dp"
             android:focusableInTouchMode="true"
             android:text="@string/s.Hefe"
+            android:gravity="center"
+            android:layout_gravity="center"
             android:textSize="22sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
@@ -130,6 +133,7 @@
             android:layout_marginTop="50dp"
             android:focusableInTouchMode="true"
             android:text="@string/s.Arbeitsfläche"
+            android:gravity="center"
             android:textSize="22sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
@@ -144,6 +148,7 @@
             android:layout_marginTop="20dp"
             android:focusableInTouchMode="true"
             android:text="@string/s.ohneArbeitsflaeche"
+            android:gravity="center"
             android:textSize="22sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
@@ -175,22 +180,30 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ueberschrfit2" />
 
-        <Button
+        <androidx.constraintlayout.utils.widget.MotionButton
             android:id="@+id/button"
             android:layout_width="80dp"
             android:layout_height="61dp"
             android:layout_marginStart="5dp"
             android:text="@string/s.go"
+            android:background="@drawable/button_background_3d"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
             app:layout_constraintEnd_toStartOf="@+id/outputTextView1"
             app:layout_constraintStart_toEndOf="@+id/inputEditText1"
             app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
-        <Button
+        <androidx.constraintlayout.utils.widget.MotionButton
             android:id="@+id/button2"
             android:layout_width="80dp"
             android:layout_height="61dp"
             android:layout_marginStart="5dp"
             android:text="@string/s.go"
+            android:background="@drawable/button_background_3d"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
             app:layout_constraintEnd_toStartOf="@+id/outputTextView2"
             app:layout_constraintStart_toEndOf="@+id/inputEditText2"
             app:layout_constraintTop_toBottomOf="@+id/linealEditText" />
@@ -213,7 +226,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="5dp"
             android:text="@string/s.Hefewaage"
             android:textAlignment="center"
@@ -228,6 +241,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="5dp"
             android:text="@string/s.Schüssel"
             android:textAlignment="center"
@@ -254,10 +268,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="5dp"
             android:text="@string/s.Kneter"
-            android:textAlignment="center"
 
+            android:textAlignment="center"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"

@@ -18,6 +18,10 @@
             android:layout_height="56dp"
             android:layout_marginTop="16dp"
             android:text="@string/Frage"
+            android:background="@drawable/button_background_3d"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -26,6 +30,7 @@
             android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:textAlignment="center"
             android:text="@string/rechner.beschreibung"
             android:textSize="18sp"
             app:layout_constraintTop_toBottomOf="@+id/button3"
@@ -43,12 +48,16 @@
             app:layout_constraintVertical_bias="0.014" />
 
 
-        <Button
+        <androidx.constraintlayout.utils.widget.MotionButton
             android:id="@+id/calculateButton"
             android:layout_width="58mm"
             android:layout_height="67dp"
             android:layout_marginTop="10dp"
             android:text="@string/h.berechnen"
+            android:background="@drawable/button_background_3d"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.571"
             app:layout_constraintStart_toStartOf="parent"

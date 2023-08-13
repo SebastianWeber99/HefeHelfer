@@ -17,7 +17,7 @@
             android:id="@+id/ueberschrift4"
             android:layout_width="wrap_content"
             android:layout_height="51dp"
-            android:fontFamily="sans-serif-medium"
+
             android:text="@string/w.Fachbegriffe"
             android:textSize="35dp"
             android:textStyle="italic"
@@ -103,7 +103,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/w.Schwaden"
             android:textSize="22sp"
-            android:textStyle="bold"
+            android:textStyle="bold|italic"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.002"
             app:layout_constraintStart_toStartOf="parent"

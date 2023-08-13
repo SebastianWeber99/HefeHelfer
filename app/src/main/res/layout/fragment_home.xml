@@ -263,11 +263,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/resultlabel4" />
 
-        <Button
+        <androidx.constraintlayout.utils.widget.MotionButton
             android:id="@+id/button3"
             android:layout_width="47dp"
             android:layout_height="56dp"
             android:text="@string/Frage"
+            android:background="@drawable/button_background_3d"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/textView16"
             app:layout_constraintStart_toStartOf="parent"
@@ -278,9 +282,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/h.sinn"
+            android:textAlignment="center"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/textView7"
             app:layout_constraintEnd_toStartOf="@+id/editText"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ueberschrfit" />
 
 

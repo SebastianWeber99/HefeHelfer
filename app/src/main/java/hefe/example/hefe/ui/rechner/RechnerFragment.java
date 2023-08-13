@@ -1,9 +1,11 @@
 package hefe.example.hefe.ui.rechner;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
+
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -206,6 +208,7 @@ public class RechnerFragment extends Fragment {
                 textView53.setText(result4 == 0.0 ? "" : String.format("%.2f", result4));
                 textView54.setText(result5 == 0.0 ? "" : String.format("%.2f", result5));
                 textView55.setText(result6 == 0.0 ? "" : String.format("%.2f", result6));
+
             }
         });
 
@@ -226,7 +229,6 @@ public class RechnerFragment extends Fragment {
 
         return rootView; // Return the inflated View here
     }
-
 
 
 }
