@@ -250,14 +250,15 @@
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/pergament"
+            android:layout_height="match_parent"
+
             android:fontFamily="@font/mystic"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:gravity="center"
+            android:hyphenationFrequency="full"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:hyphenationFrequency="full"
             app:layout_constraintTop_toBottomOf="@+id/button5" />
 
         <TextView
@@ -265,14 +266,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/pergament"
-            android:elevation="4dp"
+            android:gravity="center"
+            android:hyphenationFrequency="full"
             android:fontFamily="@font/mystic"
-            android:padding="16dp"
+
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:hyphenationFrequency="full"
             app:layout_constraintTop_toBottomOf="@+id/button6" />
 
 

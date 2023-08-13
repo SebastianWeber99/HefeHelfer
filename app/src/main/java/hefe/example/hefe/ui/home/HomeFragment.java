@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,7 +24,7 @@ import java.util.TimeZone;
 
 public class HomeFragment extends Fragment {
     private EditText numberField;
-    private Button calculateButton;
+    private ImageButton calculateButton;
     private TextView resultLabel;
     private TextView resultLabel2;
     private TextView resultLabel3;
