@@ -1,7 +1,10 @@
 package hefe.example.hefe.ui.settings;
 
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +18,8 @@ import hefe.example.hefe.LanguageManager;
 import hefe.example.hefe.R;
 
 public class SettingsFragment extends Fragment {
+
+    private final String TAG = "SettingsFragment";
 
     private ImageButton languageDE;
     private ImageButton languageES;
@@ -108,6 +113,16 @@ public class SettingsFragment extends Fragment {
             languageManager.updateResource("zh");
             restartActivity();
         });
+
+        PackageInfo pInfo = null;
+        try {
+            pInfo = this.getContext().getPackageManager().getPackageInfo(this.getContext().getPackageName(), 0);
+            String version = pInfo.versionName;
+            Log.d(TAG, "onCreateView: " + version);
+        } catch (PackageManager.NameNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
 
         return rootView;
     }
