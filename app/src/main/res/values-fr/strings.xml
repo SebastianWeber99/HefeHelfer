@@ -141,6 +141,7 @@
     <string name="zutat6">Ingrédient 6</string>
     <string name="Multiplikator">Multiplicateur</string>
     <string name="Rezeptrechner">Calculateur de recettes</string>
+    <string name="impressum">Contact : technikerarbeit.mdts@web.de.     Crédits : Un merci particulier aux personnes qui ont participé à la traduction de l\'application et qui étaient disponibles en tant que testeurs lors du développement.     En particulier à Alex Wucherer, pour la création des images de cuisson. Si quelqu\'un cherche un illustrateur compétent, c\'est lui qu\'il faut contacter:https://alexwucherer.com</string>
 
 
 </resources>

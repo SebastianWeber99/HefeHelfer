@@ -140,6 +140,7 @@
     <string name="zutat6">Ingredient 6</string>
     <string name="Multiplikator">Multiplier</string>
     <string name="Rezeptrechner">Recipe calculator</string>
+    <string name="impressum">Contact: technikerarbeit.mdts@web.de.     Credits: Special thanks to the people who helped translate the app and were available as testers during development.     Especially to Alex Wucherer, for creating the baking images. If anyone is looking for a competent illustrator, he is the right one:https://alexwucherer.com</string>
 
 
 </resources>

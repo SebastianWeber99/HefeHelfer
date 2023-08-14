@@ -140,4 +140,5 @@
     <string name="zutat6">Ингредиент 6</string>
     <string name="Multiplikator">Множитель</string>
     <string name="Rezeptrechner">Калькулятор рецептов</string>
+    <string name="impressum">Контактная информация: technikerarbeit.mdts@web.de.     Кредиты: Особая благодарность людям, которые помогали переводить приложение и были доступны в качестве тестеров во время разработки.     Особенно Алексу Вучереру за создание изображений для выпечки. Если кто-то ищет грамотного иллюстратора, то это именно он: https://alexwucherer.com.</string>
 </resources>
