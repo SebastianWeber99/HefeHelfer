@@ -303,15 +303,15 @@ public class SpendenFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        String val = this.getActivity().getSharedPreferences("my_pref",
+        String adViewedval = this.getActivity().getSharedPreferences("my_pref",
                 Context.MODE_PRIVATE).getString("adViewed", "n/a");
-        if(!val.equals("n/a")) {
-            textView23.setText(val);
+        if(!adViewedval.equals("n/a")) {
+            textView23.setText(adViewedval);
         }
-        String val2 = this.getActivity().getSharedPreferences("my_pref",
+        String boughtval = this.getActivity().getSharedPreferences("my_pref",
                 Context.MODE_PRIVATE).getString("bought", "n/a");
-        if(!val2.equals("n/a")) {
-            textView24.setText(val2);
+        if(!boughtval.equals("n/a")) {
+            textView24.setText(boughtval);
         }
     }
 

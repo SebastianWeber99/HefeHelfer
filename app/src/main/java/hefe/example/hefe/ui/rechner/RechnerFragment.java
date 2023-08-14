@@ -1,6 +1,7 @@
 package hefe.example.hefe.ui.rechner;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -25,11 +26,14 @@ public class RechnerFragment extends Fragment {
     private EditText textView20, textView21, textView22, textView23, textView24, textView25, textView27;
     private TextView textView16, textView40, textView2, textView41, textView42, textView43, textView44, textView45;
     private TextView textView50, textView51, textView52, textView53, textView54, textView55;
-
+    private SharedPreferences pref;
+    private SharedPreferences.Editor editor;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_rechner, container, false);
-
+        pref = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE);
+        editor = pref.edit();
         // Initialisierung der Views
         button3 = rootView.findViewById(R.id.button3);
         ueberschrfit = rootView.findViewById(R.id.ueberschrfit);
@@ -76,6 +80,8 @@ public class RechnerFragment extends Fragment {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 // Setze den Text des TextView40 auf den eingegebenen Text in TextView7
                 textView40.setText(charSequence);
+                editor.putString("textView40", textView40.getText().toString());
+                editor.apply();
             }
 
             @Override
@@ -93,6 +99,8 @@ public class RechnerFragment extends Fragment {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 // Setze den Text des textView41 auf den eingegebenen Text in textView8
                 textView41.setText(charSequence);
+                editor.putString("textView41", textView41.getText().toString());
+                editor.apply();
             }
 
             @Override
@@ -111,6 +119,8 @@ public class RechnerFragment extends Fragment {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 // Setze den Text des textView41 auf den eingegebenen Text in textView8
                 textView42.setText(charSequence);
+                editor.putString("textView42", textView42.getText().toString());
+                editor.apply();
             }
 
             @Override
@@ -128,6 +138,8 @@ public class RechnerFragment extends Fragment {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 // Setze den Text des textView41 auf den eingegebenen Text in textView8
                 textView43.setText(charSequence);
+                editor.putString("textView43", textView43.getText().toString());
+                editor.apply();
             }
 
             @Override
@@ -146,6 +158,8 @@ public class RechnerFragment extends Fragment {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 // Setze den Text des textView41 auf den eingegebenen Text in textView8
                 textView44.setText(charSequence);
+                editor.putString("textView44", textView44.getText().toString());
+                editor.apply();
             }
 
             @Override
@@ -164,6 +178,8 @@ public class RechnerFragment extends Fragment {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 // Setze den Text des textView41 auf den eingegebenen Text in textView8
                 textView45.setText(charSequence);
+                editor.putString("textView45", textView45.getText().toString());
+                editor.apply();
             }
 
             @Override
@@ -203,12 +219,23 @@ public class RechnerFragment extends Fragment {
 
                 // Set the results in TextViews with appropriate decimal formatting
                 textView50.setText(result1 == 0.0 ? "" : String.format("%.2f", result1));
+                editor.putString("textView50", textView50.getText().toString());
+                editor.apply();
                 textView51.setText(result2 == 0.0 ? "" : String.format("%.2f", result2));
+                editor.putString("textView51", textView51.getText().toString());
+                editor.apply();
                 textView52.setText(result3 == 0.0 ? "" : String.format("%.2f", result3));
+                editor.putString("textView52", textView52.getText().toString());
+                editor.apply();
                 textView53.setText(result4 == 0.0 ? "" : String.format("%.2f", result4));
+                editor.putString("textView53", textView53.getText().toString());
+                editor.apply();
                 textView54.setText(result5 == 0.0 ? "" : String.format("%.2f", result5));
+                editor.putString("textView54", textView54.getText().toString());
+                editor.apply();
                 textView55.setText(result6 == 0.0 ? "" : String.format("%.2f", result6));
-
+                editor.putString("textView55", textView55.getText().toString());
+                editor.apply();
             }
         });
 
@@ -230,5 +257,68 @@ public class RechnerFragment extends Fragment {
         return rootView; // Return the inflated View here
     }
 
-
+    @Override
+    public void onStart() {
+        super.onStart();
+        String textView40val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView40", "n/a");
+        if(!textView40val.equals("n/a")) {
+            textView40.setText(textView40val);
+        }
+        String textView41val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView41", "n/a");
+        if(!textView41val.equals("n/a")) {
+            textView41.setText(textView41val);
+        }
+        String textView42val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView42", "n/a");
+        if(!textView42val.equals("n/a")) {
+            textView42.setText(textView42val);
+        }
+        String textView43val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView43", "n/a");
+        if(!textView43val.equals("n/a")) {
+            textView43.setText(textView43val);
+        }
+        String textView44val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView44", "n/a");
+        if(!textView44val.equals("n/a")) {
+            textView44.setText(textView44val);
+        }
+        String textView45val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView45", "n/a");
+        if(!textView45val.equals("n/a")) {
+            textView45.setText(textView45val);
+        }
+        String textView50val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView50", "n/a");
+        if(!textView50val.equals("n/a")) {
+            textView50.setText(textView50val);
+        }
+        String textView51val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView51", "n/a");
+        if(!textView51val.equals("n/a")) {
+            textView51.setText(textView51val);
+        }
+        String textView52val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView52", "n/a");
+        if(!textView52val.equals("n/a")) {
+            textView52.setText(textView52val);
+        }
+        String textView53val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView53", "n/a");
+        if(!textView53val.equals("n/a")) {
+            textView53.setText(textView53val);
+        }
+        String textView54val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView54", "n/a");
+        if(!textView54val.equals("n/a")) {
+            textView54.setText(textView54val);
+        }
+        String textView55val = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("textView55", "n/a");
+        if(!textView55val.equals("n/a")) {
+            textView55.setText(textView55val);
+        }
+    }
 }
