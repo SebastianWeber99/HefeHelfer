@@ -304,9 +304,14 @@ public class SpendenFragment extends Fragment {
     public void onStart() {
         super.onStart();
         String val = this.getActivity().getSharedPreferences("my_pref",
-                Context.MODE_PRIVATE).getString("val", "n/a");
+                Context.MODE_PRIVATE).getString("adViewed", "n/a");
         if(!val.equals("n/a")) {
             textView23.setText(val);
+        }
+        String val2 = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE).getString("bought", "n/a");
+        if(!val2.equals("n/a")) {
+            textView24.setText(val2);
         }
     }
 
@@ -447,8 +452,13 @@ public class SpendenFragment extends Fragment {
             if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK || billingResult.getResponseCode()==BillingClient.BillingResponseCode.DEVELOPER_ERROR) {
                 String randomMessage = getRandomMessageFromResources();
                 showReward(randomMessage, textView24);
+
 //                Log.d(TAG, "Try to show text");
                 Log.d(TAG, "give User Item");
+
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putBoolean(SP_KEY_IS_REWARD_EARNED, true);
+                editor.apply();
             }
         };
 
@@ -554,8 +564,15 @@ public class SpendenFragment extends Fragment {
     private void showReward(String rewardMessage, TextView textView) {
         // Set the reward message to the textView23
         textView.setText(" " + rewardMessage);
-        editor.putString("val", textView23.getText().toString());
-        editor.apply();
+
+        if (textView == textView23) {
+            editor.putString("adViewed", textView23.getText().toString());
+            editor.apply();
+        }
+        if (textView == textView24) {
+            editor.putString("bought", textView24.getText().toString());
+            editor.apply();
+        }
 
         // Make textView23 visible since the reward has been shown
         textView.setVisibility(View.VISIBLE);
@@ -565,6 +582,10 @@ public class SpendenFragment extends Fragment {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putBoolean(SP_KEY_IS_REWARD_EARNED, true);
         editor.apply();
+
+        SharedPreferences.Editor editor2 = sharedPreferences.edit();
+        editor2.putBoolean(SP_KEY_IS_REWARD_EARNED, true);
+        editor2.apply();
     }
     private void updateVisibility(View view, boolean isVisible) {
         view.setVisibility(isVisible ? View.VISIBLE : View.GONE);
