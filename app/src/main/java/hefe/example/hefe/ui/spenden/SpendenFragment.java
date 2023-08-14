@@ -307,7 +307,6 @@ public class SpendenFragment extends Fragment {
                 Context.MODE_PRIVATE).getString("val", "n/a");
         if(!val.equals("n/a")) {
             textView23.setText(val);
-            textView24.setText(val);
         }
     }
 

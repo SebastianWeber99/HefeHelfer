@@ -7,36 +7,41 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="@string/menu_home"
+            android:fontFamily ="@font/fair"/>
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="@string/menu_gallery"
+            android:fontFamily ="@font/fair"/>
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/menu_slideshow"
+            android:fontFamily ="@font/fair"/>
         <item
             android:id="@+id/nav_fach"
             android:icon="@drawable/bild10"
-            android:title="@string/menu_fach"/>
-
-
+            android:title="@string/menu_fach"
+            android:fontFamily ="@font/fair"/>
 
         <item
             android:id="@+id/nav_rechner"
             android:icon="@drawable/bild88"
-            android:title="@string/Rezeptrechner"/>
+            android:title="@string/Rezeptrechner"
+            android:fontFamily ="@font/fair"/>
 
         <item
             android:id="@+id/nav_spenden"
             android:icon="@drawable/bild12"
-            android:title="@string/menu_spenden"/>
+            android:title="@string/menu_spenden"
+            android:fontFamily ="@font/fair"/>
 
     <item
         android:id="@id/nav_settings"
         android:icon="@drawable/bild11"
-        android:title="@string/menu_settings"/>
+        android:title="@string/menu_settings"
+        android:fontFamily ="@font/fair"/>
 
 
 </menu>

@@ -263,12 +263,12 @@
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
+            android:layout_height="25mm"
             android:fontFamily="@font/mystic"
             android:textSize="24sp"
             android:textStyle="bold"
             android:gravity="center"
+            android:background="@drawable/keks"
             android:hyphenationFrequency="full"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -277,13 +277,13 @@
         <TextView
             android:id="@+id/textView24"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
+            android:layout_height="25mm"
             android:gravity="center"
             android:hyphenationFrequency="full"
             android:fontFamily="@font/mystic"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:background="@drawable/keks"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button6" />
