@@ -188,6 +188,8 @@ public class SpendenFragment extends Fragment {
         textView41.setVisibility(View.GONE);
         button4.setVisibility(View.GONE);
         textView42.setVisibility(View.GONE);
+        textView23.setVisibility(View.GONE);
+        textView24.setVisibility(View.GONE);
 
 
 
@@ -273,6 +275,7 @@ public class SpendenFragment extends Fragment {
                 isTextView20Visible = !isTextView20Visible;
                 updateVisibility(button6, isTextView20Visible);
                 updateVisibility(textView20, isTextView20Visible);
+                updateVisibility(textView24, isTextView20Visible);
                 updateConstraints();
             }
         });
@@ -282,6 +285,7 @@ public class SpendenFragment extends Fragment {
                 isTextView41Visible = !isTextView41Visible;
                 updateVisibility(button5, isTextView41Visible);
                 updateVisibility(textView41, isTextView41Visible);
+                updateVisibility(textView23, isTextView41Visible);
                 updateConstraints();
             }
         });
