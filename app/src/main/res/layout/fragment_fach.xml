@@ -20,6 +20,7 @@
 
             android:text="@string/w.Fachbegriffe"
             android:textSize="35dp"
+            android:fontFamily="sans-serif-medium"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
