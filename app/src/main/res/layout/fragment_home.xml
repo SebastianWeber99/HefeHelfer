@@ -72,7 +72,7 @@
 
         <EditText
             android:id="@+id/editText4"
-            android:layout_width="8mm"
+            android:layout_width="48dp"
             android:layout_height="50dp"
             android:layout_marginStart="7mm"
             android:layout_marginTop="25dp"
@@ -273,7 +273,7 @@
 
         <androidx.constraintlayout.utils.widget.MotionButton
             android:id="@+id/button3"
-            android:layout_width="47dp"
+            android:layout_width="48dp"
             android:layout_height="56dp"
             android:text="@string/Frage"
             android:background="@drawable/button_background_3d"

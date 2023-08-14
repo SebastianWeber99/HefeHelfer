@@ -1,0 +1,21 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:color="@android:color/black"
+                android:width="1dp" /> <!-- Ändere die Breite des Randes nach Bedarf -->
+            <corners android:radius="8dp" /> <!-- Ändere den Radius der Ecken nach Bedarf -->
+        </shape>
+    </item>
+    <item android:left="3dp" android:top="3dp" android:right="3dp" android:bottom="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:radius="6dp" /> <!-- Ändere den Radius der Ecken nach Bedarf -->
+        </shape>
+    </item>
+
+    <item>
+        <bitmap android:src="@drawable/keks1" /> <!-- Hier den Namen deines Bildes einfügen -->
+    </item>
+</layer-list>

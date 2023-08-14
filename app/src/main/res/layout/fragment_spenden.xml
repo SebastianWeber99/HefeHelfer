@@ -51,7 +51,8 @@
         <TextView
             android:id="@+id/headlineTextView2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:layout_marginTop="25dp"
             android:background="@drawable/textview_border"
             android:clickable="true"
@@ -68,7 +69,8 @@
         <TextView
             android:id="@+id/headlineTextView3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:background="@drawable/textview_border"
             android:clickable="true"
             android:focusable="true"
@@ -110,7 +112,8 @@
         <TextView
             android:id="@+id/headlineTextView6"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:background="@drawable/textview_border"
             android:layout_marginTop="10dp"
             android:clickable="true"
@@ -138,7 +141,8 @@
         <TextView
             android:id="@+id/headlineTextView7"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:background="@drawable/textview_border"
             android:layout_marginTop="10dp"
             android:clickable="true"
@@ -206,7 +210,8 @@
         <TextView
             android:id="@+id/headlineTextView8"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/textview_border"
             android:clickable="true"
@@ -235,7 +240,8 @@
         <TextView
             android:id="@+id/headlineTextView9"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/textview_border"
             android:clickable="true"
