@@ -68,7 +68,7 @@
 
     <string name="s.go">Go</string>
 
-    <string name="s.mehlwaage">Um das Mehl ohne Waage abzumessen, gibt es eine einfache Lösung: \n Du verwendest die Schüttdichte von Mehl. Die Schüttdichte gibt an, wie schwer eine Substanz auf ein bestimmtes Volumen gesehen ist. Wasser, als Beispiel, besitzt eine Schüttdichte von 1. Das bedeutet, dass 1000 ml Wasser 1 kg wiegt. \n Mehl hingegen ist leichter als Wasser. So wiegt 1000 ml Mehl nur ca. 500-600g. Nun kannst du ein Behältnis – am besten mit Eichstrich – verwenden, um das Mehl abzuwiegen. \n Trage die ml Zahl in den Rechner ein und dir wird die Gramm Anzahl berechnet.</string>
+    <string name="s.mehlwaage">Um das Mehl ohne Waage abzumessen, gibt es eine einfache Lösung: \n Du verwendest die Schüttdichte von Mehl. Die Schüttdichte gibt an, wie schwer eine Substanz auf ein bestimmtes Volumen gesehen ist. Wasser, als Beispiel, besitzt eine Schüttdichte von 1. Das bedeutet, dass 1000 ml Wasser 1 kg wiegen. \n Mehl hingegen ist leichter als Wasser. So wiegen 1000 ml Mehl nur ca. 500-600g. Nun kannst du ein Behältnis – am besten mit Eichstrich – verwenden, um das Mehl abzuwiegen. \n Trage die ml Zahl in den Rechner ein und dir wird die Gramm Anzahl berechnet.</string>
 
     <string name="s.Hefewaage">Um eine Hefemenge ohne Waage abzumessen, kannst du deine Frischhefe einfach zu einer Kugel formen. \n Je nach Durchmesser der Hefekugel, kann das Gewicht der Hefe geschätzt werden. \n Einfach mit dem Lineal auf dem Bildschirm die Größe (millimeter) der Kugel abmessen und den Wert in den Rechner eingeben. Die Hefemenge wird dir in Gramm wiedergegeben.\n Dies sind natürlich keine absolut genauen Werte, aber für den Urlaub und deine spontane Backlust wird es reichen.</string>
 
@@ -78,19 +78,19 @@
 
     <string name="s.Kneter">Um einen Teig ohne Kneter herzustellen, kann man sich an den Wirkungsweisen der Industriekneter orientieren.\n Für den Urlaub eignen sich zwei Verfahren, die sich dadurch unterscheiden, ob dir eine Arbeitsplatte zum Kneten zur Verfügung steht oder nicht.\n Bei beiden Methoden ist zu beachten, dass die Knetzeit länger als mit der Knetmaschine ist. Um ungefähr abzuschätzen, wann dein Teig lang genug geknetet wurde, gibt es die sogenannte Fensterprobe. (siehe -Tipps- Wann sind mein Teig bzw. meine Teiglinge fertig?)</string>
 
-    <string name="h.Hefeberechnung">Hefeberechnung</string>
+    <string name="h.Hefeberechnung">Hefe \n berechnung</string>
 
-    <string name="h.Mehlgewicht">Mehlgewicht</string>
+    <string name="h.Mehlgewicht">Mehl\ngewicht</string>
 
     <string name="h.inGramm">in Gramm</string>
 
-    <string name="h.Teigruhe">Teigruhe(h:min)</string>
+    <string name="h.Teigruhe">Teigruhe\n(h:min)</string>
 
     <string name="h.h">h</string>
 
     <string name="h.min">min</string>
 
-    <string name="h.Temperatur">Temperatur in °C</string>
+    <string name="h.Temperatur">Temperatur\nin °C</string>
 
     <string name="h.C">in °C</string>
 
@@ -163,8 +163,6 @@
     <string name="VorstellungMichi">"Mein Name ist Michi. Meine berufliche Reise begann mit einer Ausbildung zur Fachkraft für Lebensmitteltechnik. Schon damals war mir klar, dass ich meine Leidenschaft für Lebensmittel und Technik verbinden möchte, um innovative Produkte zu entwickeln und die Lebensmittelindustrie voranzubringen. \n In den folgenden zwei Jahren durfte ich im Bereich Qualitätswesen tätig sein und habe so einen tiefen Einblick in die Prozesse und Standards gewonnen, die für die Herstellung hochwertiger und sicherer Lebensmittel unerlässlich sind. \n Nach meiner Ausbildung habe ich mich weitergebildet und den Techniker in der Fachrichtung Lebensmitteltechnik abgeschlossen. Nun stehe ich kurz vor einem neuen Kapitel in meinem beruflichen Werdegang: \n Demnächst werde ich ein Biochemie Studium beginnen. Ich freue mich sehr auf diese Herausforderung, da ich dadurch mein Wissen erweitern und vertiefen kann, um noch tiefer in die wissenschaftlichen Aspekte der Lebensmittelentwicklung einzutauchen.\n Abseits meiner beruflichen Laufbahn sind Fussball und Musikverein meine großen Leidenschaften. Im Fußball habe ich nicht nur die Möglichkeit, mich sportlich zu betätigen, sondern auch im Team zu arbeiten und gemeinsam Ziele zu erreichen. In meiner Freizeit bin ich immer offen für neue Erfahrungen. Gerne unternehme ich Wanderungen, um die Natur zu genießen und probiere mich auch gerne in der Küche aus, um neue Rezepte zu kreieren. "</string>
 
     <string name="VorstelungSebi">Mein Name ist Sebi. Mein Weg begann mit dem Abitur am Technischen Gymnasium, an dem ich meine Begeisterung für Technologie und Innovation entdeckte.\n Anschließend folgte mein Studium der Informatik, das mich in die faszinierende Welt der Programmierung und digitalen Technologien eingeführt hat.\n Während meines Studiums entwickelte ich eine besondere Leidenschaft für den Bereich des autonomen Fahrens. Die Idee, Fahrzeuge mit Hilfe von künstlicher Intelligenz und fortschrittlichen Algorithmen selbstständig navigieren zu lassen, fasziniert mich ungemein. Es ist ein Gebiet, das ständig wächst und die Zukunft der Mobilität maßgeblich beeinflussen wird. \n Neben meiner beruflichen Laufbahn bin ich ein begeisterter Mountainbiker. Die Natur zu erkunden und den Nervenkitzel des Geländefahrens zu erleben, gibt mir die nötige Auszeit vom hektischen Alltag. Es hilft mir, den Kopf frei zu bekommen und neue Energie zu tanken, um mich in meinen Projekten und Herausforderungen zu engagieren.</string>
-
-    <string name="h.sinn">Dieser Rechner hat es sich zur Aufgabe gemacht, für dich die optimale Hefemenge für dein Rezept zu finden. Dies kann nützlich sein, wenn du z.B. ein Rezept findest, das du nachbacken willst, aber mit der vorgegebenen Teigruhezeit unzufrieden bist oder den Teig lieber im Kühlschrank anstatt bei Raumtemperatur lagern willst. Hierfür rechnest du das im Rezept genutzte Mehl (unabhängig von der Mehlsorte) zusammen und trägst es unter Mehlgewicht ein. Danach überlegst du dir, wie lange du deinen Teig ruhen lassen willst - die Stunden und Minuten gibst du im entsprechenden Feld ein. Im letzten Feld trägst du die Temperatur ein, bei dem der Teig ruhen soll. Nachdem du alle drei Werte eingetragen hast, klickst du auf das Feld Berechnen. Danach werden dir die benötigten Mengen an Frisch-, Trockenhefe oder an Sauerteig in Gramm ausgerechnet.</string>
 
     <string name="action_settings">Settings</string>
 
@@ -267,8 +265,7 @@
     <string name="Code39">Du bist einzigartig, zeige der Welt deine Individualität.</string>
 
     <string name="Code40">Heute ist ein Tag, um anderen Menschen zu helfen.</string>
-
-    <string name="rechner.beschreibung">Willkommen zu unserem praktischen Rezeptrechner! Mit diesem intelligenten Tool kannst du die Mengen eines vorhandenen Rezepts spielend leicht umrechnen. Egal ob du ein Rezept für ein leckeres Brot gefunden hast, aber gerne gleich zwei davon backen möchtest, oder ob du einfach nur eine kleinere Portion zubereiten möchtest, dieser Rechner macht es dir einfach! Stell dir vor, du hast ein fantastisches Rezept gefunden, das dir das Wasser im Mund zusammenlaufen lässt. Aber dann kommt der Moment, in dem du feststellst, dass die Mengenangaben nur für eine Portion gedacht sind. Keine Sorge, mit unserem Rezept-Umrechner ist das ab jetzt kein Problem mehr! Du musst nicht länger alle Zutaten im Kopf doppelt rechnen oder mühsam umrechnen. Alles was du tun musst, ist die Zutatenmenge in das Formular einzutragen und den gewünschten Multiplikator auszuwählen. Möchtest du die doppelte Menge zubereiten, einfach einen Multiplikator von 2 wählen. Und wenn du nur die Hälfte des Rezepts machen möchtest, entscheide dich für den Multiplikator 0.5. Natürlich darfst du auch andere Faktoren wählen.</string>
+    <string name="rechner.beschreibung">Willkommen zum praktischen Rezeptrechner! Dieses intelligente Tool ermöglicht spielend leichte Mengenumrechnungen für Rezepte. Ob du mehr Brot backen möchtest, ein kleineres Gericht zubereitest oder andere Portionen wünschst – dieser Rechner macht es einfach! Du hast ein köstliches Rezept gefunden, aber es ist nur für eine Portion? Kein Problem mehr! Gib die Zutatenmenge ein und wähle einen Multiplikator. Verdopple mit 2 oder halbiere mit 0.5 die Menge. Andere Faktoren sind ebenfalls möglich.</string>
 
     <string name="rechner.Rezeptrechner">Rezeptrechner</string>
 
@@ -289,4 +286,5 @@
     <string name="Rezeptrechner">Rezeptrechner</string>
 <string name="impressum">Kontakt: technikerarbeit.mdts@web.de \n \n Credits: Besonderer Dank geht an die Personen, die die App mit übersetzt und in der Entwicklung als Tester verfügbar waren. \n \n Besonders an Alex Wucherer, für die Erstellung der Backbilder. Sollte jemand einen kompetenten Illustrator suchen, ist er der Richtige: https://alexwucherer.com</string>
 
+    <string name="h.sinn">Alle, die Brot backen, kennen das Problem: Verlockende Rezepte, aber die vorgegebenen Teigruhezeiten passen nie. Entweder keine Zeit oder der Wunsch nach Entschleunigung. Jetzt hilft der Heferechner – er passt Hefemengen an individuelle Zeitpläne und Temperaturen an. Kein Rezept mehr verwerfen, stattdessen flexibles Backen genießen! </string>
 </resources>

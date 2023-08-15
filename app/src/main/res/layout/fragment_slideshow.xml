@@ -302,8 +302,8 @@
 
         <ImageView
             android:id="@+id/EditText1"
-            android:layout_width="25mm"
-            android:layout_height="25mm"
+            android:layout_width="30mm"
+            android:layout_height="30mm"
             android:layout_marginTop="16dp"
 
             android:editable="false"
@@ -312,15 +312,15 @@
             android:textColor="@android:color/black"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.939"
+            app:layout_constraintHorizontal_bias="0.886"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/bild20"
-            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:srcCompat="@drawable/bild19" />
 
         <ImageView
             android:id="@+id/EditText2"
-            android:layout_width="25mm"
-            android:layout_height="25mm"
+            android:layout_width="30mm"
+            android:layout_height="30mm"
             android:layout_margin="16dp"
             android:layout_marginTop="16dp"
 
@@ -331,14 +331,14 @@
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:srcCompat="@drawable/bild19"
+            app:srcCompat="@drawable/bild20"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
         <ImageView
             android:id="@+id/EditText3"
-            android:layout_width="25mm"
-            android:layout_height="25mm"
+            android:layout_width="30mm"
+            android:layout_height="30mm"
             android:layout_margin="16dp"
             android:layout_marginTop="16dp"
 
@@ -355,8 +355,8 @@
 
         <ImageView
             android:id="@+id/EditText4"
-            android:layout_width="25mm"
-            android:layout_height="25mm"
+            android:layout_width="30mm"
+            android:layout_height="30mm"
             android:layout_margin="16dp"
             android:layout_marginTop="16dp"
 

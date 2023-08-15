@@ -26,7 +26,7 @@ public class HomeFragment extends Fragment {
     private EditText numberField;
     private Button calculateButton;
     private TextView resultLabel;
-    private TextView resultLabel2;
+private TextView resultLabel2;
     private TextView resultLabel3;
     private TextView resultLabel4;
     private double resultLabel5 = 0.0; // New variable of type double for resultlabel5
@@ -37,8 +37,13 @@ public class HomeFragment extends Fragment {
     private EditText editText6; // New EditText for the sum
     private TextView textView16;
     private Button button3; // Corrected variable name
-    private boolean isTextView16Visible = false;
+    private TextView contentTextView1;
+    private TextView contentTextView2;
+    private TextView contentTextView3;
+    private boolean iscontentTextView1Visible = false;
+    private boolean iscontentTextView2Visible = false;
 
+    private boolean iscontentTextView3Visible = false;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -57,7 +62,9 @@ public class HomeFragment extends Fragment {
         button3 = rootView.findViewById(R.id.button3);
        numberField.addTextChangedListener(decimalTextWatcher);
        Celsius.addTextChangedListener(decimalTextWatcher);
-
+        contentTextView1 = rootView.findViewById(R.id.contentTextView1);
+        contentTextView2 = rootView.findViewById(R.id.contentTextView2);
+        contentTextView3 = rootView.findViewById(R.id.contentTextView3);
         calculateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,12 +77,16 @@ public class HomeFragment extends Fragment {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                isTextView16Visible = !isTextView16Visible;
-                updateTextView16Visibility();
+                iscontentTextView1Visible = !iscontentTextView1Visible;
+                iscontentTextView2Visible = !iscontentTextView2Visible;
+                iscontentTextView3Visible = !iscontentTextView3Visible;
+                updatecontentTextView1Visibility();
+                updatecontentTextView2Visibility();
+                updatecontentTextView3Visibility();
             }
         });
 
-        updateTextView16Visibility(); // Ensure initial visibility is set based on isTextView16Visible
+        updatecontentTextView1Visibility(); // Ensure initial visibility is set based on isTextView16Visible
 
         return rootView;
     }
@@ -174,9 +185,13 @@ public class HomeFragment extends Fragment {
 
             // Format the results to display only 2 decimal places
             DecimalFormat decimalFormat = new DecimalFormat("#.##");
-            String formattedResult = decimalFormat.format(result);
-            String formattedDividedResult = decimalFormat.format(dividedResult);
-            String formattedResult2 = decimalFormat.format(result2);
+            String formattedResult = decimalFormat.format(result)+ "g";
+            String formattedDividedResult = decimalFormat.format(dividedResult)+ "g";
+            String formattedResult2 = decimalFormat.format(result2)+ "g";
+
+
+
+
 
             resultLabel.setText(formattedResult);
             resultLabel2.setText(formattedDividedResult);
@@ -207,15 +222,28 @@ public class HomeFragment extends Fragment {
 
 
 
-    private void updateTextView16Visibility() {
-        if (isTextView16Visible) {
-            textView16.setVisibility(View.VISIBLE);
+    private void updatecontentTextView1Visibility() {
+        if (iscontentTextView1Visible) {
+            contentTextView1.setVisibility(View.VISIBLE);
         } else {
-            textView16.setVisibility(View.GONE);
+            contentTextView1.setVisibility(View.GONE);
+        }
+    }
+    private void updatecontentTextView2Visibility() {
+        if (iscontentTextView2Visible) {
+            contentTextView2.setVisibility(View.VISIBLE);
+        } else {
+            contentTextView2.setVisibility(View.GONE);
+        }
+    }
+    private void updatecontentTextView3Visibility() {
+        if (iscontentTextView3Visible) {
+            contentTextView3.setVisibility(View.VISIBLE);
+        } else {
+            contentTextView3.setVisibility(View.GONE);
         }
     }
 
     private void showTime(String time) {
-        resultLabel4.setText(time);
-    }
-}
+        resultLabel4.setText(time); // Hier wird "Uhr" hinzugefügt
+    }}

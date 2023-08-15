@@ -236,6 +236,24 @@ public class RechnerFragment extends Fragment {
                 textView55.setText(result6 == 0.0 ? "" : String.format("%.2f", result6));
                 editor.putString("textView55", textView55.getText().toString());
                 editor.apply();
+                textView50.setText(result1 == 0.0 ? "" : String.format("%.2f g", result1));
+                editor.putString("textView50", textView50.getText().toString());
+                editor.apply();
+                textView51.setText(result2 == 0.0 ? "" : String.format("%.2f g", result2));
+                editor.putString("textView51", textView51.getText().toString());
+                editor.apply();
+                textView52.setText(result3 == 0.0 ? "" : String.format("%.2f g", result3));
+                editor.putString("textView52", textView52.getText().toString());
+                editor.apply();
+                textView53.setText(result4 == 0.0 ? "" : String.format("%.2f g", result4));
+                editor.putString("textView53", textView53.getText().toString());
+                editor.apply();
+                textView54.setText(result5 == 0.0 ? "" : String.format("%.2f g", result5));
+                editor.putString("textView54", textView54.getText().toString());
+                editor.apply();
+                textView55.setText(result6 == 0.0 ? "" : String.format("%.2f g", result6));
+                editor.putString("textView55", textView55.getText().toString());
+                editor.apply();
             }
         });
 
