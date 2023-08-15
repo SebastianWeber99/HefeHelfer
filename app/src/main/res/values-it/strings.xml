@@ -143,4 +143,7 @@
     <string name="h.mehlerklear">Inserire la quantità di farina necessaria in base alla ricetta.</string>
     <string name="h.dauererkleart">Indicare il tempo di riposo dell\'impasto prima della cottura.</string>
     <string name="h.temperkleart">Inserire la temperatura del luogo in cui riposerà l\'impasto, ad esempio temperatura ambiente (23°C) o frigorifero (circa 7°C).</string>
+    <string name="keinlauf">nessun biscotto ancora acquisito</string>
+    <string name="uhr">Orologio</string>
+    <string name="f.vorfreude">Nonostante la comprensibile attesa della cottura, una preparazione strutturata è sensata e necessaria.   Chiunque abbia notato la mancanza di un ingrediente mentre impastava a mano e abbia poi cercato di tirarlo fuori dalla credenza e di pesarlo con le mani sporche di impasto sa di cosa parlo.   Quindi, prima di iniziare a cuocere, pensate a ciò che vi serve e disponetelo in modo ordinato sul piano di lavoro.  Se vi manca un materiale, siate creativi.   Per esempio, un colino per la pasta con un telo da cucina inserito può essere un\'ottima alternativa al cestino per le prove.</string>
 </resources>

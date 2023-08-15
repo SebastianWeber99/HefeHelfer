@@ -143,6 +143,9 @@
     <string name="h.mehlerklear">Enter the amount of flour required according to the recipe.</string>
     <string name="h.dauererkleart">Indicate how long you want your dough to rest before baking.</string>
     <string name="h.temperkleart">Enter the temperature of the place where your dough will rest, e.g. room temperature (23°C) or the refrigerator (approx. 7°C).</string>
+    <string name="keinlauf">no biscuit acquired yet</string>
+    <string name="uhr">Clock</string>
+    <string name="f.vorfreude">Despite understandable anticipation of baking, structured preparation is sensible and necessary.   Anyone who has ever noticed that an ingredient is missing while kneading by hand and then tried to get it out of the cupboard and weigh it with dough-smeared hands knows what I\'m talking about.   So before you start baking, think about what you need and arrange it neatly on your work surface.  If you are missing a material, get creative.   For example, a pasta strainer with an inserted kitchen towel can be a great alternative to a proofing basket.</string>
 
 
 </resources>

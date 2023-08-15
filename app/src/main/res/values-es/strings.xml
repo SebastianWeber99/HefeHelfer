@@ -143,6 +143,9 @@
     <string name="h.mehlerklear">Introduzca la cantidad de harina necesaria según la receta.</string>
     <string name="h.dauererkleart">Especifique cuánto tiempo quiere que repose la masa antes de hornear.</string>
     <string name="h.temperkleart">Introduzca la temperatura del lugar donde reposará su masa, por ejemplo, temperatura ambiente (23°C) o el frigorífico (aprox. 7°C).</string>
+    <string name="keinlauf">ninguna galleta adquirida todavía</string>
+    <string name="uhr">Reloj</string>
+    <string name="f.vorfreude">A pesar de la comprensible expectación por hornear, una preparación estructurada es sensata y necesaria.   Cualquiera que se haya dado cuenta alguna vez de que falta un ingrediente mientras amasa a mano y luego haya intentado sacarlo del armario y pesarlo con las manos manchadas de masa sabe de lo que hablo.   Así que antes de empezar a hornear, piensa en lo que necesitas y colócalo ordenadamente en tu superficie de trabajo.  Si te falta algún material, sé creativo.   Por ejemplo, un colador de pasta con un paño de cocina insertado puede ser una gran alternativa a una cesta de fermentación.</string>
 
 
 </resources>

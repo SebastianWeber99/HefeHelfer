@@ -143,5 +143,8 @@
     <string name="h.mehlerklear">根据食谱输入所需的面粉量。</string>
     <string name="h.dauererkleart">说明您希望面团在烘烤前静置多长时间。</string>
     <string name="h.temperkleart">输入面团静置地点的温度，例如室温（23°C）或冰箱温度（约 7°C）。</string>
+    <string name="keinlauf">尚未获得饼干</string>
+    <string name="uhr">时钟</string>
+    <string name="f.vorfreude">尽管对烘焙的期待是可以理解的，但有条理的准备工作是明智和必要的。  任何一个在手工揉面时发现少了一种配料，然后试图从橱柜里拿出来用沾满面团的手掂量的人都知道我在说什么。  因此，在开始烘焙之前，先想好需要什么，然后整齐地摆放在工作台上。  如果缺少材料，那就发挥创意。  例如，一个插有厨房毛巾的面食滤网就能很好地替代打样篮。</string>
 
 </resources>

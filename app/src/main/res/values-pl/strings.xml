@@ -143,4 +143,7 @@
     <string name="h.mehlerklear">Wprowadź ilość mąki wymaganą zgodnie z przepisem.</string>
     <string name="h.dauererkleart">Określ, jak długo ciasto ma odpoczywać przed pieczeniem.</string>
     <string name="h.temperkleart">Wprowadź temperaturę miejsca, w którym ciasto będzie odpoczywać, np. temperaturę pokojową (23°C) lub temperaturę lodówki (ok. 7°C).</string>
+    <string name="keinlauf">nie nabyto jeszcze ciastka</string>
+    <string name="uhr">Zegar</string>
+    <string name="f.vorfreude">Pomimo zrozumiałego oczekiwania na pieczenie, zorganizowane przygotowanie jest rozsądne i konieczne.   Każdy, kto kiedykolwiek zauważył, że brakuje jakiegoś składnika podczas ręcznego wyrabiania ciasta, a następnie próbował wyciągnąć go z szafki i zważyć umazanymi ciastem rękami, wie, o czym mówię.   Zanim więc zaczniesz piec, zastanów się, czego potrzebujesz i ułóż to starannie na blacie roboczym.  Jeśli brakuje ci jakiegoś materiału, wykaż się kreatywnością.   Na przykład sitko do makaronu z włożonym ręcznikiem kuchennym może być świetną alternatywą dla koszyka do garowania.</string>
 </resources>

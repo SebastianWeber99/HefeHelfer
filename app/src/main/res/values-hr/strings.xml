@@ -143,6 +143,9 @@
     <string name="h.mehlerklear">Unesi količinu brašna potrebnu prema receptu.</string>
     <string name="h.dauererkleart">Navedi koliko dugo želiš ostaviti tijesto da odmara prije pečenja.</string>
     <string name="h.temperkleart">Navedi temperaturu mjesta na kojem tijesto odmara, npr. sobna temperatura (23°C) ili hladnjak (oko 7°C).</string>
+    <string name="keinlauf">još nije kupljen keks</string>
+    <string name="uhr">Sat</string>
+    <string name="f.vorfreude">Unatoč razumljivom iščekivanju pečenja, strukturirana priprema je korisna i potrebna. Svatko tko je ikada primijetio rukom tijekom procesa gnječenja da nedostaje sastojku, a zatim ga pokušao izvaditi iz ormara i izvagati rukama razmazanim tijestom, zna o čemu govorim. Stoga razmislite o tome što vam treba prije pečenja i uredno ga usmjerite na radnu površinu. Ako vam nedostaje materijal, budite kreativni. Na primjer, cjedilo za tjesteninu s umetnutim kuhinjskim ručnikom može biti izvrsna alternativa košari za jezičnu provjeru.</string>
 
 
 </resources>

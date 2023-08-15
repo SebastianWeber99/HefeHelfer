@@ -38,7 +38,6 @@
 
     <string name="f.dingen">Wie bei so vielen Dingen ist noch kein Meister vom Himmel gefallen. \n Das sollte dir auch bei der Auswahl des Rezeptes bewusst sein. Natürlich hören sich die Rezepte mit unfassbar vielen Zutaten wahnsinnig spannend an, trotzdem empfehle ich dir, zu Beginn mit kleineren Rezepten anzufangen. \n Sobald du ein Gefühl für verschiedene Teige hast und deine Basic-Rezepte funktionieren, kannst du zu fortgeschritteneren Rezepten übergehen und andere mit deinem Wissen begeistern. </string>
 
-    <string name="f.vorfreude">Trotz nachvollziehbarer Vorfreude aufs Backen ist eine strukturierte Vorbereitung sinnvoll und notwendig. \n Jeder, dem schon einmal während des Knetvorgangs mit der Hand aufgefallen ist, dass eine Zutat fehlt und diese anschließend versucht hat, mit teigverschmierten Händen aus dem Schrank zu holen und abzuwiegen, weiß wovon ich spreche. \n Überlege dir deshalb vor dem Backen was du brauchst und richte es dir ordentlich auf deine Arbeitsfläche.\n Falls dir ein Material fehlt, werde kreativ. \n So kann zum Beispiel ein Nudelsieb mit eingelegtem Küchentuch eine super Alternative zu einem Gärkörbchen sein.</string>
 
     <string name="f.teiglinge">Wann sind mein Teig bzw. meine Teiglinge fertig ?</string>
 
@@ -292,4 +291,5 @@
 <string name="h.temperkleart">Gib die Temperatur des Ortes an, an welchem dein Teig ruht, z.B. die Raumtemperatur (23°C) oder der Kühlschrank (ca.  7°C).</string>
 <string name="keinlauf">noch kein Keks erworben</string>
 <string name="uhr">Uhr</string>
+    <string name="f.vorfreude">Trotz nachvollziehbarer Vorfreude aufs Backen ist eine strukturierte Vorbereitung sinnvoll und notwendig. \n Jeder, dem schon einmal während des Knetvorgangs mit der Hand aufgefallen ist, dass eine Zutat fehlt und diese anschließend versucht hat, mit teigverschmierten Händen aus dem Schrank zu holen und abzuwiegen, weiß wovon ich spreche. \n Überlege dir deshalb vor dem Backen was du brauchst und richte es dir ordentlich auf deine Arbeitsfläche.\n Falls dir ein Material fehlt, werde kreativ. \n So kann zum Beispiel ein Nudelsieb mit eingelegtem Küchentuch eine super Alternative zu einem Gärkörbchen sein.</string>
 </resources>

@@ -144,6 +144,9 @@
     <string name="h.mehlerklear">Inscris la quantité de farine nécessaire selon la recette.</string>
     <string name="h.dauererkleart">Indique combien de temps tu veux laisser reposer ta pâte avant de la cuire.</string>
     <string name="h.temperkleart">Indique la température de l\'endroit où ta pâte repose, par exemple la température ambiante (23°C) ou le réfrigérateur (environ 7°C).</string>
+    <string name="keinlauf">pas encore de biscuit acquis</string>
+    <string name="uhr">Montre</string>
+    <string name="f.vorfreude">Malgré l\'impatience compréhensible de faire de la pâtisserie, une préparation structurée est utile et nécessaire.   Tous ceux qui ont déjà remarqué qu\'il manquait un ingrédient pendant le pétrissage à la main et qui ont ensuite essayé de le sortir de l\'armoire et de le peser avec les mains couvertes de pâte savent de quoi je parle.   Avant de cuisiner, réfléchis donc à ce dont tu as besoin et dispose-le correctement sur ton plan de travail.  S\'il te manque un matériau, fais preuve de créativité.   Par exemple, une passoire à pâtes avec un torchon inséré peut être une super alternative à un panier de fermentation.</string>
 
 
 </resources>

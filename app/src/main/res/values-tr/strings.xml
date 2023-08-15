@@ -143,5 +143,8 @@
     <string name="h.mehlerklear">Tarife göre gerekli un miktarını girin.</string>
     <string name="h.dauererkleart">Pişirmeden önce hamurunuzun ne kadar süre dinlenmesini istediğinizi belirtin.</string>
     <string name="h.temperkleart">Hamurunuzun dinleneceği yerin sıcaklığını girin, örneğin oda sıcaklığı (23°C) veya buzdolabı (yaklaşık 7°C).</string>
+    <string name="keinlauf">henüz bisküvi alınmadı</string>
+    <string name="uhr">Saat</string>
+    <string name="f.vorfreude">Pişirmenin anlaşılabilir beklentisine rağmen, planlı hazırlık mantıklı ve gereklidir.   Elleriyle yoğururken bir malzemenin eksik olduğunu fark eden ve sonra onu dolaptan çıkarıp hamur bulaşmış elleriyle tartmaya çalışan herkes neden bahsettiğimi bilir.   Bu yüzden pişirmeye başlamadan önce neye ihtiyacınız olduğunu düşünün ve çalışma yüzeyinize düzgünce yerleştirin.  Eğer bir malzemeniz eksikse, yaratıcı olun.   Örneğin, içine mutfak havlusu yerleştirilmiş bir makarna süzgeci, prova sepetine harika bir alternatif olabilir.</string>
 
 </resources>

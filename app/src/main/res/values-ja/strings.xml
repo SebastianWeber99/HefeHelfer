@@ -143,6 +143,9 @@
     <string name="h.mehlerklear">レシピに従って必要な小麦粉の量を入力してください。</string>
     <string name="h.dauererkleart">" 焼成前に生地を休ませる時間を指定します。"</string>
     <string name="h.temperkleart">生地を休ませる場所の温度（例：室温（23℃）または冷蔵庫（約7℃））を入力します。</string>
+    <string name="keinlauf">ビスケット未入手</string>
+    <string name="uhr">時計</string>
+    <string name="f.vorfreude">パン作りへの期待は理解できるものの、計画的な準備は賢明かつ必要だ。  手でこねているときに材料が足りないことに気づき、戸棚から取り出して生地で汚れた手で計量しようとしたことのある人なら、私の言っていることがわかるだろう。  だから、パン作りを始める前に、何が必要かを考え、作業台にきちんと並べましょう。  材料が足りない場合は、工夫する。  例えば、キッチンタオルを差し込んだパスタこし器は、醗酵カゴの代わりになる。</string>
 
 
 </resources>

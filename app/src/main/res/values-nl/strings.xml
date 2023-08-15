@@ -143,4 +143,7 @@
     <string name="h.mehlerklear">Voer de hoeveelheid bloem in die nodig is volgens het recept.</string>
     <string name="h.dauererkleart">Geef aan hoe lang je het deeg wilt laten rusten voor het bakken.</string>
     <string name="h.temperkleart">Voer de temperatuur in van de plaats waar je deeg zal rusten, bijv. kamertemperatuur (23°C) of de koelkast (ca. 7°C).</string>
+    <string name="keinlauf">nog geen koekje gekocht</string>
+    <string name="uhr">Klok</string>
+    <string name="f.vorfreude">Ondanks de begrijpelijke voorpret van het bakken, is een gestructureerde voorbereiding verstandig en noodzakelijk.   Iedereen die ooit heeft gemerkt dat er een ingrediënt ontbreekt tijdens het kneden met de hand en vervolgens heeft geprobeerd het uit de kast te halen en af te wegen met met deeg besmeurde handen, weet waar ik het over heb.   Dus voordat je begint met bakken, bedenk wat je nodig hebt en leg het netjes op je werkblad.  Als je een materiaal mist, wees dan creatief.   Een pastazeef met een keukenhanddoek erin kan bijvoorbeeld een geweldig alternatief zijn voor een rijskorf.</string>
 </resources>
