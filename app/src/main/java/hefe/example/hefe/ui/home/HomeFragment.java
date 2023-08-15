@@ -26,7 +26,7 @@ public class HomeFragment extends Fragment {
     private EditText numberField;
     private Button calculateButton;
     private TextView resultLabel;
-private TextView resultLabel2;
+    private TextView resultLabel2;
     private TextView resultLabel3;
     private TextView resultLabel4;
     private double resultLabel5 = 0.0; // New variable of type double for resultlabel5
@@ -44,6 +44,7 @@ private TextView resultLabel2;
     private boolean iscontentTextView2Visible = false;
 
     private boolean iscontentTextView3Visible = false;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -60,8 +61,8 @@ private TextView resultLabel2;
         editText6 = rootView.findViewById(R.id.editText6); // Initialize the new EditText
         textView16 = rootView.findViewById(R.id.textView16);
         button3 = rootView.findViewById(R.id.button3);
-       numberField.addTextChangedListener(decimalTextWatcher);
-       Celsius.addTextChangedListener(decimalTextWatcher);
+        numberField.addTextChangedListener(decimalTextWatcher);
+        Celsius.addTextChangedListener(decimalTextWatcher);
         contentTextView1 = rootView.findViewById(R.id.contentTextView1);
         contentTextView2 = rootView.findViewById(R.id.contentTextView2);
         contentTextView3 = rootView.findViewById(R.id.contentTextView3);
@@ -118,6 +119,7 @@ private TextView resultLabel2;
             isEditing = false;
         }
     };
+
     private void calculateResultLabel5() {
         String input1 = editText4.getText().toString().trim();
         String input2 = editText6.getText().toString().trim();
@@ -133,7 +135,7 @@ private TextView resultLabel2;
             double value2 = Double.parseDouble(input2);
 
             // Perform your calculation for resultlabel5
-            double result = value1 + (value2/60); // For example, you can add both values
+            double result = value1 + (value2 / 60); // For example, you can add both values
             // Format the result to display only 2 decimal places
 
             resultLabel5 = result; // Update the resultLabel5 double variable
@@ -185,12 +187,9 @@ private TextView resultLabel2;
 
             // Format the results to display only 2 decimal places
             DecimalFormat decimalFormat = new DecimalFormat("#.##");
-            String formattedResult = decimalFormat.format(result)+ "g";
-            String formattedDividedResult = decimalFormat.format(dividedResult)+ "g";
-            String formattedResult2 = decimalFormat.format(result2)+ "g";
-
-
-
+            String formattedResult = decimalFormat.format(result) + "g";
+            String formattedDividedResult = decimalFormat.format(dividedResult) + "g";
+            String formattedResult2 = decimalFormat.format(result2) + "g";
 
 
             resultLabel.setText(formattedResult);
@@ -221,7 +220,6 @@ private TextView resultLabel2;
     }
 
 
-
     private void updatecontentTextView1Visibility() {
         if (iscontentTextView1Visible) {
             contentTextView1.setVisibility(View.VISIBLE);
@@ -229,6 +227,7 @@ private TextView resultLabel2;
             contentTextView1.setVisibility(View.GONE);
         }
     }
+
     private void updatecontentTextView2Visibility() {
         if (iscontentTextView2Visible) {
             contentTextView2.setVisibility(View.VISIBLE);
@@ -236,6 +235,7 @@ private TextView resultLabel2;
             contentTextView2.setVisibility(View.GONE);
         }
     }
+
     private void updatecontentTextView3Visibility() {
         if (iscontentTextView3Visible) {
             contentTextView3.setVisibility(View.VISIBLE);
@@ -245,5 +245,8 @@ private TextView resultLabel2;
     }
 
     private void showTime(String time) {
-        resultLabel4.setText(time); // Hier wird "Uhr" hinzugefügt
-    }}
+        String uhrString = getResources().getString(R.string.uhr);
+        String timeWithSuffix = time + " " + uhrString;
+        resultLabel4.setText(timeWithSuffix);
+    }
+}
