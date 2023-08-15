@@ -96,13 +96,13 @@
 
     <string name="h.berechnen">Berechnen</string>
 
-    <string name="h.frischhefe">Frischhefe in g</string>
+    <string name="h.frischhefe">Frischhefe</string>
 
     <string name="h.oder">oder</string>
 
-    <string name="h.Trockenhefe">Trockenhefe in g</string>
+    <string name="h.Trockenhefe">Trockenhefe </string>
 
-    <string name="h.Sauerteihg">Sauerteig in g</string>
+    <string name="h.Sauerteihg">Sauerteig </string>
 
     <string name="h.Teigruhebeendet">Teigruhe ist beendet um:</string>
 
@@ -290,6 +290,6 @@
 <string name="h.mehlerklear">Trage die laut des Rezepts benötigte Menge an Mehl ein. </string>
 <string name="h.dauererkleart">Gib an, wie lange du deinen Teig vor dem Backen ruhen lassen willst. </string>
 <string name="h.temperkleart">Gib die Temperatur des Ortes an, an welchem dein Teig ruht, z.B. die Raumtemperatur (23°C) oder der Kühlschrank (ca.  7°C).</string>
-
+<string name="keinlauf">noch kein Keks erworben</string>
 
 </resources>

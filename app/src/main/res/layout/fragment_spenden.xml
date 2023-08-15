@@ -279,6 +279,7 @@
             android:gravity="center"
             android:background="@drawable/keks"
             android:hyphenationFrequency="full"
+            android:hint="@string/keinlauf"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button5" />
@@ -292,6 +293,7 @@
             android:fontFamily="@font/mystic"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:hint="@string/keinlauf"
             android:background="@drawable/keks"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

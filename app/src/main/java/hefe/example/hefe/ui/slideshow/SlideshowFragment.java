@@ -190,7 +190,8 @@ public class SlideshowFragment extends Fragment {
 
             // Perform the calculation (Multiply by 0.5) and display the result
             double outputVal = inputVal * 0.6;
-            outputTextView1.setText(String.valueOf(outputVal));
+            String resultText = String.valueOf(outputVal) + " g";
+            outputTextView1.setText(resultText);
         } catch (NumberFormatException e) {
             // Handle invalid input (non-numeric values)
             outputTextView1.setText("Invalid Input");
@@ -215,7 +216,7 @@ public class SlideshowFragment extends Fragment {
             // Format the outputVal to display only 2 decimal places
             DecimalFormat decimalFormat = new DecimalFormat("#.##");
             String formattedOutput = decimalFormat.format(outputVal);
-
+            formattedOutput += " g";
             outputTextView2.setText(formattedOutput);
         } catch (NumberFormatException e) {
             // Handle invalid input (non-numeric values)
