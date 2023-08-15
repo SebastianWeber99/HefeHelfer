@@ -129,6 +129,7 @@
     <string name="spenden.GeldfürunsereKaffeekasse">为我们的咖啡基金捐款</string>
     <string name="spenden.txtKaffekasse">点击该按钮，您将直接进入我们的 Ko-Fi 页面。在这里，您可以自由选择支付方式，为我们的咖啡基金捐款。有了这笔钱，我们就可以购买我们的生命之水--咖啡，并在晚上继续改进应用程序。  因为俗话说得好：\"相信奇迹，相信爱，更要相信咖啡。   您的支持对我们来说是巨大的帮助，让我们的应用程序变得更好、更方便用户使用。我们非常感谢大家的每一份支持，这让我们能够继续保持对这款应用程序的热情，并不断加以改进。  因此，如果您愿意支持我们，给我们一杯咖啡，我们非常欢迎您的任何贡献。  当然，我必须指出，您不应该把最后的钱花在这个应用程序上。如果您已经在为支付房租等重要费用而拼命攒钱，那就尽情享受这款精彩的免费应用程序吧，把钱留给真正对您重要的事情。  您的满意和幸福对我们来说非常重要，我们不希望您有任何经济负担。该应用程序的使用完全免费且不受限制，因此您可以随时使用，无需担心。</string>
     <string name="Spracheaendern">您想用哪种语言显示应用程序？</string>
+    <string name="rechner.beschreibung">欢迎使用实用食谱计算器！这款智能工具可以轻松转换食谱中的数量。无论您想烤更多的面包、做更小的菜，还是想要不同的份量，这款计算器都能帮您轻松搞定！找到了一份美味的食谱，但只能做一份？没问题了！输入配料的数量并选择乘数。用 2 将份量加倍，用 0.5 将份量减半。还可以选择其他系数。</string>
     <string name="rechner.Rezeptrechner">食谱计算器</string>
     <string name="Zutat1">成分 1</string>
     <string name="zutat2">成分 2</string>
@@ -139,5 +140,9 @@
     <string name="Multiplikator">乘法器</string>
     <string name="Rezeptrechner">食谱计算器</string>
     <string name="impressum">联系人：technikerarbeit.mdts@web.de。    鸣谢 特别感谢帮助翻译应用程序并在开发过程中担任测试员的人员。    特别感谢 Alex Wucherer 制作烘焙图片。如果有人想找一位称职的插图画家，他是最佳人选：https://alexwucherer.com。</string>
+    <string name="h.sinn">每个烤面包的人都知道这个问题：诱人的食谱，但给出的面团静置时间总是不合适。要么没时间，要么不想慢下来。现在，酵母计算器能帮您解决这个问题--它能根据不同的时间和温度调整酵母用量。不用再放弃食谱，而是享受灵活的烘焙！</string>
+    <string name="h.mehlerklear">根据食谱输入所需的面粉量。</string>
+    <string name="h.dauererkleart">说明您希望面团在烘烤前静置多长时间。</string>
+    <string name="h.temperkleart">输入面团静置地点的温度，例如室温（23°C）或冰箱温度（约 7°C）。</string>
 
 </resources>

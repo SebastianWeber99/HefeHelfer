@@ -129,6 +129,7 @@
     <string name="menu_home">Gist rekenmachine</string>
     <string name="menu_gallery">Tips voor bakken</string>
     <string name="menu_slideshow">penis</string>
+    <string name="rechner.beschreibung">Welkom bij de praktische receptencalculator! Met dit intelligente hulpmiddel kun je gemakkelijk hoeveelheden omrekenen voor recepten. Of je nu meer brood wilt bakken, een kleiner gerecht wilt maken of verschillende porties wilt - deze calculator maakt het je gemakkelijk! Heb je een heerlijk recept gevonden, maar is het maar voor één portie? Geen probleem meer! Voer de hoeveelheid ingrediënten in en kies een vermenigvuldigingsfactor. Verdubbel de hoeveelheid met 2 of halveer met 0,5. Andere factoren zijn ook mogelijk.</string>
     <string name="rechner.Rezeptrechner">Recept calculator</string>
     <string name="Zutat1">Ingrediënt 1</string>
     <string name="zutat2">Ingrediënt 2</string>
@@ -139,4 +140,8 @@
     <string name="Multiplikator">Vermenigvuldiger</string>
     <string name="Rezeptrechner">Recept calculator</string>
     <string name="impressum">Contact: technikerarbeit.mdts@web.de.     Credits: Speciale dank aan de mensen die hebben geholpen bij het vertalen van de app en beschikbaar waren als testers tijdens de ontwikkeling.     In het bijzonder aan Alex Wucherer, voor het maken van de bakafbeeldingen. Als iemand op zoek is naar een bekwame illustrator, dan is hij de juiste:https://alexwucherer.com</string>
+    <string name="h.sinn">Iedereen die brood bakt kent het probleem: verleidelijke recepten, maar de opgegeven rusttijden van het deeg passen nooit. Ofwel geen tijd, ofwel de wens om het langzamer aan te doen. Nu helpt de gistcalculator - deze past de hoeveelheden gist aan aan individuele schema\'s en temperaturen. Gooi geen recepten meer weg, maar geniet van flexibel bakken!</string>
+    <string name="h.mehlerklear">Voer de hoeveelheid bloem in die nodig is volgens het recept.</string>
+    <string name="h.dauererkleart">Geef aan hoe lang je het deeg wilt laten rusten voor het bakken.</string>
+    <string name="h.temperkleart">Voer de temperatuur in van de plaats waar je deeg zal rusten, bijv. kamertemperatuur (23°C) of de koelkast (ca. 7°C).</string>
 </resources>

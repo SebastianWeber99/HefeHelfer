@@ -129,6 +129,7 @@
     <string name="spenden.GeldfürunsereKaffeekasse">Novac za naš fond za kavu</string>
     <string name="spenden.txtKaffekasse">Kada kliknete na ovaj gumb, bit ćete preusmjereni na našu Ko-Fi stranicu. Tamo imate mogućnost da nam uplatite izabrani iznos u našu \"kaffeekasse\" putem vašeg odabranog načina plaćanja. S tim novcem možemo kupiti naš eliksir života, kavu, i raditi na poboljšanjima aplikacije čak i noću.  Jer, kako lijepo kažu: \"Vjeruj u čuda, ljubav, a prije svega u kavu.\"  Vaša podrška nam je izuzetno važna kako bismo aplikaciju učinili još boljom i korisniku prijatnijom. Izuzetno smo zahvalni za svaki prilog koji nam omogućuje da nastavimo sa strašću za ovom aplikacijom i da je neprestano poboljšavamo.  Dakle, ako želite podržati nas i počastiti nas šalicom kave, veselimo se svakom prilogu koji možete dati.  Naravno, želim naglasiti da nikako ne biste trebali trošiti svoj posljednji novac na ovu aplikaciju. Ako već imate problema sa skupljanjem novca za važne stvari poput najma, uživajte u ovoj divnoj besplatnoj aplikaciji i radije sačuvajte novac za stvari koje su za vas zaista bitne.  Vaše zadovoljstvo i dobrobit nam je izuzetno važna i želimo da se nikako ne financijski opterećujete. Korištenje aplikacije ostaje u potpunosti besplatno i neograničeno, tako da je možete u svakom trenutku uživati bez brige.</string>
     <string name="Spracheaendern">Na kojem jeziku želite prikazati aplikaciju?</string>
+    <string name="rechner.beschreibung">Dobrodošli u praktični kalkulator za recepte! Ovaj pametan alat omogućava lako prebacivanje količina u receptima. Bilo da želite ispeći više kruha, pripremate manje jelo ili želite drugačije porcije - ovaj kalkulator to čini jednostavnim! Pronašli ste ukusan recept, ali samo za jednu porciju? Više nema problema! Unesite količinu sastojaka i odaberite faktor umnožavanja. Duplirajte s 2 ili prepolovite s 0.5 količinu. Mogući su i drugi faktori.</string>
     <string name="rechner.Rezeptrechner">Kalkulator recepata</string>
     <string name="Zutat1">Sastojak 1</string>
     <string name="zutat2">Sastojak 2</string>
@@ -139,6 +140,10 @@
     <string name="Multiplikator">Množitelj</string>
     <string name="Rezeptrechner">Kalkulator recepata</string>
     <string name="impressum">Kontakt: technikerarbeit.mdts@web.de.  Zasluge: Posebna zahvala ide osobama koje su prevelike aplikaciju i bile dostupne kao testeri tokom razvoja.  Posebno hvala Alexu Wuchereru na kreiranju pozadinskih slika. Ako netko traži kompetentnog ilustratora, on je prava osoba: https://alexwucherer.com</string>
+    <string name="h.sinn">Svi koji peku kruh poznaju taj problem: primamljivi recepti, ali zadane vrijeme odmora tijesta nikada ne odgovaraju. Ili nemate dovoljno vremena ili želite usporiti proces. Sada vam pomaže Kalkulator kvasca - prilagođava količinu kvasca individualnim vremenskim planovima i temperaturama. Više nećete odbacivati recepte, umjesto toga uživajte u fleksibilnom pečenju!</string>
+    <string name="h.mehlerklear">Unesi količinu brašna potrebnu prema receptu.</string>
+    <string name="h.dauererkleart">Navedi koliko dugo želiš ostaviti tijesto da odmara prije pečenja.</string>
+    <string name="h.temperkleart">Navedi temperaturu mjesta na kojem tijesto odmara, npr. sobna temperatura (23°C) ili hladnjak (oko 7°C).</string>
 
 
 </resources>

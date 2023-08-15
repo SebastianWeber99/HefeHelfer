@@ -130,6 +130,7 @@
     <string name="Code38">Aie confiance en ta capacité à surmonter les obstacles.</string>
     <string name="Code39">Tu es unique, montre au monde ton individualité.</string>
     <string name="Code40">Aujourd\'hui est une journée pour aider les autres.</string>
+    <string name="rechner.beschreibung">Bienvenue dans le calculateur de recettes pratique ! Cet outil intelligent permet de convertir facilement les quantités des recettes. Que tu veuilles faire plus de pain, préparer un plat plus petit ou demander d\'autres portions, cette calculatrice te facilite la tâche ! Tu as trouvé une recette délicieuse, mais elle ne contient qu\'une seule portion ? Plus de problème ! Saisis la quantité d\'ingrédients et choisis un multiplicateur. Double avec 2 ou divise par deux avec 0,5 la quantité. D\'autres facteurs sont également possibles.</string>
     <string name="rechner.Rezeptrechner">Calculateur de recettes</string>
     <string name="Zutat1">Ingrédient 1</string>
     <string name="zutat2">Ingrédient 2</string>
@@ -140,6 +141,10 @@
     <string name="Multiplikator">Multiplicateur</string>
     <string name="Rezeptrechner">Calculateur de recettes</string>
     <string name="impressum">Contact : technikerarbeit.mdts@web.de.     Crédits : Un merci particulier aux personnes qui ont participé à la traduction de l\'application et qui étaient disponibles en tant que testeurs lors du développement.     En particulier à Alex Wucherer, pour la création des images de cuisson. Si quelqu\'un cherche un illustrateur compétent, c\'est lui qu\'il faut contacter:https://alexwucherer.com</string>
+    <string name="h.sinn">Tous ceux qui font du pain connaissent le problème : des recettes alléchantes, mais les temps de repos de la pâte imposés ne conviennent jamais. Soit on n\'a pas le temps, soit on souhaite ralentir le rythme. Le calculateur de levure est là pour vous aider : il adapte les quantités de levure aux horaires et aux températures individuels. Plus de recette à jeter, au lieu de cela, profitez d\'une cuisson flexible !</string>
+    <string name="h.mehlerklear">Inscris la quantité de farine nécessaire selon la recette.</string>
+    <string name="h.dauererkleart">Indique combien de temps tu veux laisser reposer ta pâte avant de la cuire.</string>
+    <string name="h.temperkleart">Indique la température de l\'endroit où ta pâte repose, par exemple la température ambiante (23°C) ou le réfrigérateur (environ 7°C).</string>
 
 
 </resources>

@@ -129,6 +129,7 @@
     <string name="Code38">Confía en tu capacidad para superar obstáculos.</string>
     <string name="Code39">Eres único, muestra al mundo tu individualidad.</string>
     <string name="Code40">Hoy es un día para ayudar a los demás.</string>
+    <string name="rechner.beschreibung">¡Bienvenido a la práctica calculadora de recetas! Esta herramienta inteligente facilita la conversión de cantidades para recetas. Tanto si quieres hornear más pan, como si quieres hacer un plato más pequeño o diferentes raciones, ¡esta calculadora te lo pone fácil! ¿Has encontrado una receta deliciosa, pero sólo es para una ración? ¡Se acabó el problema! Introduce la cantidad de ingredientes y elige un multiplicador. Duplique la cantidad con 2 o redúzcala a la mitad con 0,5. También son posibles otros factores.</string>
     <string name="rechner.Rezeptrechner">Calculadora de recetas</string>
     <string name="Zutat1">Ingrediente 1</string>
     <string name="zutat2">Ingrediente 2</string>
@@ -139,6 +140,10 @@
     <string name="Multiplikator">Multiplicador</string>
     <string name="Rezeptrechner">Calculadora de recetas</string>
     <string name="impressum">Contacto: technikerarbeit.mdts@web.de.     Créditos: Un agradecimiento especial a las personas que ayudaron a traducir la aplicación y estuvieron disponibles como probadores durante el desarrollo.     Especialmente a Alex Wucherer, por crear las imágenes de repostería. Si alguien busca un ilustrador competente, él es el indicado:https://alexwucherer.com</string>
+    <string name="h.sinn">Todos los que hacen pan conocen el problema: recetas tentadoras, pero los tiempos de reposo de la masa dados nunca se ajustan. O no hay tiempo o se quiere ir más despacio. Ahora la calculadora de levadura ayuda: adapta las cantidades de levadura a los horarios y temperaturas individuales. Ya no tendrá que descartar una receta, ¡disfrute de una panificación flexible!</string>
+    <string name="h.mehlerklear">Introduzca la cantidad de harina necesaria según la receta.</string>
+    <string name="h.dauererkleart">Especifique cuánto tiempo quiere que repose la masa antes de hornear.</string>
+    <string name="h.temperkleart">Introduzca la temperatura del lugar donde reposará su masa, por ejemplo, temperatura ambiente (23°C) o el frigorífico (aprox. 7°C).</string>
 
 
 </resources>

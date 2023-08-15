@@ -129,6 +129,7 @@
     <string name="Code38">障害を乗り越える能力を信じてください。</string>
     <string name="Code39">あなたは唯一無二です。世界にあなたの個性を示してください。</string>
     <string name="Code40">今日は他の人を助ける日です。</string>
+    <string name="rechner.beschreibung">実用的なレシピ電卓へようこそ！このインテリジェントなツールを使えば、レシピの分量を簡単に変換できます。パンをもっと焼きたいとき、小さめの料理を作りたいとき、違う分量を作りたいときなど、この計算機を使えば簡単です！美味しいレシピを見つけたけど、1人分しかない？もう問題ありません！材料の量を入力し、倍率を選択します。2倍なら2倍、0.5倍なら半分になります。他の係数も可能です。</string>
     <string name="rechner.Rezeptrechner">レシピ計算機</string>
     <string name="Zutat1">材料1</string>
     <string name="zutat2">材料2</string>
@@ -139,6 +140,10 @@
     <string name="Multiplikator">乗数</string>
     <string name="Rezeptrechner">レシピ計算機</string>
     <string name="impressum">連絡先：technikerarbeit.mdts@web.de。    クレジット アプリの翻訳を手伝ってくれた方々、開発中にテスターとして参加してくれた方々に感謝します。    特にアレックス・ヴヘラーに感謝します。有能なイラストレーターを探している人がいたら、彼が適任です:https://alexwucherer.com</string>
+    <string name="h.sinn">パンを焼く人なら誰でも知っている問題：魅力的なレシピなのに、与えられた生地を休ませる時間が合わない。パンを焼く人なら誰でも知っている問題だ。イースト計算機は、個々のスケジュールや温度に合わせてイーストの量を調整します。もうレシピを捨てる必要はなく、フレキシブルなパン作りをお楽しみいただけます！</string>
+    <string name="h.mehlerklear">レシピに従って必要な小麦粉の量を入力してください。</string>
+    <string name="h.dauererkleart">" 焼成前に生地を休ませる時間を指定します。"</string>
+    <string name="h.temperkleart">生地を休ませる場所の温度（例：室温（23℃）または冷蔵庫（約7℃））を入力します。</string>
 
 
 </resources>

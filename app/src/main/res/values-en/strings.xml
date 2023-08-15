@@ -129,6 +129,7 @@
     <string name="Code38">Trust in your ability to overcome obstacles.</string>
     <string name="Code39">You are unique; show the world your individuality.</string>
     <string name="Code40">Today is a day to help other people.</string>
+    <string name="rechner.beschreibung">Welcome to the practical recipe calculator! This intelligent tool makes it easy to convert quantities for recipes. Whether you want to bake more bread, make a smaller dish or want different portions - this calculator makes it easy! Found a delicious recipe but it\'s only for one portion? No more problem! Enter the amount of ingredients and choose a multiplier. Double the amount with 2 or halve it with 0.5. Other factors are also possible.</string>
     <string name="rechner.Rezeptrechner">Recipe calculator</string>
     <string name="Zutat1">Ingredient 1</string>
     <string name="zutat2">Ingredient 2</string>
@@ -139,6 +140,10 @@
     <string name="Multiplikator">Multiplier</string>
     <string name="Rezeptrechner">Recipe calculator</string>
     <string name="impressum">Contact: technikerarbeit.mdts@web.de.     Credits: Special thanks to the people who helped translate the app and were available as testers during development.     Especially to Alex Wucherer, for creating the baking images. If anyone is looking for a competent illustrator, he is the right one:https://alexwucherer.com</string>
+    <string name="h.sinn">Everyone who bakes bread knows the problem: tempting recipes, but the given dough resting times never fit. Either no time or the desire to slow down. Now the yeast calculator helps - it adapts yeast quantities to individual schedules and temperatures. No more discarding a recipe, enjoy flexible baking instead!</string>
+    <string name="h.mehlerklear">Enter the amount of flour required according to the recipe.</string>
+    <string name="h.dauererkleart">Indicate how long you want your dough to rest before baking.</string>
+    <string name="h.temperkleart">Enter the temperature of the place where your dough will rest, e.g. room temperature (23°C) or the refrigerator (approx. 7°C).</string>
 
 
 </resources>

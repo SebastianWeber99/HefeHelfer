@@ -129,6 +129,7 @@
     <string name="spenden.GeldfürunsereKaffeekasse">Kahve fonumuz için para</string>
     <string name="spenden.txtKaffekasse">Bu butona tıkladığınızda doğrudan Ko-Fi sayfamıza yönlendirileceksiniz. Orada, seçtiğiniz ödeme yöntemiyle kahve fonumuza serbestçe seçebileceğiniz bir miktar bağışta bulunma olanağına sahipsiniz. Bu parayla hayat iksirimiz olan kahveyi satın alabilir ve geceleri uygulamayı geliştirmek için çalışabiliriz.  Çünkü ne demişler: -Mucizelere, sevgiye ve hepsinden önemlisi kahveye inanın.    Desteğiniz, uygulamayı daha da iyi ve kullanıcı dostu hale getirmemizde bize çok yardımcı oluyor. Bu uygulamaya olan tutkumuzu sürdürmemizi ve onu sürekli geliştirmemizi sağlayan her katkı için inanılmaz derecede minnettarız.  Bu nedenle, bize destek olmak ve bir fincan kahve vermek isterseniz, verebileceğiniz her türlü katkıyı çok isteriz.  Tabii ki, son paranızı bu uygulamaya harcamamanız gerektiğini belirtmem önemli. Zaten kira gibi önemli harcamalar için para biriktirmekte zorlanıyorsanız, bu harika ücretsiz uygulamanın keyfini çıkarın ve paranızı sizin için gerçekten önemli olan şeyler için saklayın.  Memnuniyetiniz ve refahınız bizim için çok önemli ve hiçbir şekilde finansal olarak kendinize yük olmanızı istemiyoruz. Uygulamanın kullanımı tamamen ücretsiz ve sınırsızdır, bu nedenle herhangi bir endişe duymadan istediğiniz zaman keyfini çıkarabilirsiniz.</string>
     <string name="Spracheaendern">Uygulamayı hangi dilde görüntülemek istiyorsunuz?</string>
+    <string name="rechner.beschreibung">"Pratik yemek tarifi hesaplayıcısına hoş geldiniz! Bu akıllı araç, tarifler için miktarları dönüştürmeyi kolaylaştırır. İster daha fazla ekmek pişirin, ister daha küçük bir yemek yapın ya da farklı porsiyonlar isteyin - bu hesap makinesi bunu kolaylaştırır! Lezzetli bir tarif buldunuz ama sadece bir porsiyon için mi? Artık sorun değil! Malzemelerin miktarını girin ve bir çarpan seçin. Miktarı 2 ile ikiye katlayın veya 0,5 ile yarıya indirin. Diğer faktörler de mümkündür. "</string>
     <string name="rechner.Rezeptrechner">Tarif hesaplayıcı</string>
     <string name="Zutat1">Malzeme 1</string>
     <string name="zutat2">Malzeme 2</string>
@@ -139,5 +140,9 @@
     <string name="Multiplikator">Çarpan</string>
     <string name="Rezeptrechner">Tarif hesaplayıcı</string>
     <string name="impressum">İletişim: technikerarbeit.mdts@web.de.     Krediler: Uygulamanın çevirisine yardımcı olan ve geliştirme sırasında test görevlisi olarak hazır bulunan kişilere özel teşekkürler.     Özellikle de pişirme görsellerini hazırlayan Alex Wucherer\'e. Eğer yetkin bir illüstratör arayan varsa, o doğru kişidir:https://alexwucherer.com</string>
+    <string name="h.sinn">"Ekmek pişiren herkes sorunu bilir: Cazip tarifler, ancak verilen hamur dinlenme süreleri asla uymaz. Ya zaman yoktur ya da yavaşlama isteği. Şimdi maya hesaplayıcı yardımcı oluyor - maya miktarlarını bireysel programlara ve sıcaklıklara uyarlar. Artık bir tarifi atmak yok, onun yerine esnek pişirmenin tadını çıkarın! "</string>
+    <string name="h.mehlerklear">Tarife göre gerekli un miktarını girin.</string>
+    <string name="h.dauererkleart">Pişirmeden önce hamurunuzun ne kadar süre dinlenmesini istediğinizi belirtin.</string>
+    <string name="h.temperkleart">Hamurunuzun dinleneceği yerin sıcaklığını girin, örneğin oda sıcaklığı (23°C) veya buzdolabı (yaklaşık 7°C).</string>
 
 </resources>

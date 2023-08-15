@@ -287,4 +287,9 @@
 <string name="impressum">Kontakt: technikerarbeit.mdts@web.de \n \n Credits: Besonderer Dank geht an die Personen, die die App mit übersetzt und in der Entwicklung als Tester verfügbar waren. \n \n Besonders an Alex Wucherer, für die Erstellung der Backbilder. Sollte jemand einen kompetenten Illustrator suchen, ist er der Richtige: https://alexwucherer.com</string>
 
     <string name="h.sinn">Alle, die Brot backen, kennen das Problem: Verlockende Rezepte, aber die vorgegebenen Teigruhezeiten passen nie. Entweder keine Zeit oder der Wunsch nach Entschleunigung. Jetzt hilft der Heferechner – er passt Hefemengen an individuelle Zeitpläne und Temperaturen an. Kein Rezept mehr verwerfen, stattdessen flexibles Backen genießen! </string>
+<string name="h.mehlerklear">Trage die laut des Rezepts benötigte Menge an Mehl ein. </string>
+<string name="h.dauererkleart">Gib an, wie lange du deinen Teig vor dem Backen ruhen lassen willst. </string>
+<string name="h.temperkleart">Gib die Temperatur des Ortes an, an welchem dein Teig ruht, z.B. die Raumtemperatur (23°C) oder der Kühlschrank (ca.  7°C).</string>
+
+
 </resources>
