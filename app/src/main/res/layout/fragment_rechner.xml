@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
 
-        <Button
+        <androidx.constraintlayout.utils.widget.MotionButton
             android:id="@+id/button3"
             android:layout_width="47dp"
             android:layout_height="56dp"
