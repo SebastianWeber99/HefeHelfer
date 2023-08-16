@@ -13,12 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="479px"
         android:contentDescription="@string/nav_header_desc"
-           android:adjustViewBounds="true"
-            android:scaleType="centerInside"
-    app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/bildkorb" />
+        android:background="@drawable/bildkorb"/>
 
 
 
