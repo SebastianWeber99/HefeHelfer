@@ -138,7 +138,7 @@
     <string name="zutat6">Ingredient 6</string>
     <string name="Multiplikator">Multiplier</string>
     <string name="Rezeptrechner">Recipe calculator</string>
-    <string name="impressum">Contact: technikerarbeit.mdts@web.de.     Credits: Special thanks to the people who helped translate the app and were available as testers during development.     Especially to Alex Wucherer, for creating the baking images. If anyone is looking for a competent illustrator, he is the right one:https://alexwucherer.com</string>
+    <string name="impressum">Contact: HefeHelfer@web.de     Credits: Special thanks to the people who helped translate the app and were available as testers during development.     Especially to Alex Wucherer, for creating the baking images. If anyone is looking for a competent illustrator, he is the right one:https://alexwucherer.com</string>
     <string name="h.sinn">Everyone who bakes bread knows the problem: tempting recipes, but the given dough resting times never fit. Either no time or the desire to slow down. Now the yeast calculator helps - it adapts yeast quantities to individual schedules and temperatures. No more discarding a recipe, enjoy flexible baking instead!</string>
     <string name="h.mehlerklear">Enter the amount of flour required according to the recipe.</string>
     <string name="h.dauererkleart">Indicate how long you want your dough to rest before baking.</string>

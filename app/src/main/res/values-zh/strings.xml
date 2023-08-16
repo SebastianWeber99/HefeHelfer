@@ -138,7 +138,7 @@
     <string name="zutat6">成分 6</string>
     <string name="Multiplikator">乘法器</string>
     <string name="Rezeptrechner">食谱计算器</string>
-    <string name="impressum">联系人：technikerarbeit.mdts@web.de。    鸣谢 特别感谢帮助翻译应用程序并在开发过程中担任测试员的人员。    特别感谢 Alex Wucherer 制作烘焙图片。如果有人想找一位称职的插图画家，他是最佳人选：https://alexwucherer.com。</string>
+    <string name="impressum">联系人：HefeHelfer@web.de    鸣谢 特别感谢帮助翻译应用程序并在开发过程中担任测试员的人员。    特别感谢 Alex Wucherer 制作烘焙图片。如果有人想找一位称职的插图画家，他是最佳人选：https://alexwucherer.com。</string>
     <string name="h.sinn">每个烤面包的人都知道这个问题：诱人的食谱，但给出的面团静置时间总是不合适。要么没时间，要么不想慢下来。现在，酵母计算器能帮您解决这个问题--它能根据不同的时间和温度调整酵母用量。不用再放弃食谱，而是享受灵活的烘焙！</string>
     <string name="h.mehlerklear">根据食谱输入所需的面粉量。</string>
     <string name="h.dauererkleart">说明您希望面团在烘烤前静置多长时间。</string>

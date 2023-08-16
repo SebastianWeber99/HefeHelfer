@@ -3,7 +3,7 @@
         <shape android:shape="rectangle">
             <solid android:color="@android:color/transparent" />
             <stroke
-                android:color="@android:color/black"
+                android:color="@color/white"
                 android:width="1dp" /> <!-- Ändere die Breite des Randes nach Bedarf -->
             <corners android:radius="8dp" /> <!-- Ändere den Radius der Ecken nach Bedarf -->
         </shape>
@@ -14,7 +14,15 @@
             <corners android:radius="6dp" /> <!-- Ändere den Radius der Ecken nach Bedarf -->
         </shape>
     </item>
-
+    <item android:left="1dp" android:top="1dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <stroke
+                android:color="@android:color/white"
+                android:width="4dp" /> <!-- Breite des weißen Rahmens -->
+            <corners android:radius="10dp" /> <!-- Ändere den Radius der Ecken nach Bedarf -->
+        </shape>
+    </item>
     <item>
         <bitmap android:src="@drawable/keks1" /> <!-- Hier den Namen deines Bildes einfügen -->
     </item>

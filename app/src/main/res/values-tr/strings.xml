@@ -138,7 +138,7 @@
     <string name="zutat6">Malzeme 6</string>
     <string name="Multiplikator">Çarpan</string>
     <string name="Rezeptrechner">Tarif hesaplayıcı</string>
-    <string name="impressum">İletişim: technikerarbeit.mdts@web.de.     Krediler: Uygulamanın çevirisine yardımcı olan ve geliştirme sırasında test görevlisi olarak hazır bulunan kişilere özel teşekkürler.     Özellikle de pişirme görsellerini hazırlayan Alex Wucherer\'e. Eğer yetkin bir illüstratör arayan varsa, o doğru kişidir:https://alexwucherer.com</string>
+    <string name="impressum">İletişim: HefeHelfer@web.de   Krediler: Uygulamanın çevirisine yardımcı olan ve geliştirme sırasında test görevlisi olarak hazır bulunan kişilere özel teşekkürler.     Özellikle de pişirme görsellerini hazırlayan Alex Wucherer\'e. Eğer yetkin bir illüstratör arayan varsa, o doğru kişidir:https://alexwucherer.com</string>
     <string name="h.sinn">"Ekmek pişiren herkes sorunu bilir: Cazip tarifler, ancak verilen hamur dinlenme süreleri asla uymaz. Ya zaman yoktur ya da yavaşlama isteği. Şimdi maya hesaplayıcı yardımcı oluyor - maya miktarlarını bireysel programlara ve sıcaklıklara uyarlar. Artık bir tarifi atmak yok, onun yerine esnek pişirmenin tadını çıkarın! "</string>
     <string name="h.mehlerklear">Tarife göre gerekli un miktarını girin.</string>
     <string name="h.dauererkleart">Pişirmeden önce hamurunuzun ne kadar süre dinlenmesini istediğinizi belirtin.</string>
