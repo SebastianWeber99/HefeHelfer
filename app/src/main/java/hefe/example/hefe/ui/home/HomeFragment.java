@@ -66,6 +66,9 @@ public class HomeFragment extends Fragment {
         contentTextView1 = rootView.findViewById(R.id.contentTextView1);
         contentTextView2 = rootView.findViewById(R.id.contentTextView2);
         contentTextView3 = rootView.findViewById(R.id.contentTextView3);
+        contentTextView1.setVisibility(View.GONE);
+        contentTextView2.setVisibility(View.GONE);
+        contentTextView3.setVisibility(View.GONE);
         calculateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -87,7 +90,7 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        updatecontentTextView1Visibility(); // Ensure initial visibility is set based on isTextView16Visible
+
 
         return rootView;
     }
