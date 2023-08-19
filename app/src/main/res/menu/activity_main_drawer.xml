@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
@@ -21,7 +20,6 @@
             android:icon="@drawable/bild10"
             android:title="@string/menu_fach"/>
 
-
         <item
             android:id="@+id/nav_spenden"
             android:icon="@drawable/bild12"
@@ -30,10 +28,6 @@
             android:id="@+id/nav_rechner"
             android:icon="@drawable/bild88"
             android:title="@string/Rezeptrechner"/>
-
-
-
-    </group>
 
     <item
         android:id="@id/nav_settings"
