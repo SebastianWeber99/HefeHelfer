@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-    <item name="android:fontFamily">@font/fair</item>
+<resources><style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <item name="android:fontFamily">@font/fair5</item>
+    <item name="android:itemTextAppearance">@font/fair5</item>
     <!-- Weitere Stileinstellungen hier -->
 </style>
 </resources>

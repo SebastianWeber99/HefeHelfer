@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.MyApplication" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#A28453</item>
         <item name="colorPrimaryVariant">#D1C79E</item>
@@ -14,13 +14,16 @@
         <!-- Customize your theme here. -->
         <item name="android:textColor">@color/black</item>
         <item name="android:textColorHint">#AAAAAA</item>
+        <item name="android:fontFamily">@font/fair5</item>
         <item name="android:hyphenationFrequency">full</item>
->
+        <item name="android:itemTextAppearance">@font/fair5</item>
     </style>
 
     <style name="Theme.MyApplication.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="itemTextAppearance">@font/fair5</item>
+
     </style>
 
     <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
