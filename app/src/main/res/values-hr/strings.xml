@@ -40,10 +40,10 @@
     <string name="h.Temperatur">Temperatura u °C</string>
     <string name="h.C">u °C</string>
     <string name="h.berechnen">Izračunati</string>
-    <string name="h.frischhefe">Svježi kvasac u g</string>
+    <string name="h.frischhefe">"Svježi kvasac "</string>
     <string name="h.oder">ili</string>
-    <string name="h.Trockenhefe">Suhi kvasac u g</string>
-    <string name="h.Sauerteihg">Kiselo tijesto u g</string>
+    <string name="h.Trockenhefe">"Suhi kvasac "</string>
+    <string name="h.Sauerteihg">"Kiselo tijesto "</string>
     <string name="h.Teigruhebeendet">Odmaranje tijesta je završeno na</string>
     <string name="e.Uschrift">Postavkama</string>
     <string name="Frage">\?</string>

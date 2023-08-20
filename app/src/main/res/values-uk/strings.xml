@@ -40,10 +40,10 @@
     <string name="h.Temperatur">Температура в °C</string>
     <string name="h.C">в °C</string>
     <string name="h.berechnen">Розрахувати</string>
-    <string name="h.frischhefe">Свіжі дріжджі в г</string>
+    <string name="h.frischhefe">"Свіжі дріжджі "</string>
     <string name="h.oder">або</string>
-    <string name="h.Trockenhefe">Сухі дріжджі в г</string>
-    <string name="h.Sauerteihg">Закваска в г</string>
+    <string name="h.Trockenhefe">"Сухі дріжджі "</string>
+    <string name="h.Sauerteihg">"Закваска "</string>
     <string name="h.Teigruhebeendet">На цьому тісто відпочиває:</string>
     <string name="e.Uschrift">Налаштування</string>
     <string name="Frage">\?</string>
@@ -67,7 +67,7 @@
     <string name="w.schlusserklaert">Коли кулька тіста формується у форму, з\'являється шов. Це називається кінець.</string>
     <string name="w.Wirken">Робота:</string>
     <string name="w.synonym">Використовується як синонім для формування тіста.</string>
-    <string name="w.ausbund">Ausbund:</string>
+    <string name="w.ausbund">приклад:</string>
     <string name="w.ausbunderklaert">Відірвана частина скоринки, яка утворюється в процесі випікання, називається м\'якушкою. Це може статися через поріз або випадково.</string>
     <string name="settings.Entwickler">Розробники представляються:</string>
     <string name="settings.michi">Michi</string>

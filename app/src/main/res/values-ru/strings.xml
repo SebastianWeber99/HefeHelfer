@@ -39,10 +39,10 @@
     <string name="h.Temperatur">Температура в °C</string>
     <string name="h.C">в °C</string>
     <string name="h.berechnen">Рассчитать</string>
-    <string name="h.frischhefe">Свежие дрожжи в г</string>
+    <string name="h.frischhefe">"Свежие дрожжи "</string>
     <string name="h.oder">или</string>
-    <string name="h.Trockenhefe">Сухие дрожжи в г</string>
-    <string name="h.Sauerteihg">Сухари в г</string>
+    <string name="h.Trockenhefe">"Сухие дрожжи "</string>
+    <string name="h.Sauerteihg">"Сухари "</string>
     <string name="h.Teigruhebeendet">Отдых теста завершен при:</string>
     <string name="e.Uschrift">Настройки</string>
     <string name="Frage">\?</string>
@@ -66,7 +66,7 @@
     <string name="w.schlusserklaert">Когда шар из теста формируется в форму, остается шов. Он называется концом.</string>
     <string name="w.Wirken">Работа:</string>
     <string name="w.synonym">Используется как синоним для придания формы тесту.</string>
-    <string name="w.ausbund">Ausbund:</string>
+    <string name="w.ausbund">образец:</string>
     <string name="w.ausbunderklaert">Оторванная часть корки, которая образуется в процессе выпечки, называется воротничком. Это может быть вызвано порезом или случайностью.</string>
     <string name="settings.Entwickler">Разработчики представляются:</string>
     <string name="settings.michi">Michi</string>

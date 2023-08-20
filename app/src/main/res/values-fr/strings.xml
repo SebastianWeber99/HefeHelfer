@@ -44,10 +44,10 @@
     <string name="h.Temperatur">Température en °C</string>
     <string name="h.C">en °C</string>
     <string name="h.berechnen">Calculer</string>
-    <string name="h.frischhefe">Levure fraîche en g</string>
+    <string name="h.frischhefe">Levure fraîche</string>
     <string name="h.oder">ou</string>
-    <string name="h.Trockenhefe">Levure sèche en g</string>
-    <string name="h.Sauerteihg">Levain en g</string>
+    <string name="h.Trockenhefe">Levure sèche</string>
+    <string name="h.Sauerteihg">Levain</string>
     <string name="h.Teigruhebeendet">Le repos de la pâte est terminé à</string>
     <string name="e.Uschrift">Réglages</string>
     <string name="Frage">\?</string>

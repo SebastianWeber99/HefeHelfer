@@ -206,6 +206,17 @@
             app:layout_constraintStart_toEndOf="@+id/languageSA"
             app:layout_constraintTop_toBottomOf="@+id/languageUK" />
 
+        <ImageButton
+            android:id="@+id/languageUSA"
+            android:layout_width="82dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/usa"
+            android:foreground="@drawable/border"
+            app:layout_constraintStart_toEndOf="@+id/languageCN"
+            app:layout_constraintTop_toBottomOf="@+id/languageNL" />
+
         <TextView
             android:id="@+id/Version"
             android:layout_width="match_parent"

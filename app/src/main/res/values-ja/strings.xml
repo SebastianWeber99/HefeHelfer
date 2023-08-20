@@ -43,9 +43,9 @@
     <string name="h.Temperatur">温度 (°C)</string>
     <string name="h.C">" °C"</string>
     <string name="h.berechnen">計算する</string>
-    <string name="h.frischhefe">生イースト（g</string>
+    <string name="h.frischhefe">生イースト</string>
     <string name="h.oder">または</string>
-    <string name="h.Trockenhefe">ドライイースト g</string>
+    <string name="h.Trockenhefe">ドライイースト</string>
     <string name="h.Sauerteihg">サワードウ</string>
     <string name="h.Teigruhebeendet">でドウ・レストは終了：</string>
     <string name="e.Uschrift">設定</string>

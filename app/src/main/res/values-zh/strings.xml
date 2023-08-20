@@ -40,10 +40,10 @@
     <string name="h.Temperatur">温度（°C</string>
     <string name="h.C">单位：℃</string>
     <string name="h.berechnen">计算</string>
-    <string name="h.frischhefe">鲜酵母（克</string>
+    <string name="h.frischhefe">新鲜酵母</string>
     <string name="h.oder">或</string>
-    <string name="h.Trockenhefe">干酵母（克</string>
-    <string name="h.Sauerteihg">g 中的酸面团</string>
+    <string name="h.Trockenhefe">干酵母</string>
+    <string name="h.Sauerteihg">酸面团</string>
     <string name="h.Teigruhebeendet">面团静置时间为</string>
     <string name="e.Uschrift">设置</string>
     <string name="Frage">\?</string>

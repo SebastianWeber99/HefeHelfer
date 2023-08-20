@@ -40,10 +40,10 @@
     <string name="h.Temperatur">Temperatura w °C</string>
     <string name="h.C">w °C</string>
     <string name="h.berechnen">Obliczać</string>
-    <string name="h.frischhefe">Świeże drożdże w g</string>
+    <string name="h.frischhefe">"Świeże drożdże "</string>
     <string name="h.oder">lub</string>
-    <string name="h.Trockenhefe">Drożdże suszone w g</string>
-    <string name="h.Sauerteihg">Zakwas w g</string>
+    <string name="h.Trockenhefe">Drożdże suszone</string>
+    <string name="h.Sauerteihg">"Zakwas "</string>
     <string name="h.Teigruhebeendet">Odpoczynek ciasta jest zakończony:</string>
     <string name="e.Uschrift">Ustawienia</string>
     <string name="Frage">\?</string>
@@ -67,7 +67,7 @@
     <string name="w.schlusserklaert">Kiedy kulka ciasta jest formowana w kształt, pojawia się szew. Nazywa się to końcem.</string>
     <string name="w.Wirken">Praca:</string>
     <string name="w.synonym">Używany jako synonim kształtowania ciasta.</string>
-    <string name="w.ausbund">Ausbund:</string>
+    <string name="w.ausbund">wzór doskonałości:</string>
     <string name="w.ausbunderklaert">Rozdarta część skórki, która powstaje podczas procesu pieczenia, nazywana jest kołnierzem. Może to być spowodowane skaleczeniem lub wypadkiem.</string>
     <string name="settings.Entwickler">Deweloperzy przedstawiają się:</string>
     <string name="settings.michi">Michi</string>

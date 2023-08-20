@@ -38,10 +38,10 @@
     <string name="h.Temperatur">Temperatuur in °C</string>
     <string name="h.C">in °C</string>
     <string name="h.berechnen">Bereken</string>
-    <string name="h.frischhefe">Verse gist in g</string>
+    <string name="h.frischhefe">Verse gist i</string>
     <string name="h.oder">of</string>
-    <string name="h.Trockenhefe">Droge gist in g</string>
-    <string name="h.Sauerteihg">Zuurdesem in g</string>
+    <string name="h.Trockenhefe">"Droge gist "</string>
+    <string name="h.Sauerteihg">"Zuurdesem "</string>
     <string name="h.Teigruhebeendet">De deegrust is voltooid op:</string>
     <string name="e.Uschrift">Instellingen</string>
     <string name="Frage">\?</string>
@@ -127,7 +127,7 @@
     <string name="nav_header_title">Gist rekenmachine</string>
     <string name="menu_home">Gist rekenmachine</string>
     <string name="menu_gallery">Tips voor bakken</string>
-    <string name="menu_slideshow">penis</string>
+    <string name="menu_slideshow">Bakken op vakantie</string>
     <string name="rechner.beschreibung">Welkom bij de praktische receptencalculator! Met dit intelligente hulpmiddel kun je gemakkelijk hoeveelheden omrekenen voor recepten. Of je nu meer brood wilt bakken, een kleiner gerecht wilt maken of verschillende porties wilt - deze calculator maakt het je gemakkelijk! Heb je een heerlijk recept gevonden, maar is het maar voor één portie? Geen probleem meer! Voer de hoeveelheid ingrediënten in en kies een vermenigvuldigingsfactor. Verdubbel de hoeveelheid met 2 of halveer met 0,5. Andere factoren zijn ook mogelijk.</string>
     <string name="rechner.Rezeptrechner">Recept calculator</string>
     <string name="Zutat1">Ingrediënt 1</string>

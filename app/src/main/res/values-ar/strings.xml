@@ -40,10 +40,10 @@
     <string name="h.Temperatur">درجة الحرارة في درجة مئوية</string>
     <string name="h.C">في درجة مئوية</string>
     <string name="h.berechnen">حساب</string>
-    <string name="h.frischhefe">الخميرة الطازجة في ز</string>
+    <string name="h.frischhefe">خميرة طازجة</string>
     <string name="h.oder">أو</string>
-    <string name="h.Trockenhefe">الخميرة الجافة في ز</string>
-    <string name="h.Sauerteihg">العجين المخمر في ز</string>
+    <string name="h.Trockenhefe">خميرة جافة</string>
+    <string name="h.Sauerteihg">عجينة حمضية</string>
     <string name="h.Teigruhebeendet">يتم الانتهاء من استراحة العجين في:</string>
     <string name="e.Uschrift">اعدادات</string>
     <string name="Frage">\?</string>

@@ -37,6 +37,8 @@ public class SettingsFragment extends Fragment {
     private ImageButton languageSA;
     private ImageButton languageCN;
 
+    private ImageButton languageUSA;
+
     private TextView versionText;
 
     @Override
@@ -57,6 +59,7 @@ public class SettingsFragment extends Fragment {
         languagePL = rootView.findViewById(R.id.languagePL);
         languageSA = rootView.findViewById(R.id.languageSA);
         languageCN = rootView.findViewById(R.id.languageCN);
+        languageUSA = rootView.findViewById(R.id.languageUSA);
         versionText = rootView.findViewById(R.id.Version);
 
         LanguageManager languageManager = new LanguageManager(getActivity());
@@ -102,7 +105,7 @@ public class SettingsFragment extends Fragment {
             restartActivity();
         });
         languageEN.setOnClickListener(view -> {
-            languageManager.updateResource("en");
+            languageManager.updateResource("en-GB");
             restartActivity();
         });
         languagePL.setOnClickListener(view -> {
@@ -116,6 +119,11 @@ public class SettingsFragment extends Fragment {
         languageCN.setOnClickListener(view -> {
             languageManager.updateResource("zh");
             restartActivity();
+        });
+        languageUSA.setOnClickListener(view -> {
+              languageManager.updateResource("en-US");
+            restartActivity();
+
         });
 
         PackageInfo pInfo = null;

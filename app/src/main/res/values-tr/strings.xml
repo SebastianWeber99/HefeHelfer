@@ -79,10 +79,10 @@
     <string name="h.Temperatur">°C cinsinden sıcaklık</string>
     <string name="h.C">°C cinsinden</string>
     <string name="h.berechnen">"Hesaplamak "</string>
-    <string name="h.frischhefe">g adresindeki yaş maya</string>
+    <string name="h.frischhefe">Yaş maya</string>
     <string name="h.oder">veya</string>
-    <string name="h.Trockenhefe">" Kuru maya g olarak"</string>
-    <string name="h.Sauerteihg">Ekşi maya in g</string>
+    <string name="h.Trockenhefe">" Kuru maya "</string>
+    <string name="h.Sauerteihg">"Ekşi maya "</string>
     <string name="h.Teigruhebeendet">Hamur dinlendirmesi şu saatte tamamlanır</string>
     <string name="e.Uschrift">Ayarlar</string>
     <string name="Frage">\?</string>

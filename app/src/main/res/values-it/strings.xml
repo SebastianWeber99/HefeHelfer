@@ -39,10 +39,10 @@
     <string name="h.Temperatur">Temperatur in °C</string>
     <string name="h.C">in °C</string>
     <string name="h.berechnen">Calcolare</string>
-    <string name="h.frischhefe">Lievito fresco in g</string>
+    <string name="h.frischhefe">Lievito fresco</string>
     <string name="h.oder">o</string>
-    <string name="h.Trockenhefe">Lievito secco in g</string>
-    <string name="h.Sauerteihg">Pasta madre in g</string>
+    <string name="h.Trockenhefe">"Lievito secco "</string>
+    <string name="h.Sauerteihg">"Pasta madre "</string>
     <string name="h.Teigruhebeendet">Il riposo dell\'impasto è terminato a:</string>
     <string name="e.Uschrift">Impostazioni</string>
     <string name="Frage">\?</string>

@@ -43,10 +43,10 @@
     <string name="h.Temperatur">Temperatura en °C</string>
     <string name="h.C">en °C</string>
     <string name="h.berechnen">Calcule</string>
-    <string name="h.frischhefe">Levadura fresca en g</string>
+    <string name="h.frischhefe">"Levadura fresca "</string>
     <string name="h.oder">o</string>
-    <string name="h.Trockenhefe">Levadura seca en g</string>
-    <string name="h.Sauerteihg">Masa madre en g</string>
+    <string name="h.Trockenhefe">Levadura seca</string>
+    <string name="h.Sauerteihg">"Masa madre "</string>
     <string name="h.Teigruhebeendet">El reposo de la masa se termina en:</string>
     <string name="e.Uschrift">" Ajustes"</string>
     <string name="Frage">\?</string>
