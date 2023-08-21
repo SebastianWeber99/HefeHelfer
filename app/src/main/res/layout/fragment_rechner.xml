@@ -140,9 +140,9 @@
 
         <EditText
             android:id="@+id/textView20"
-            android:layout_width="22mm"
+            android:layout_width="23mm"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10mm"
+            android:layout_marginStart="9mm"
             android:layout_marginTop="24dp"
             android:hint="@string/h.inGramm"
             android:inputType="numberDecimal"
@@ -152,9 +152,9 @@
 
         <EditText
             android:id="@+id/textView21"
-            android:layout_width="22mm"
+            android:layout_width="23mm"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10mm"
+            android:layout_marginStart="9mm"
             android:layout_marginTop="24dp"
             android:hint="@string/h.inGramm"
             android:inputType="numberDecimal"
@@ -164,9 +164,9 @@
 
         <EditText
             android:id="@+id/textView22"
-            android:layout_width="22mm"
+            android:layout_width="23mm"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10mm"
+            android:layout_marginStart="9mm"
             android:layout_marginTop="24dp"
             android:hint="@string/h.inGramm"
             android:inputType="numberDecimal"
@@ -176,9 +176,9 @@
 
         <EditText
             android:id="@+id/textView23"
-            android:layout_width="22mm"
+            android:layout_width="23mm"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10mm"
+            android:layout_marginStart="9mm"
             android:layout_marginTop="24dp"
             android:hint="@string/h.inGramm"
             android:inputType="numberDecimal"
@@ -188,9 +188,9 @@
 
         <EditText
             android:id="@+id/textView24"
-            android:layout_width="22mm"
+            android:layout_width="23mm"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10mm"
+            android:layout_marginStart="9mm"
             android:inputType="numberDecimal"
             android:layout_marginTop="24dp"
             android:hint="@string/h.inGramm"
@@ -200,9 +200,9 @@
 
         <EditText
             android:id="@+id/textView25"
-            android:layout_width="22mm"
+            android:layout_width="23mm"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10mm"
+            android:layout_marginStart="9mm"
             android:inputType="numberDecimal"
             android:layout_marginTop="24dp"
             android:hint="@string/h.inGramm"
