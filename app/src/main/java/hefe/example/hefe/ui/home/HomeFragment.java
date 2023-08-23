@@ -260,6 +260,14 @@ public class HomeFragment extends Fragment {
         String timeWithSuffix = time + " " + uhrString;
         resultLabel4.setText(timeWithSuffix);
     }
+
+
+    public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+        // Setze den Text des TextView40 auf den eingegebenen Text in TextView7
+        resultLabel4.setText(charSequence);
+        editor.putString("resultLabel4", resultLabel4.getText().toString());
+        editor.apply();
+    }
     @Override
     public void onStart() {
         super.onStart();
