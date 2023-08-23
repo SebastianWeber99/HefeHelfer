@@ -1,8 +1,9 @@
 package hefe.example.hefe;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.os.PowerManager;
 import android.view.Menu;
-
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -16,7 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import hefe.example.hefe.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-
+    private PowerManager.WakeLock wakeLock;
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
 
@@ -40,11 +41,14 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
+        wakeLock = powerManager.newWakeLock(PowerManager.FULL_WAKE_LOCK, "MyApp:WakeLockTag");
+        wakeLock.acquire();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
@@ -56,5 +60,11 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (wakeLock != null && wakeLock.isHeld()) {
+            wakeLock.release();
+        }
+    }
 }
-
