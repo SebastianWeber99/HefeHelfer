@@ -5,14 +5,15 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.utils.widget.MotionButton;
 import androidx.fragment.app.Fragment;
+
 import com.google.android.play.core.review.ReviewInfo;
 import com.google.android.play.core.review.ReviewManager;
 import com.google.android.play.core.review.ReviewManagerFactory;
@@ -42,7 +43,7 @@ public class SettingsFragment extends Fragment {
     private ImageButton languageCN;
 
     private ImageButton languageUSA;
-private Button button7;
+private MotionButton button7;
     private TextView versionText;
 
     @Override
@@ -129,38 +130,45 @@ private Button button7;
                     languageManager.updateResource("en-US");
                     restartActivity();
         });
-        // ... set click listeners for other language buttons ...
+        manager = ReviewManagerFactory.create(requireContext());
 
-        // Set click listener for review button
-        button7.setOnClickListener(view -> startReviewFlow());
+        // ... (language button click listeners)
 
-        // Initialize review manager
-        activateReviewInfo();
+        button7.setOnClickListener(view -> {
+            startReviewFlow();
+        });
 
         return rootView;
     }
                 // ... rest of your code ...
-
-        private void activateReviewInfo() {
-            manager = ReviewManagerFactory.create(requireContext());
-            Task<ReviewInfo> managerInfoTask = manager.requestReviewFlow();
-            managerInfoTask.addOnCompleteListener(task -> {
-                if (task.isSuccessful()) {
-                    reviewInfo = task.getResult();
-                } else {
-                    Toast.makeText(requireContext(), "Review failed to start", Toast.LENGTH_SHORT).show();
+                private void startReviewFlow() {
+                    if (reviewInfo != null) {
+                        Task<Void> flow = manager.launchReviewFlow(requireActivity(), reviewInfo);
+                        flow.addOnCompleteListener(task -> {
+                            Toast.makeText(requireContext(), "Rating is completed", Toast.LENGTH_SHORT).show();
+                        });
+                    } else {
+                        Toast.makeText(requireContext(), "Review information is not available", Toast.LENGTH_SHORT).show();
+                    }
                 }
-            });
-        }
 
-        private void startReviewFlow() {
-            if (reviewInfo != null) {
-                Task<Void> flow = manager.launchReviewFlow(requireActivity(), reviewInfo);
-                flow.addOnCompleteListener(task -> {
-                    Toast.makeText(requireContext(), "Rating is completed", Toast.LENGTH_SHORT).show();
-                });
+    @Override
+    public void onResume() {
+        super.onResume();
+        // Request review flow information when the fragment is resumed
+        activateReviewInfo();
+    }
+
+    private void activateReviewInfo() {
+        Task<ReviewInfo> managerInfoTask = manager.requestReviewFlow();
+        managerInfoTask.addOnCompleteListener(task -> {
+            if (task.isSuccessful()) {
+                reviewInfo = task.getResult();
+            } else {
+                Toast.makeText(requireContext(), "Review failed to start", Toast.LENGTH_SHORT).show();
             }
-        }
+        });
+    }
 
         // ... rest of your code ...
 

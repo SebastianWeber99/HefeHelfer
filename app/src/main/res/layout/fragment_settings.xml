@@ -236,11 +236,15 @@
             android:autoLink="web|email"
             app:layout_constraintTop_toBottomOf="@+id/Version"/>
 
-        <Button
+        <androidx.constraintlayout.utils.widget.MotionButton
             android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button"
+            android:layout_width="30mm"
+            android:layout_height="67dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background_3d"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
+            android:text="@string/bewerte"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/impressum" />

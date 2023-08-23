@@ -15,8 +15,8 @@ android {
         applicationId "hefe.example.hefe"
         minSdk 24
         targetSdk 33
-        versionCode 24
-        versionName "24"
+        versionCode 26
+        versionName "26"
         resConfig("en,de,pl,fr,es,hr,tr,nl,it,cn,ja,ru,uk,ar,zh,en-rGB,en-rUS")
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
