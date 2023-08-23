@@ -1,19 +1,22 @@
 package hefe.example.hefe.ui.settings;
 
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import com.google.android.play.core.review.ReviewInfo;
+import com.google.android.play.core.review.ReviewManager;
+import com.google.android.play.core.review.ReviewManagerFactory;
+import com.google.android.play.core.tasks.Task;
 
 import hefe.example.hefe.LanguageManager;
 import hefe.example.hefe.R;
@@ -21,7 +24,8 @@ import hefe.example.hefe.R;
 public class SettingsFragment extends Fragment {
 
     private final String TAG = "SettingsFragment";
-
+    private ReviewInfo reviewInfo;
+    private ReviewManager manager;
     private ImageButton languageDE;
     private ImageButton languageES;
     private ImageButton languageHR;
@@ -38,7 +42,7 @@ public class SettingsFragment extends Fragment {
     private ImageButton languageCN;
 
     private ImageButton languageUSA;
-
+private Button button7;
     private TextView versionText;
 
     @Override
@@ -61,6 +65,7 @@ public class SettingsFragment extends Fragment {
         languageCN = rootView.findViewById(R.id.languageCN);
         languageUSA = rootView.findViewById(R.id.languageUSA);
         versionText = rootView.findViewById(R.id.Version);
+        button7 = rootView.findViewById(R.id.button7);
 
         LanguageManager languageManager = new LanguageManager(getActivity());
 
@@ -121,29 +126,48 @@ public class SettingsFragment extends Fragment {
             restartActivity();
         });
         languageUSA.setOnClickListener(view -> {
-              languageManager.updateResource("en-US");
-            restartActivity();
-
+                    languageManager.updateResource("en-US");
+                    restartActivity();
         });
+        // ... set click listeners for other language buttons ...
 
-        PackageInfo pInfo = null;
-        try {
-            pInfo = this.getContext().getPackageManager().getPackageInfo(this.getContext().getPackageName(), 0);
-            String version = pInfo.versionName;
-            versionText.setText("Version: " + version);
-            Log.d(TAG, "onCreateView: " + version);
-        } catch (PackageManager.NameNotFoundException e) {
-            throw new RuntimeException(e);
-        }
+        // Set click listener for review button
+        button7.setOnClickListener(view -> startReviewFlow());
 
+        // Initialize review manager
+        activateReviewInfo();
 
         return rootView;
     }
+                // ... rest of your code ...
 
-    // Helper method to restart the activity to apply language changes to all components
-    private void restartActivity() {
-        Intent intent = getActivity().getIntent();
-        getActivity().finish();
-        startActivity(intent);
+        private void activateReviewInfo() {
+            manager = ReviewManagerFactory.create(requireContext());
+            Task<ReviewInfo> managerInfoTask = manager.requestReviewFlow();
+            managerInfoTask.addOnCompleteListener(task -> {
+                if (task.isSuccessful()) {
+                    reviewInfo = task.getResult();
+                } else {
+                    Toast.makeText(requireContext(), "Review failed to start", Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
+
+        private void startReviewFlow() {
+            if (reviewInfo != null) {
+                Task<Void> flow = manager.launchReviewFlow(requireActivity(), reviewInfo);
+                flow.addOnCompleteListener(task -> {
+                    Toast.makeText(requireContext(), "Rating is completed", Toast.LENGTH_SHORT).show();
+                });
+            }
+        }
+
+        // ... rest of your code ...
+
+        // Helper method to restart the activity to apply language changes to all components
+        private void restartActivity() {
+            Intent intent = getActivity().getIntent();
+            requireActivity().finish();
+            startActivity(intent);
+        }
     }
-}
