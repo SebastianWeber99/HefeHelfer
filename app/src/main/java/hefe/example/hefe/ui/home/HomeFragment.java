@@ -1,5 +1,7 @@
 package hefe.example.hefe.ui.home;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -40,15 +42,21 @@ public class HomeFragment extends Fragment {
     private TextView contentTextView1;
     private TextView contentTextView2;
     private TextView contentTextView3;
+    private TextView resultlabel4;
     private boolean iscontentTextView1Visible = false;
     private boolean iscontentTextView2Visible = false;
 
     private boolean iscontentTextView3Visible = false;
+    private SharedPreferences pref;
+    private SharedPreferences.Editor editor;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        pref = this.getActivity().getSharedPreferences("my_pref",
+                Context.MODE_PRIVATE);
+        editor = pref.edit();
 
         numberField = rootView.findViewById(R.id.editText);
         calculateButton = rootView.findViewById(R.id.calculateButton);
@@ -66,6 +74,7 @@ public class HomeFragment extends Fragment {
         contentTextView1 = rootView.findViewById(R.id.contentTextView1);
         contentTextView2 = rootView.findViewById(R.id.contentTextView2);
         contentTextView3 = rootView.findViewById(R.id.contentTextView3);
+        resultLabel4 = rootView.findViewById(R.id.resultlabel4);
         contentTextView1.setVisibility(View.GONE);
         contentTextView2.setVisibility(View.GONE);
         contentTextView3.setVisibility(View.GONE);
@@ -89,7 +98,6 @@ public class HomeFragment extends Fragment {
                 updatecontentTextView3Visibility();
             }
         });
-
 
 
         return rootView;
@@ -252,4 +260,18 @@ public class HomeFragment extends Fragment {
         String timeWithSuffix = time + " " + uhrString;
         resultLabel4.setText(timeWithSuffix);
     }
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ... deine bestehende Logik ...
+
+        String resultLabel4Val = pref.getString("resultLabel4", "n/a");
+        if (!resultLabel4Val.equals("n/a")) {
+            resultLabel4.setText(resultLabel4Val);
+        }
+
+        // ... deine bestehende Logik ...
+    }
+
 }
