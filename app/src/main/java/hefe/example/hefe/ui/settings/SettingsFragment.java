@@ -140,24 +140,6 @@ private MotionButton button7;
 
         return rootView;
     }
-                // ... rest of your code ...
-                private void startReviewFlow() {
-                    if (reviewInfo != null) {
-                        Task<Void> flow = manager.launchReviewFlow(requireActivity(), reviewInfo);
-                        flow.addOnCompleteListener(task -> {
-                            Toast.makeText(requireContext(), "Rating is completed", Toast.LENGTH_SHORT).show();
-                        });
-                    } else {
-                        Toast.makeText(requireContext(), "Review information is not available", Toast.LENGTH_SHORT).show();
-                    }
-                }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        // Request review flow information when the fragment is resumed
-        activateReviewInfo();
-    }
 
     private void activateReviewInfo() {
         Task<ReviewInfo> managerInfoTask = manager.requestReviewFlow();
@@ -169,6 +151,27 @@ private MotionButton button7;
             }
         });
     }
+
+    // ... rest of your code ...
+    private void startReviewFlow() {
+        if (reviewInfo != null) {
+            Task<Void> flow = manager.launchReviewFlow(requireActivity(), reviewInfo);
+            flow.addOnCompleteListener(task -> {
+                Toast.makeText(requireContext(), "Rating is completed", Toast.LENGTH_SHORT).show();
+            });
+        } else {
+            Toast.makeText(requireContext(), "Review information is not available", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        // Request review flow information when the fragment is resumed
+        activateReviewInfo();
+    }
+
+
 
         // ... rest of your code ...
 
