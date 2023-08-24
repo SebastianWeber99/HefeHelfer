@@ -16,7 +16,6 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.play.core.review.ReviewInfo;
 import com.google.android.play.core.review.ReviewManager;
-import com.google.android.play.core.review.ReviewManagerFactory;
 import com.google.android.play.core.tasks.Task;
 
 import hefe.example.hefe.LanguageManager;
@@ -130,13 +129,7 @@ private MotionButton button7;
                     languageManager.updateResource("en-US");
                     restartActivity();
         });
-        manager = ReviewManagerFactory.create(requireContext());
 
-        // ... (language button click listeners)
-
-        button7.setOnClickListener(view -> {
-            startReviewFlow();
-        });
 
         return rootView;
     }
