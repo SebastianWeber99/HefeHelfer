@@ -17,4 +17,5 @@
             <solid android:color="#532010" /> <!-- Farbe des Schattens -->
         </shape>
     </item>
+
 </layer-list>

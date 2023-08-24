@@ -45,4 +45,11 @@
         android:name="hefe.example.hefe.ui.rechner.RechnerFragment"
         android:label="@string/rechner.Rezeptrechner"
         tools:layout="@layout/fragment_rechner"/>
+
+    <fragment
+        android:id="@+id/nav_rezepte"
+        android:name="hefe.example.hefe.ui.rezepte.RezepteFragment"
+        android:label="Rezepte"
+        tools:layout="@layout/fragment_rezepte"/>
+
 </navigation>
