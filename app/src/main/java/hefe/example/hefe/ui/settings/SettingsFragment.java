@@ -157,7 +157,13 @@ private MotionButton button7;
         if (reviewInfo != null) {
             Task<Void> flow = manager.launchReviewFlow(requireActivity(), reviewInfo);
             flow.addOnCompleteListener(task -> {
-                Toast.makeText(requireContext(), "Rating is completed", Toast.LENGTH_SHORT).show();
+                if (task.isSuccessful()) {
+                    Toast.makeText(requireContext(), "Rating is completed", Toast.LENGTH_SHORT).show();
+                    // Speichern, dass der Benutzer eine Bewertung abgegeben hat
+                    // Zum Beispiel durch Shared Preferences oder in deiner Datenbank
+                } else {
+                    Toast.makeText(requireContext(), "Rating was not completed", Toast.LENGTH_SHORT).show();
+                }
             });
         } else {
             Toast.makeText(requireContext(), "Review information is not available", Toast.LENGTH_SHORT).show();
