@@ -1,9 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources><style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
-    <item name="android:fontFamily">@font/fair5</item>
-    <item name="android:itemTextAppearance">@font/fair5</item>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:fontFamily">@font/fair5</item>
+        <item name="android:itemTextAppearance">@font/fair5</item>
+    </style>
 
+    <style name="TextViewStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
 
+    <style name="ImageViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">20sp</item>
+       <item name="android:layout_width">896px</item>
+    </style>
 
-</style>
+    <style name="HeadlineStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/purple_700</item>
+    </style>
+
+    <style name="GreenBannerStyle">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">-15dp</item>
+        <item name="android:background">#00FF00</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:rotation">50</item>
+    </style>
+
 </resources>
