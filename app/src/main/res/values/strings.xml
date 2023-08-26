@@ -293,5 +293,74 @@
     <string name="uhr">Uhr</string>
     <string name="f.vorfreude">Trotz nachvollziehbarer Vorfreude aufs Backen ist eine strukturierte Vorbereitung sinnvoll und notwendig. \n Jeder, dem schon einmal während des Knetvorgangs mit der Hand aufgefallen ist, dass eine Zutat fehlt und diese anschließend versucht hat, mit teigverschmierten Händen aus dem Schrank zu holen und abzuwiegen, weiß, wovon ich spreche. \n Überlege dir deshalb vor dem Backen, was du benötigst und stelle Zutaten auf der Arbeitsfläche bereit.\n Falls dir ein Material fehlt, werde kreativ. \n So kann etwa ein Nudelsieb mit eingelegtem Küchentuch eine super Alternative zu einem Gärkörbchen sein.</string>
     <string name="bewerte">Bewerte die App!</string>
+    <string name="Rezepte">Rezepte</string>
+    <string name="r.rezept">Suche nach einem Rezept...</string>
+    <string name="r.anfanger">Anfänger</string>
+    <string name="r.rezeptintro">Bist du auf der Suche nach leckeren, spannenden Rezepten? Dann sind diese Rezepte genau das richtige für dich. Mithilfe der Kooperation mit Rene von Brooot, können wir dir 50 verschiedene Rezepte nach Schwierigkeitsgrad, sowie Heferezepte und Sauerteigrezepten liefern.</string>
+<string name="r.Rezepttitel1">Kartoffelbrötchen</string>
+<string name="r.Rezeptinfo1">Diese kartoffeligen Brötchen sind klein und so richtig fein! Und dazu sind sie noch für Einsteiger geeignet, kein Sauerteig ist nötig.</string>
+<string name="r.bestimmungsauer">#Sauerteig</string>
+    <string name="r.Rezepttitel2">Klassisches Basler Brot</string>
+    <string name="r.Rezeptinfo2">Eines der beliebtesten Brotsorten der Schweiz ist das Basler Brot. Es ist weltweit bekannt und mit meinem Rezept wirklich einfach zu backen. </string>
+<string name="r.bestimmunghefe">#Hefe</string>
+    <string name="r.Rezepttitel3">Vollkorn Toastbrot</string>
+    <string name="r.Rezeptinfo3">Vollkorn-Toast ist gesünder und für mich leckerer als normaler Buttertoast. Hier findest du mein Rezept dafür. Vegan und nicht-vegan.</string>
+    <string name="r.Rezepttitel4">All-in-One Joghurt-Brot</string>
+    <string name="r.Rezeptinfo4">Du suchst ein Brot, dass schnell geht und unglaublich lecker schmeckt? Mein Joghurt Brot mit Hefe gebacken ist so ein Brot.</string>
+    <string name="r.Rezepttitel5">Schnelles 5-Stunden Bierbrot</string>
+    <string name="r.Rezeptinfo5">Auch mit relativ wenig Zeit und ohne Sauerteig kann man ein leckeres Brot backen. So wie mein schnelles 5-Stunden Bierbrot.</string>
+    <string name="r.Rezepttitel6">Salzstangen selber machen</string>
+    <string name="r.Rezeptinfo6">Diese Salzstangen sind unglaublich lecker. Der Grund: die Kartoffel! Sie gibt das gewisse etwas an Geschmack und Krume. So müssen Salzstangerl schmecken</string>
+    <string name="r.Rezepttitel7">Frühstücks-Brötchen</string>
+    <string name="r.Rezeptinfo7">Diese einfachen Frühstücksbrötchen kann man abends ansetzen und dann morgens backen. So stehen sie rechtzeitig auf dem Frühstückstisch.</string>
+    <string name="r.Rezepttitel8">Laugenstangen selber machen</string>
+    <string name="r.Rezeptinfo8">Laugengebäck liebt doch fast jeder oder? Diese Laugenstangen sind super einfach und einfach lecker. Ran an die Lauge!</string>
+    <string name="r.Rezepttitel9">Friss dich dumm Brot 2.0</string>
+    <string name="r.Rezeptinfo9">Das bei Brotback-Einsteigern beliebte einfache Brotrezept in einer gesünderen Variante. Genauso lecker, aber besser verträglich.</string>
+    <string name="r.Rezepttitel10">All-in-One Kefir-Kruste</string>
+    <string name="r.Rezeptinfo10">Dieses Kefir-Brot kannst du entweder nur mit Hefe backen oder aber mit Sauerteig. Egal wie, es schmeckt fantastisch.</string>
+    <string name="r.Rezepttitel11">Burger Buns selber backen</string>
+    <string name="r.Rezeptinfo11">Burger sind sooo lecker! Und die Brötchen dazu kann man zu Hause ganz einfach selber backen. Sie schmecken viel besser als gekauft.</string>
+    <string name="r.Rezepttitel12">Toasties – Toast-Brötchen</string>
+    <string name="r.Rezeptinfo12">Diese kleinen, einfachen und leckeren Toast-Brötchen findest du nicht nur im Supermarkt, sondern kannst sie ganz einfach selber herstellen.</string>
+    <string name="r.Rezepttitel13">No-Knead Topfbrot mit Apfel und Mohn</string>
+    <string name="r.Rezeptinfo13">Wenn es mal ein wenig Abwechslung im Brot-Alltag sein darf, kommt dieses Topfbrot mit Apfel und Mohn gerade recht. Und geknetet werden muss es auch nicht.</string>
+    <string name="r.Rezepttitel14">Klassisches Bernerbrot</string>
+    <string name="r.Rezeptinfo14">Das Bernerbrot ist in der ganzen Schweiz bekannt und ein Klassiker der Schweizer Brotkultur. Mit leckerem Ruchmehl ist es schnell gebacken.</string>
+    <string name="r.Rezepttitel15">Weizen-Brot mit einfachem Teig und kalter Gare im Kühlschrank</string>
+    <string name="r.Rezeptinfo15">Ein mildes, helles Brot mit Standard Weizen-Mehlen und langer Gare im Kühlschrank. Schmeckt toll ganz frisch aufgeschnitten oder auch am nächsten Tag getoastet.</string>
+    <string name="r.Rezepttitel16">Vollkorn-Körnerbrot im Kasten</string>
+    <string name="r.Rezeptinfo16">Viel gesünder geht Brot eigentlich nicht als dieses tolle Kastenbrot mit 100% Vollkorn. Und die Kerne, Mandeln und Saaten sorgen für jede Menge Biss.</string>
+    <string name="r.Rezepttitel17">Bayerisches Hausbrot</string>
+    <string name="r.Rezeptinfo17">EEine leicht hellere Variante eines klassischen Bayerischen Hausbrotes. Das ideale Brot für deine zünftige Brotzeit. </string>
+    <string name="r.Rezepttitel18">Fendu Mischbrot-Ecken</string>
+    <string name="r.Rezeptinfo18">Ein leckeres Mischbrot zum Zupfen! Perfekt für Partys, fürs Vesper oder einfach so zwischendurch. </string>
+    <string name="r.Rezepttitel19">Hefe Bauernbrot</string>
+    <string name="r.Rezeptinfo19">Ein gutes Bauernbrot muss nicht unbedingt mit Sauerteig gebacken werden. Das zeigt mein Hefe-Bauernbrot mit Biga-Vorteig.</string>
+    <string name="r.Rezepttitel20">Die rustikale Ciabatta-Kruste</string>
+    <string name="r.Rezeptinfo20">Ciabatta in einer neuen Form: Mit rustikaler Kruste wird es nochmal leckerer und macht optisch vor allem jede Menge her.</string>
+    <string name="r.Rezepttitel21">Das Homeoffice Feierabendbrot</string>
+    <string name="r.Rezeptinfo21">Ein Brot, dass man im Homeoffice backen kann! Morgens angesetzt und im Feierabend gebacken. Eine saftige Brot-Freude für Bäcker mit oder ohne Sauerteig.</string>
+    <string name="r.Rezepttitel22">Supersoftes Frühlingsbrot mit Karotte</string>
+    <string name="r.Rezeptinfo22">Ein Kastenbrot, wie ich es noch nie gegessen habe: Soft ohne Ende und richtig geschmackvoll. Und das Ganze auch noch ohne Sauerteig!</string>
+    <string name="r.Rezepttitel23">Sonnenblumenkerne-Brot</string>
+    <string name="r.Rezeptinfo23">Ein Klassiker unter den gesunden Brotsorten ist das Sonnenblumenkerne-Brot. Meine Variante ist super fluffig und kernig zugleich. </string>
+    <string name="r.Rezepttitel24">Französisches Baguette selber backen</string>
+    <string name="r.Rezeptinfo24">Ein schönes klassisch französisches Baguette selbst zu machen ist gar nicht schwer. Es hat eine tolle Kruste und eine über Nacht gereifte aromatische Krume.</string>
+    <string name="r.Rezepttitel25">Türkisches Fladenbrot/Pide – Ramazan pidesi</string>
+    <string name="r.Rezeptinfo25">Das weltweit bekannte Fladenbrot, auch "Pide" genannt, ist einfach und schnell zu erstellen und schmeckt aus dem heimischen Ofen gleich zweimal so gut!</string>
+    <string name="r.Rezepttitel26">Pane Vallemaggia</string>
+    <string name="r.Rezeptinfo26">Das Pane Vallemaggia: Ein sehr aromatisches, relativ dunkles Brot aus dem schweizer Tessin. Es überzeugt mit einer knusprigen Kruste und einer offenen Porung.</string>
+    <string name="r.Rezepttitel27">Die Saatenbombe</string>
+    <string name="r.Rezeptinfo27">Wenn du mal richtig beeindrucken willst, dann backst du dieses tolle Saatenbrot. Mit einem Drittel Anteil Saaten ist es eine wahre "Saatenbombe".</string>
+
+
+
+
+
+
+
+
+
 
 </resources>
