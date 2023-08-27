@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.Switch;
@@ -63,6 +64,25 @@ public class RezepteFragment extends Fragment {
     private CardView cardView24; // Position 37
     private CardView cardView25; // Position 38
     private CardView cardView26; // Position 39
+    private CardView cardView27; // Position 40
+    private CardView cardView28; // Position 41
+    private CardView cardView29; // Position 42
+    private CardView cardView30; // Position 43
+    private CardView cardView31; // Position 44
+    private CardView cardView32; // Position 45
+    private CardView cardView33; // Position 46
+    private CardView cardView34; // Position 47
+    private CardView cardView35; // Position 48
+    private CardView cardView36; // Position 49
+    private CardView cardView37; // Position 50
+    private CardView cardView38; // Position 51
+    private CardView cardView39; // Position 52
+    private CardView cardView40; // Position 53
+    private CheckBox checkBox;
+    private CheckBox checkBox2;
+    private CheckBox checkBox4;
+
+
 
     private Switch switch2;
     private Switch switch3;
@@ -73,8 +93,8 @@ public class RezepteFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_rezepte, container, false);
 
-        headlineTextView1 = rootView.findViewById(R.id.headlineTextView1);
-        headlineTextView3 = rootView.findViewById(R.id.headlineTextView3);
+
+
         textView1 = rootView.findViewById(R.id.textView1);
         imageView1 = rootView.findViewById(R.id.imageView1);
         cardView1 = rootView.findViewById(R.id.cardView1);
@@ -103,6 +123,21 @@ public class RezepteFragment extends Fragment {
         cardView24 = rootView.findViewById(R.id.cardView24);  // Position 37
         cardView25 = rootView.findViewById(R.id.cardView25);  // Position 38
         cardView26 = rootView.findViewById(R.id.cardView26);  // Position 39
+
+        cardView28 = rootView.findViewById(R.id.cardView28);  // Position 41
+        cardView29 = rootView.findViewById(R.id.cardView29);  // Position 42
+        cardView30 = rootView.findViewById(R.id.cardView30);  // Position 43
+        cardView31 = rootView.findViewById(R.id.cardView31);  // Position 44
+        cardView32 = rootView.findViewById(R.id.cardView32);  // Position 45
+        cardView33 = rootView.findViewById(R.id.cardView33);  // Position 46
+        cardView34 = rootView.findViewById(R.id.cardView34);  // Position 47
+        cardView35 = rootView.findViewById(R.id.cardView35);  // Position 48
+        cardView36 = rootView.findViewById(R.id.cardView36);  // Position 49
+        cardView37 = rootView.findViewById(R.id.cardView37);  // Position 50
+        cardView38 = rootView.findViewById(R.id.cardView38);  // Position 51
+        cardView39 = rootView.findViewById(R.id.cardView39);  // Position 52
+        cardView40 = rootView.findViewById(R.id.cardView40);  // Position 53
+  // Position 39
     // Position 40
         cardView = rootView.findViewById(R.id.cardView);
         headlineTextView6 = rootView.findViewById(R.id.headlineTextView6);
@@ -117,6 +152,10 @@ public class RezepteFragment extends Fragment {
         searchView.clearFocus();
         itemList = new ArrayList<>();
         switch4.setChecked(true);
+         checkBox = rootView.findViewById(R.id.checkBox); // Pass entsprechende IDs an
+       checkBox2 = rootView.findViewById(R.id.checkBox2); // Pass entsprechende IDs an
+       checkBox4 = rootView.findViewById(R.id.checkBox4); // Pass entsprechende IDs an
+
 
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -196,6 +235,31 @@ public class RezepteFragment extends Fragment {
             }
         });
 
+        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                updateCardViews();
+            }
+        });
+
+        checkBox2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                updateCardViews();
+            }
+        });
+
+        checkBox4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                updateCardViews();
+            }
+        });
+
+
+
+
+
         return rootView;
     }
 
@@ -236,10 +300,26 @@ public class RezepteFragment extends Fragment {
         cardView21.setVisibility(View.VISIBLE);
         cardView22.setVisibility(View.VISIBLE);
         cardView23.setVisibility(View.VISIBLE);
-        cardView24.setVisibility(View.VISIBLE);
-        cardView25.setVisibility(View.VISIBLE);
-        cardView26.setVisibility(View.VISIBLE);
+            cardView24.setVisibility(View.VISIBLE);
+            cardView25.setVisibility(View.VISIBLE);
+            cardView26.setVisibility(View.VISIBLE);
+
+            cardView28.setVisibility(View.VISIBLE);
+            cardView29.setVisibility(View.VISIBLE);
+            cardView30.setVisibility(View.VISIBLE);
+            cardView31.setVisibility(View.VISIBLE);
+            cardView32.setVisibility(View.VISIBLE);
+            cardView33.setVisibility(View.VISIBLE);
+            cardView34.setVisibility(View.VISIBLE);
+            cardView35.setVisibility(View.VISIBLE);
+            cardView36.setVisibility(View.VISIBLE);
+            cardView37.setVisibility(View.VISIBLE);
+            cardView38.setVisibility(View.VISIBLE);
+            cardView39.setVisibility(View.VISIBLE);
+            cardView40.setVisibility(View.VISIBLE);
+
         } else {
+            cardView.setVisibility(isSwitch2Active ? View.VISIBLE : View.GONE);
             cardView1.setVisibility(isSwitch2Active ? View.VISIBLE : View.GONE);
             cardView2.setVisibility(isSwitch2Active ? View.VISIBLE : View.GONE);
             cardView3.setVisibility(isSwitch2Active ? View.VISIBLE : View.GONE);
@@ -267,9 +347,34 @@ public class RezepteFragment extends Fragment {
             cardView25.setVisibility(isSwitch2Active ? View.VISIBLE : View.GONE);
             cardView26.setVisibility(isSwitch2Active ? View.VISIBLE : View.GONE);
 
+            cardView28.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView29.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView30.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView31.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView32.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView33.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView34.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView35.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView36.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView37.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView38.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView39.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+            cardView40.setVisibility(isSwitch3Active ? View.VISIBLE : View.GONE);
+
         }
 
     }
+    private void updateCardViews() {
+        boolean isCheckBoxActive = checkBox.isChecked();
+        boolean isCheckBox2Active = checkBox2.isChecked();
+        boolean isCheckBox4Active = checkBox4.isChecked();
 
+        // Abhängig von den Checkbox-Zuständen, steuere die Sichtbarkeit der CardViews
+        cardView.setVisibility(isCheckBoxActive ? View.GONE : View.VISIBLE);
+        cardView2.setVisibility(isCheckBox2Active ? View.VISIBLE : View.GONE);
+        cardView4.setVisibility(isCheckBox4Active ? View.VISIBLE : View.GONE);
+
+        // ...
+    }
 
 }
