@@ -81,7 +81,46 @@ public class RezepteFragment extends Fragment {
     private CheckBox checkBox;
     private CheckBox checkBox2;
     private CheckBox checkBox4;
-
+    private CheckBox checkBox5;
+    private CheckBox checkBox6;
+    private CheckBox checkBox7;
+    private CheckBox checkBox8;
+    private CheckBox checkBox9;
+    private CheckBox checkBox10;
+    private CheckBox checkBox11;
+    private CheckBox checkBox12;
+    private CheckBox checkBox13;
+    private CheckBox checkBox14;
+    private CheckBox checkBox15;
+    private CheckBox checkBox16;
+    private CheckBox checkBox17;
+    private CheckBox checkBox18;
+    private CheckBox checkBox19;
+    private CheckBox checkBox20;
+    private CheckBox checkBox21;
+    private CheckBox checkBox22;
+    private CheckBox checkBox23;
+    private CheckBox checkBox24;
+    private CheckBox checkBox25;
+    private CheckBox checkBox26;
+    private CheckBox checkBox27;
+    private CheckBox checkBox28;
+    private CheckBox checkBox29;
+    private CheckBox checkBox30;
+    private CheckBox checkBox31;
+    private CheckBox checkBox32;
+    private CheckBox checkBox33;
+    private CheckBox checkBox34;
+    private CheckBox checkBox35;
+    private CheckBox checkBox36;
+    private CheckBox checkBox37;
+    private CheckBox checkBox38;
+    private CheckBox checkBox39;
+    private CheckBox checkBox40;
+    private CheckBox checkBox41;
+    private CheckBox checkBox42;
+    private CheckBox checkBox43;
+    private CheckBox checkBox44;
 
 
     private Switch switch2;
@@ -155,22 +194,89 @@ public class RezepteFragment extends Fragment {
          checkBox = rootView.findViewById(R.id.checkBox); // Pass entsprechende IDs an
        checkBox2 = rootView.findViewById(R.id.checkBox2); // Pass entsprechende IDs an
        checkBox4 = rootView.findViewById(R.id.checkBox4); // Pass entsprechende IDs an
+        checkBox5 = rootView.findViewById(R.id.checkbox5);
+        checkBox6 = rootView.findViewById(R.id.checkbox6);
+        checkBox7 = rootView.findViewById(R.id.checkbox7);
+        checkBox8 = rootView.findViewById(R.id.checkbox8);
+        checkBox9 = rootView.findViewById(R.id.checkbox9);
+        checkBox10 = rootView.findViewById(R.id.checkbox10);
+        checkBox11 = rootView.findViewById(R.id.checkbox11);
+        checkBox12 = rootView.findViewById(R.id.checkbox12);
+        checkBox13 = rootView.findViewById(R.id.checkbox13);
+        checkBox14 = rootView.findViewById(R.id.checkbox14);
+        checkBox15 = rootView.findViewById(R.id.checkbox15);
+        checkBox16 = rootView.findViewById(R.id.checkbox16);
+        checkBox17 = rootView.findViewById(R.id.checkbox17);
+        checkBox18 = rootView.findViewById(R.id.checkbox18);
+        checkBox19 = rootView.findViewById(R.id.checkbox19);
+        checkBox20 = rootView.findViewById(R.id.checkbox20);
+        checkBox21 = rootView.findViewById(R.id.checkbox21);
+        checkBox22 = rootView.findViewById(R.id.checkbox22);
+        checkBox23 = rootView.findViewById(R.id.checkbox23);
+        checkBox24 = rootView.findViewById(R.id.checkbox24);
+        checkBox25 = rootView.findViewById(R.id.checkbox25);
+        checkBox26 = rootView.findViewById(R.id.checkbox26);
+        checkBox27 = rootView.findViewById(R.id.checkbox27);
+        checkBox28 = rootView.findViewById(R.id.checkbox28);
+        checkBox29 = rootView.findViewById(R.id.checkbox29);
+        checkBox30 = rootView.findViewById(R.id.checkbox30);
+        checkBox31 = rootView.findViewById(R.id.checkbox31);
+        checkBox32 = rootView.findViewById(R.id.checkbox32);
+        checkBox33 = rootView.findViewById(R.id.checkbox33);
+        checkBox34 = rootView.findViewById(R.id.checkbox34);
+        checkBox35 = rootView.findViewById(R.id.checkbox35);
+        checkBox36 = rootView.findViewById(R.id.checkbox36);
+        checkBox37 = rootView.findViewById(R.id.checkbox37);
+        checkBox38 = rootView.findViewById(R.id.checkbox38);
+        checkBox39 = rootView.findViewById(R.id.checkbox39);
+        checkBox40 = rootView.findViewById(R.id.checkbox40);
+        checkBox41 = rootView.findViewById(R.id.checkbox41);
+        checkBox42 = rootView.findViewById(R.id.checkbox42);
+        checkBox43 = rootView.findViewById(R.id.checkbox43);
+        checkBox44 = rootView.findViewById(R.id.checkbox44);
 
 
-        cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openLink("https://www.brooot.de/broetchen/kartoffelbroetchen/");
-            }
-        });
+        setupCardViewClickListener(cardView, "https://www.brooot.de/broetchen/kartoffelbroetchen/");
+        setupCardViewClickListener(cardView1, "https://www.brooot.de/weizenbrote/klassisches-basler-brot/");
+        setupCardViewClickListener(cardView2, "https://www.brooot.de/weizenbrote/vollkorn-toastbrot/");
+        setupCardViewClickListener(cardView3, "https://www.brooot.de/mischbrote/all-in-one-joghurt-brot/");
+        setupCardViewClickListener(cardView4, "https://www.brooot.de/weizenbrote/schnelles-5-stunden-bierbrot/");
+        setupCardViewClickListener(cardView5, "https://www.brooot.de/broetchen/salzstangen-selber-machen/");
+        setupCardViewClickListener(cardView6, "https://www.brooot.de/broetchen/fruehstuecks-broetchen/");
+        setupCardViewClickListener(cardView7, "https://www.brooot.de/broetchen/laugenstangen-selber-machen/");
+        setupCardViewClickListener(cardView8, "https://www.brooot.de/mischbrote/friss-dich-dumm-brot-2-0/");
+        setupCardViewClickListener(cardView9, "https://www.brooot.de/weizenbrote/all-in-one-kefir-kruste/");
+        setupCardViewClickListener(cardView10, "https://www.brooot.de/broetchen/burger-buns-selber-backen/");
+        setupCardViewClickListener(cardView11, "https://www.brooot.de/broetchen/toasties-toast-broetchen/");
+        setupCardViewClickListener(cardView12, "https://www.brooot.de/weizenbrote/no-knead-topfbrot-mit-apfel-und-mohn/");
+        setupCardViewClickListener(cardView13, "https://www.brooot.de/weizenbrote/klassisches-bernerbrot/");
+        setupCardViewClickListener(cardView14, "https://www.brooot.de/weizenbrote/weizen-brot-mit-einfachem-teig-und-kalter-gare-im-kuehlschrank/");
+        setupCardViewClickListener(cardView15, "https://www.brooot.de/mischbrote/vollkorn-koernerbrot-im-kasten/");
+        setupCardViewClickListener(cardView16, "https://www.brooot.de/mischbrote/bayerisches-hausbrot/");
+        setupCardViewClickListener(cardView17, "https://www.brooot.de/mischbrote/fendu-mischbrot-ecken/");
+        setupCardViewClickListener(cardView18, "https://www.brooot.de/mischbrote/hefe-bauernbrot/");
+        setupCardViewClickListener(cardView19, "https://www.brooot.de/weizenbrote/die-rustikale-ciabatta-kruste/");
+        setupCardViewClickListener(cardView20, "https://www.brooot.de/mischbrote/das-homeoffice-feierabendbrot/");
+        setupCardViewClickListener(cardView21, "https://www.brooot.de/weizenbrote/supersoftes-fruehlingsbrot-mit-karotte/");
+        setupCardViewClickListener(cardView22, "https://www.brooot.de/weizenbrote/sonnenblumenkerne-brot/");
+        setupCardViewClickListener(cardView23, "https://www.brooot.de/weizenbrote/franzoesisches-baguette-selber-backen/");
+        setupCardViewClickListener(cardView24, "https://www.brooot.de/weizenbrote/tuerkisches-fladenbrot-pide-ramazan-pidesi/");
+        setupCardViewClickListener(cardView25, "https://www.brooot.de/mischbrote/rezept-fuer-pane-vallemaggia/");
+        setupCardViewClickListener(cardView26, "https://www.brooot.de/mischbrote/die-saatenbombe/");
 
-        cardView1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openLink("https://www.brooot.de/weizenbrote/klassisches-basler-brot/");
-            }
-        });
-
+        setupCardViewClickListener(cardView28, "https://www.brooot.de/roggenbrote/rezept-fuer-roggenvollkornbrot/");
+        setupCardViewClickListener(cardView29, "https://www.brooot.de/mischbrote/saatiges-wurzelbrot-mit-weizen-und-roggen/");
+        setupCardViewClickListener(cardView30, "https://www.brooot.de/mischbrote/kartoffel-bier-krustenbrot/");
+        setupCardViewClickListener(cardView31, "https://www.brooot.de/mischbrote/auffrisch-zwillingsbrote/");
+        setupCardViewClickListener(cardView32, "https://www.brooot.de/weizenbrote/knorzen-wurzelbrot/");
+        setupCardViewClickListener(cardView33, "https://www.brooot.de/weizenbrote/sauerteig-baguette/");
+        setupCardViewClickListener(cardView34, "https://www.brooot.de/mischbrote/rezept-fuer-frankenlaib/");
+        setupCardViewClickListener(cardView35, "https://www.brooot.de/weizenbrote/1050er-brot/");
+        setupCardViewClickListener(cardView36, "https://www.brooot.de/mischbrote/sechskornbrot/");
+        setupCardViewClickListener(cardView37, "https://www.brooot.de/weizenbrote/focaccia-im-kasten/");
+        setupCardViewClickListener(cardView38, "https://www.brooot.de/mischbrote/bauernbrot-im-kasten/");
+        setupCardViewClickListener(cardView39, "https://www.brooot.de/weizenbrote/ruchbrot-stangen/");
+        setupCardViewClickListener(cardView40, "https://www.brooot.de/mischbrote/die-maillard-muehlenkruste/");
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -263,7 +369,14 @@ public class RezepteFragment extends Fragment {
         return rootView;
     }
 
-
+    private void setupCardViewClickListener(CardView cardView, final String link) {
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openLink(link);
+            }
+        });
+    }
     private void openLink(String link) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
         startActivity(intent);
