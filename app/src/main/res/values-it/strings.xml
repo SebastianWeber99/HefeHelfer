@@ -138,7 +138,6 @@
     <string name="zutat6">Ingrediente 6</string>
     <string name="Multiplikator">Moltiplicatore</string>
     <string name="Rezeptrechner">Calcolatore di ricette</string>
-    <string name="impressum">Contatto: HefeHelfer@web.de    Crediti: Un ringraziamento speciale alle persone che hanno aiutato a tradurre l\'applicazione e sono state disponibili come tester durante lo sviluppo.     In particolare ad Alex Wucherer, per aver creato le immagini di cottura. Se qualcuno cerca un illustratore competente, lui è quello giusto:https://alexwucherer.com</string>
     <string name="h.sinn">Chiunque faccia il pane conosce il problema: ricette allettanti, ma i tempi di riposo dell\'impasto non sono mai adeguati. O non c\'è tempo o non si vuole rallentare. Ora il calcolatore di lievito aiuta: adatta le quantità di lievito ai tempi e alle temperature individuali. Non scartate più una ricetta, ma godetevi una cottura flessibile!</string>
     <string name="h.mehlerklear">Inserire la quantità di farina necessaria in base alla ricetta.</string>
     <string name="h.dauererkleart">Indicare il tempo di riposo dell\'impasto prima della cottura.</string>

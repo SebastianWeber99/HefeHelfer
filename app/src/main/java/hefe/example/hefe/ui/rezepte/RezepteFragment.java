@@ -490,4 +490,5 @@ public class RezepteFragment extends Fragment {
         // ...
     }
 
+
 }

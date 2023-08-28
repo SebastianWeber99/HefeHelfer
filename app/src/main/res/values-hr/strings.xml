@@ -138,7 +138,6 @@
     <string name="zutat6">Sastojak 6</string>
     <string name="Multiplikator">Množitelj</string>
     <string name="Rezeptrechner">Kalkulator recepata</string>
-    <string name="impressum">Kontakt: HefeHelfer@web.de.  Zasluge: Posebna zahvala ide osobama koje su prevelike aplikaciju i bile dostupne kao testeri tokom razvoja.  Posebno hvala Alexu Wuchereru na kreiranju pozadinskih slika. Ako netko traži kompetentnog ilustratora, on je prava osoba: https://alexwucherer.com</string>
     <string name="h.sinn">Svi koji peku kruh poznaju taj problem: primamljivi recepti, ali zadane vrijeme odmora tijesta nikada ne odgovaraju. Ili nemate dovoljno vremena ili želite usporiti proces. Sada vam pomaže Kalkulator kvasca - prilagođava količinu kvasca individualnim vremenskim planovima i temperaturama. Više nećete odbacivati recepte, umjesto toga uživajte u fleksibilnom pečenju!</string>
     <string name="h.mehlerklear">Unesi količinu brašna potrebnu prema receptu.</string>
     <string name="h.dauererkleart">Navedi koliko dugo želiš ostaviti tijesto da odmara prije pečenja.</string>

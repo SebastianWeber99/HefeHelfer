@@ -8,9 +8,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import java.text.DecimalFormat;
 
 import androidx.fragment.app.Fragment;
+
+import java.text.DecimalFormat;
+
 import hefe.example.hefe.R;
 
 public class SlideshowFragment extends Fragment {
@@ -21,6 +23,8 @@ public class SlideshowFragment extends Fragment {
     private TextView headlineTextView4;
     private TextView headlineTextView5;
     private TextView headlineTextView6;
+    private TextView headlineTextView8;
+    private TextView textView20;// Initialize textView13
     private TextView textView13; // New TextView for textView13
     private TextView textView14; // New TextView for textView14
     private TextView textView15; // New TextView for textView15
@@ -50,9 +54,11 @@ public class SlideshowFragment extends Fragment {
         headlineTextView4 = rootView.findViewById(R.id.headlineTextView4);
         headlineTextView5 = rootView.findViewById(R.id.headlineTextView5);
         headlineTextView6 = rootView.findViewById(R.id.headlineTextView6);
+        headlineTextView8 = rootView.findViewById(R.id.headlineTextView8);
         textView13 = rootView.findViewById(R.id.textView13); // Initialize textView13
         textView14 = rootView.findViewById(R.id.textView14); // Initialize textView14
-        textView15 = rootView.findViewById(R.id.textView15); // Initialize textView15
+        textView15 = rootView.findViewById(R.id.textView15);
+        textView20 = rootView.findViewById(R.id.textView20); // Initialize textView15
         inputEditText1 = rootView.findViewById(R.id.inputEditText1);
         inputEditText2 = rootView.findViewById(R.id.inputEditText2); // Initialize inputEditText2
         outputTextView1 = rootView.findViewById(R.id.outputTextView1);
@@ -107,7 +113,9 @@ public class SlideshowFragment extends Fragment {
                 toggleVisibility(button2);
                 toggleVisibility(textView12);
                 toggleVisibility(textView11); // Toggle visibility of textView11
-                toggleVisibility(linealEditText); // Toggle visibility of linealEditText
+                toggleVisibility(linealEditText);
+                toggleVisibility(headlineTextView8);
+                toggleVisibility(textView20);// Toggle visibility of linealEditText
 
             }
         });

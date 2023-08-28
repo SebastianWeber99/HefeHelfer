@@ -138,7 +138,6 @@
     <string name="zutat6">材料6</string>
     <string name="Multiplikator">乗数</string>
     <string name="Rezeptrechner">レシピ計算機</string>
-    <string name="impressum">連絡先：HefeHelfer@web.de    クレジット アプリの翻訳を手伝ってくれた方々、開発中にテスターとして参加してくれた方々に感謝します。    特にアレックス・ヴヘラーに感謝します。有能なイラストレーターを探している人がいたら、彼が適任です:https://alexwucherer.com</string>
     <string name="h.sinn">パンを焼く人なら誰でも知っている問題：魅力的なレシピなのに、与えられた生地を休ませる時間が合わない。パンを焼く人なら誰でも知っている問題だ。イースト計算機は、個々のスケジュールや温度に合わせてイーストの量を調整します。もうレシピを捨てる必要はなく、フレキシブルなパン作りをお楽しみいただけます！</string>
     <string name="h.mehlerklear">レシピに従って必要な小麦粉の量を入力してください。</string>
     <string name="h.dauererkleart">" 焼成前に生地を休ませる時間を指定します。"</string>

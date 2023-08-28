@@ -283,7 +283,6 @@
     <string name="Multiplikator">Multiplikator</string>
 
     <string name="Rezeptrechner">Rezeptrechner</string>
-    <string name="impressum">Kontakt: HefeHelfer@web.de \n \n Credits: Besonderer Dank geht an die Personen, die die App mit übersetzt und in der Entwicklung als Tester verfügbar waren. \n \n Besonders an Alex Wucherer, für die Erstellung der Backbilder. Sollte jemand einen kompetenten Illustrator suchen, ist er der Richtige: https://alexwucherer.com</string>
 
     <string name="h.sinn">Alle, die Brot backen, kennen das Problem: Verlockende Rezepte, aber die vorgegebenen Teigruhezeiten passen nie. Entweder keine Zeit oder der Wunsch nach Brot mit wenig Hefe. Jetzt hilft der Heferechner – er passt Hefemengen an individuelle Zeitpläne und Temperaturen an. Kein Rezept mehr verwerfen, stattdessen flexibles Backen genießen! </string>
     <string name="h.mehlerklear">Trage die laut des Rezepts benötigte Menge an Mehl ein. </string>
@@ -384,7 +383,9 @@
     <string name="r.Rezepttitel42">Brot mit in Bier gekochtem Getreide</string>
     <string name="r.Rezeptinfo42">Vielleicht eines meiner schönsten Brote, auf jeden Fall ein extrem leckeres. Das Brot mit in Bier gekochtem Getreide.</string>
 <string name="schon_gebacken">schon gebacken</string>
-
+<string name="salz">Salz ohne Waage abwiegen</string>
+    <string name="salztext">Wenn du Salz mit Löffeln abwägen möchtest, beachte bitte, dass dies nur eine grobe Methode ist und nicht so genau wie eine Küchenwaage. Löffel gibt es in verschiedenen Größen, was zu unterschiedlichen Mengen führen kann.Hier sind ungefähre Schätzungen:Ein gehäufter Teelöffel Salz entspricht etwa 10 Gramm. Ein gehäufter Esslöffel Salz entspricht etwa 20 Gramm.</string>
+    <string name="impressum">Kontakt: HefeHelfer@web.de \n \n Credits: Besonderer Dank geht an die Personen, die die App mit übersetzt und in der Entwicklung als Tester verfügbar waren. \n \n Besonders an Alex Wucherer, für die Erstellung der Backbilder und Icons. Sollte jemand einen kompetenten Illustrator suchen, ist er der Richtige: https://alexwucherer.com \n \n Hervorzuheben ist auch René für die bereitsstellung der Bilder und Titel der Rezepte. Auf seiner Seite findest weitere spannende Rezepte und Informationen Rund um das Thema Backen. https://www.brooot.de/</string>
 
 
 
