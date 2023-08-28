@@ -122,7 +122,8 @@ public class RezepteFragment extends Fragment {
     private CheckBox checkBox43;
     private CheckBox checkBox44;
 
-
+    private List<CheckBox> checkBoxes = new ArrayList<>();
+    private List<CardView> cardViews = new ArrayList<>();
     private Switch switch2;
     private Switch switch3;
     private Switch switch4;
@@ -132,53 +133,22 @@ public class RezepteFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_rezepte, container, false);
 
+        for (int i = 1; i <= 44; i++) {
+            CheckBox checkBox = rootView.findViewById(getResources().getIdentifier("checkBox" + i, "id", requireActivity().getPackageName()));
+            checkBoxes.add(checkBox);
+        }
 
+        for (int i = 1; i <= 40; i++) {
+            CardView cardView = rootView.findViewById(getResources().getIdentifier("cardView" + i, "id", requireActivity().getPackageName()));
+            cardViews.add(cardView);
+        }
 
         textView1 = rootView.findViewById(R.id.textView1);
         imageView1 = rootView.findViewById(R.id.imageView1);
-        cardView1 = rootView.findViewById(R.id.cardView1);
-        cardView2 = rootView.findViewById(R.id.cardView2);
-        cardView3 = rootView.findViewById(R.id.cardView3);
-        cardView4 = rootView.findViewById(R.id.cardView4);
-        cardView5 = rootView.findViewById(R.id.cardView5);
-        cardView6 = rootView.findViewById(R.id.cardView6);
-        cardView7 = rootView.findViewById(R.id.cardView7);
-        cardView8 = rootView.findViewById(R.id.cardView8);
-        cardView9 = rootView.findViewById(R.id.cardView9);
-        cardView10 = rootView.findViewById(R.id.cardView10);
-        cardView11 = rootView.findViewById(R.id.cardView11);
-        cardView12 = rootView.findViewById(R.id.cardView12);
-        cardView13 = rootView.findViewById(R.id.cardView13);
-        cardView14 = rootView.findViewById(R.id.cardView14);
-        cardView15 = rootView.findViewById(R.id.cardView15);  // Position 28
-        cardView16 = rootView.findViewById(R.id.cardView16);  // Position 29
-        cardView17 = rootView.findViewById(R.id.cardView17);  // Position 30
-        cardView18 = rootView.findViewById(R.id.cardView18);  // Position 31
-        cardView19 = rootView.findViewById(R.id.cardView19);  // Position 32
-        cardView20 = rootView.findViewById(R.id.cardView20);  // Position 33
-        cardView21 = rootView.findViewById(R.id.cardView21);  // Position 34
-        cardView22 = rootView.findViewById(R.id.cardView22);  // Position 35
-        cardView23 = rootView.findViewById(R.id.cardView23);  // Position 36
-        cardView24 = rootView.findViewById(R.id.cardView24);  // Position 37
-        cardView25 = rootView.findViewById(R.id.cardView25);  // Position 38
-        cardView26 = rootView.findViewById(R.id.cardView26);  // Position 39
 
-        cardView28 = rootView.findViewById(R.id.cardView28);  // Position 41
-        cardView29 = rootView.findViewById(R.id.cardView29);  // Position 42
-        cardView30 = rootView.findViewById(R.id.cardView30);  // Position 43
-        cardView31 = rootView.findViewById(R.id.cardView31);  // Position 44
-        cardView32 = rootView.findViewById(R.id.cardView32);  // Position 45
-        cardView33 = rootView.findViewById(R.id.cardView33);  // Position 46
-        cardView34 = rootView.findViewById(R.id.cardView34);  // Position 47
-        cardView35 = rootView.findViewById(R.id.cardView35);  // Position 48
-        cardView36 = rootView.findViewById(R.id.cardView36);  // Position 49
-        cardView37 = rootView.findViewById(R.id.cardView37);  // Position 50
-        cardView38 = rootView.findViewById(R.id.cardView38);  // Position 51
-        cardView39 = rootView.findViewById(R.id.cardView39);  // Position 52
-        cardView40 = rootView.findViewById(R.id.cardView40);  // Position 53
   // Position 39
     // Position 40
-        cardView = rootView.findViewById(R.id.cardView);
+
         headlineTextView6 = rootView.findViewById(R.id.headlineTextView6);
         textView2 = rootView.findViewById(R.id.textView2);
         imageView2 = rootView.findViewById(R.id.imageView2);
@@ -191,49 +161,8 @@ public class RezepteFragment extends Fragment {
         searchView.clearFocus();
         itemList = new ArrayList<>();
         switch4.setChecked(true);
-         checkBox = rootView.findViewById(R.id.checkBox); // Pass entsprechende IDs an
-       checkBox2 = rootView.findViewById(R.id.checkBox2); // Pass entsprechende IDs an
-       checkBox4 = rootView.findViewById(R.id.checkBox4); // Pass entsprechende IDs an
-        checkBox5 = rootView.findViewById(R.id.checkbox5);
-        checkBox6 = rootView.findViewById(R.id.checkbox6);
-        checkBox7 = rootView.findViewById(R.id.checkbox7);
-        checkBox8 = rootView.findViewById(R.id.checkbox8);
-        checkBox9 = rootView.findViewById(R.id.checkbox9);
-        checkBox10 = rootView.findViewById(R.id.checkbox10);
-        checkBox11 = rootView.findViewById(R.id.checkbox11);
-        checkBox12 = rootView.findViewById(R.id.checkbox12);
-        checkBox13 = rootView.findViewById(R.id.checkbox13);
-        checkBox14 = rootView.findViewById(R.id.checkbox14);
-        checkBox15 = rootView.findViewById(R.id.checkbox15);
-        checkBox16 = rootView.findViewById(R.id.checkbox16);
-        checkBox17 = rootView.findViewById(R.id.checkbox17);
-        checkBox18 = rootView.findViewById(R.id.checkbox18);
-        checkBox19 = rootView.findViewById(R.id.checkbox19);
-        checkBox20 = rootView.findViewById(R.id.checkbox20);
-        checkBox21 = rootView.findViewById(R.id.checkbox21);
-        checkBox22 = rootView.findViewById(R.id.checkbox22);
-        checkBox23 = rootView.findViewById(R.id.checkbox23);
-        checkBox24 = rootView.findViewById(R.id.checkbox24);
-        checkBox25 = rootView.findViewById(R.id.checkbox25);
-        checkBox26 = rootView.findViewById(R.id.checkbox26);
-        checkBox27 = rootView.findViewById(R.id.checkbox27);
-        checkBox28 = rootView.findViewById(R.id.checkbox28);
-        checkBox29 = rootView.findViewById(R.id.checkbox29);
-        checkBox30 = rootView.findViewById(R.id.checkbox30);
-        checkBox31 = rootView.findViewById(R.id.checkbox31);
-        checkBox32 = rootView.findViewById(R.id.checkbox32);
-        checkBox33 = rootView.findViewById(R.id.checkbox33);
-        checkBox34 = rootView.findViewById(R.id.checkbox34);
-        checkBox35 = rootView.findViewById(R.id.checkbox35);
-        checkBox36 = rootView.findViewById(R.id.checkbox36);
-        checkBox37 = rootView.findViewById(R.id.checkbox37);
-        checkBox38 = rootView.findViewById(R.id.checkbox38);
-        checkBox39 = rootView.findViewById(R.id.checkbox39);
-        checkBox40 = rootView.findViewById(R.id.checkbox40);
-        checkBox41 = rootView.findViewById(R.id.checkbox41);
-        checkBox42 = rootView.findViewById(R.id.checkbox42);
-        checkBox43 = rootView.findViewById(R.id.checkbox43);
-        checkBox44 = rootView.findViewById(R.id.checkbox44);
+
+
 
 
         setupCardViewClickListener(cardView, "https://www.brooot.de/broetchen/kartoffelbroetchen/");

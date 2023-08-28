@@ -11,7 +11,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp">
+        android:padding="16dp" >
 
         <TextView
             android:id="@+id/ueberschrfit2"
@@ -1755,7 +1755,7 @@
                 <CheckBox
                     android:id="@+id/checkbox36"
                     style="@style/checkbox"
-                    android:layout_below="@id/bestimmung36"
+                    android:layout_below="@id/bestimmung32"
                     android:layout_centerHorizontal="true"/>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>

@@ -149,12 +149,12 @@
     <string name="Rezepte">Tarifler</string>
     <string name="r.rezept">Bir tarif ara...</string>
     <string name="r.anfanger">Yeni Başlayanlar</string>
-    <string name="r.rezeptintro">Lezzetli ve ilginç tarifler mi arıyorsunuz? O zaman bu tarifler tam size göre. Brooot'un işbirliği ile, zorluk derecesine göre 50 farklı tarif sunabiliyoruz, aynı zamanda mayalı hamur ve ekşi hamur tarifleri de bulunuyor.</string>
+    <string name="r.rezeptintro">Lezzetli ve ilginç tarifler mi arıyorsunuz? O zaman bu tarifler tam size göre. Brooot`un işbirliği ile, zorluk derecesine göre 50 farklı tarif sunabiliyoruz, aynı zamanda mayalı hamur ve ekşi hamur tarifleri de bulunuyor.</string>
     <string name="r.Rezepttitel1">Patatesli Ekmekler</string>
     <string name="r.Rezeptinfo1">Bu patatesli ekmekler küçük ve gerçekten nefis! Üstelik yeni başlayanlar için uygunlar, maya gerektirmezler.</string>
     <string name="r.bestimmungsauer">#EkşiHamur</string>
     <string name="r.Rezepttitel2">Klasik Basel Ekmeği</string>
-    <string name="r.Rezeptinfo2">İsviçre'nin en popüler ekmeklerinden biri Basel Ekmeği'dir. Dünya çapında tanınır ve tarifimle gerçekten kolayca pişirebilirsiniz.</string>
+    <string name="r.Rezeptinfo2">İsviçre`nin en popüler ekmeklerinden biri Basel Ekmeği`dir. Dünya çapında tanınır ve tarifimle gerçekten kolayca pişirebilirsiniz.</string>
     <string name="r.bestimmunghefe">#Maya</string>
     <string name="r.Rezepttitel3">Tam Buğday Tost Ekmeği</string>
     <string name="r.Rezeptinfo3">Benim için tam buğday tost ekmeği normal tereyağlı tosta göre daha sağlıklı ve lezzetlidir. İşte tarifi, vegan ve non-vegan versiyonlarıyla.</string>
@@ -179,7 +179,7 @@
     <string name="r.Rezepttitel13">Hamursuz Tencere Ekmeği Elma ve Haşhaş Tohumlarıyla</string>
     <string name="r.Rezeptinfo13">Ekmek rutininizde biraz farklılık istediğinizde, bu elmalı ve haşhaşlı tencere ekmeği işinize yarayabilir. Ve yoğurmanız da gerekmez.</string>
     <string name="r.Rezepttitel14">Klasik Bern Ekmek</string>
-    <string name="r.Rezeptinfo14">Bern Ekmek, İsviçre'nin her yerinde tanınan ve İsviçre ekmeği kültürünün klasik bir örneğidir. Lezzetli ruch unu ile hızlıca yapılabilir.</string>
+    <string name="r.Rezeptinfo14">Bern Ekmek, İsviçre`nin her yerinde tanınan ve İsviçre ekmeği kültürünün klasik bir örneğidir. Lezzetli ruch unu ile hızlıca yapılabilir.</string>
     <string name="r.Rezepttitel15">Basit Hamur ve Buzdolabında Soğuk Fermantasyonlu Buğday Ekmeği</string>
     <string name="r.Rezeptinfo15">Standart buğday unlarıyla yapılan hafif, açık renkli bir ekmek ve buzdolabında uzun bir fermantasyon süreci ile harika lezzetli bir şekilde ya taze dilimlenmiş olarak ya da ertesi gün tostlanmış olarak harika tat verir.</string>
     <string name="r.Rezepttitel16">Kabuklu Tam Buğday Ekmeği Kasten</string>
@@ -191,7 +191,7 @@
     <string name="r.Rezepttitel19">Mayalı Çiftçi Ekmeği</string>
     <string name="r.Rezeptinfo19">İyi bir çiftçi ekmeği mutlaka ekşi hamurla yapılması gerekmez. Benim Biga maya ile yapılan çiftçi ekmeğim bunu kanıtlıyor.</string>
     <string name="r.Rezepttitel20">Rustik Çiabatta Kabuğu</string>
-    <string name="r.Rezeptinfo20">Rustik kabuğuyla çiabatta'yı farklı bir şekilde deneyin; hem lezzetli hem de görsel olarak etkileyici.</string>
+    <string name="r.Rezeptinfo20">Rustik kabuğuyla çiabatta`yı farklı bir şekilde deneyin; hem lezzetli hem de görsel olarak etkileyici.</string>
     <string name="r.Rezepttitel21">Evden Çalışma Çıkışı Ekmek</string>
     <string name="r.Rezeptinfo21">Evden çalışırken pişirebileceğiniz bir ekmek! Sabah başlatılır, çıkışta pişirilir. Maya ile veya ekşi hamursuz, hamur işi sevenler için bir ekmek zevki.</string>
     <string name="r.Rezepttitel22">Havuçlu Süper Yumuşak Bahar Ekmek</string>
@@ -203,7 +203,7 @@
     <string name="r.Rezepttitel25">Türk Pide Ekmeği Kendi Yap</string>
     <string name="r.Rezeptinfo25">Dünya çapında tanınan "Pide" olarak da bilinen Türk pide ekmeği, ev fırınında yapımı oldukça kolay ve lezzetlidir!</string>
     <string name="r.Rezepttitel26">Pane Vallemaggia</string>
-    <string name="r.Rezeptinfo26">Pane Vallemaggia: İsviçre'nin Ticino bölgesinden aromatik, oldukça koyu bir ekmek. Çıtır kabuğu ve açık gözenek yapısıyla dikkat çekiyor.</string>
+    <string name="r.Rezeptinfo26">Pane Vallemaggia: İsviçre`nin Ticino bölgesinden aromatik, oldukça koyu bir ekmek. Çıtır kabuğu ve açık gözenek yapısıyla dikkat çekiyor.</string>
     <string name="r.Rezepttitel27">Tohum Bombası</string>
     <string name="r.Rezeptinfo27">Eğer gerçekten etkileyici bir şey yapmak isterseniz, bu harika tohumlu ekmeği pişirirsiniz. Üçte biri tohumla dolu olan gerçek bir "tohum bombası".</string>
     <string name="r.Rezepttitel28">Ruşeş Tam Buğday Ekmeği Tarifi</string>
@@ -231,7 +231,7 @@
     <string name="r.Rezepttitel39">Ruchbrot Çubukları</string>
     <string name="r.Rezeptinfo39">Akşam yemekleri için mükemmel olan alışılmadık bir baget formuna sahip Ruchbrot çubukları. Uzun süreli olgunlaştırılmış, dilediğiniz zaman fırına atın.</string>
     <string name="r.Rezepttitel40">Maillard Değirmeni Kabuğu</string>
-    <string name="r.Rezeptinfo40">Kesinlikle standart bir ekşi hamur değil: Maillard Değirmeni Kabuğu kalın, çıtır kabuğa sahiptir ve lezzet açısından özeldir. Blog'un bu bölümünde önemli bir vurgu yapılıyor.</string>
+    <string name="r.Rezeptinfo40">Kesinlikle standart bir ekşi hamur değil: Maillard Değirmeni Kabuğu kalın, çıtır kabuğa sahiptir ve lezzet açısından özeldir. Blog`un bu bölümünde önemli bir vurgu yapılıyor.</string>
     <string name="r.Rezepttitel41">Einkorn Eski Ekmek Ekşi Hamurlu Ekmek</string>
     <string name="r.Rezeptinfo41">Bol miktarda eski ekmek, einkorn tam buğday unu ve ekşi hamur: Ekmek için en iyi kombinasyonlardan biri. Bu lezzetli ekmeği burada kanıtlıyoruz.</string>
     <string name="r.Rezepttitel42">Bira ile Pişirilmiş Tahıl Ekmeği</string>
@@ -239,6 +239,5 @@
     <string name="schon_gebacken">zaten pişirildi</string>
     <string name="salz">Tuzu Terazisiz Tartmak</string>
     <string name="salztext">Kaşıkla tuz tartmak isterseniz, lütfen bu sadece kabaca bir yöntem olduğunu ve mutfak terazisi kadar kesin olmadığını unutmayın. Kaşık farklı boyutlarda olabilir, bu da farklı miktarlara yol açabilir. İşte yaklaşık tahminler: Bir dolu tatlı kaşığı tuz yaklaşık 10 gramdır. Bir dolu yemek kaşığı tuz yaklaşık 20 gramdır.</string>
-    <string name="impressum">İletişim: HefeHelfer@web.de \n \n Krediler: Uygulamayı çeviren ve gelişimde test aşamasında bulunan kişilere özel teşekkürler. \n \n Özellikle, resim ve simgeleri oluşturan Alex Wucherer'a teşekkürler. Uzman bir illüstratör arıyorsanız, doğru adrestir: https://alexwucherer.com \n \n Ayrıca, resimler ve tarif başlıkları için René'e de teşekkürler. Web sitesinde daha fazla ilgi çekici tarif ve pişirme konusunda bilgi bulabilirsiniz. https://www.brooot.de/</string>
-
+    <string name="impressum">İletişim: HefeHelfer@web.de  Krediler: Uygulamayı çeviren ve gelişimde test aşamasında bulunan kişilere özel teşekkürler. Özellikle, resim ve simgeleri oluşturan Alex Wucherer`a teşekkürler. Uzman bir illüstratör arıyorsanız, doğru adrestir: https://alexwucherer.com Ayrıca, resimler ve tarif başlıkları için René de teşekkürler. Web sitesinde daha fazla ilgi çekici tarif ve pişirme konusunda bilgi bulabilirsiniz. https://www.brooot.de/ </string>
 </resources>
