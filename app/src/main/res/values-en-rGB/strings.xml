@@ -239,6 +239,7 @@
     <string name="schon_gebacken">already baked</string>
     <string name="salz">Weighing salt without scales</string>
     <string name="salztext">If you want to weigh salt with spoons, please note that this is only a rough method and not as accurate as a kitchen scale. Spoons come in different sizes, which can result in different amounts.Here are rough estimates:A heaped teaspoon of salt is about 10 grams. A heaped tablespoon of salt is about 20 grams.</string>
+    <string name="impressum">Contact: HefeHelfer@web.de     Credits: Special thanks to the people who helped translate the app and were available as testers during development.     Especially to Alex Wucherer, for creating the baking images and icons. If anyone is looking for a competent illustrator, he is the right person: https://alexwucherer.com.     René also deserves special mention for providing the pictures and titles of the recipes. You can find more exciting recipes and information about baking on his site. https://www.brooot.de/</string>
 
 
 </resources>

@@ -4,40 +4,40 @@
     <string name="nav_header_title">Yeast calculator</string>
     <string name="menu_home">Yeast calculator</string>
     <string name="menu_gallery">Tips for baking</string>
-    <string name="menu_slideshow">Holiday baking</string>
+    <string name="menu_slideshow">Baking on vacation</string>
     <string name="menu_fach">Technical terms</string>
     <string name="menu_settings">Settings</string>
     <string name="menu_spenden">Support us!</string>
     <string name="f.lass">Take your time</string>
-    <string name="f.immer">Time and again you see so-called \"express recipes\" for baking bread on the internet. &#10;These promise fresh, homemade bread within a few hours - usually with the help of very large amounts of yeast. &#10;Of course, this can be useful if you want to bake fresh bread spontaneously and hardly have the time. &#10;However, if you bake more regularly and are interested in a much more intensive taste, I advise you to switch to the so-called \"long-term leavening\". &#10;For the optimal yeast quantity calculation of your favourite recipe, use this calculator.</string>
-    <string name="f.jedes">Every loaf deserves to be &#10;baked!</string>
-    <string name="f.nichts">" Don't rush things"</string>
-    <string name="f.orga">" Get organised before baking"</string>
-    <string name="f.ruck">Setbacks are part of the game - even when baking bread. &#10;Especially in the beginning, you will make many mistakes: accidentally using the wrong ingredients, wrong quantities or a classic overproofing. &#10;Often the dough looks like it should be thrown away. &#10;My advice to you: give the dough a chance and put it in the oven. &#10;Maybe the result will surprise you and you will discover a new favourite product.</string>
-    <string name="f.dingen">As with so many things, no master has fallen from the sky. &#10;You should also be aware of this when choosing a recipe. &#10;Of course, recipes with an incredible number of ingredients sound incredibly exciting, but I still recommend starting with smaller recipes. &#10;Once you have a feel for different doughs and your basic recipes work, &#10;you can move on to more advanced recipes and inspire others with your knowledge.</string>
-    <string name="f.teiglinge">" When will my dough or dough pieces be ready ?"</string>
-    <string name="f.daumen">Especially at the beginning it is difficult to develop a feeling for the dough. How long do I have to knead my dough or how long does my dough have to rest? These are two questions I often asked myself at the beginning. There are simple tricks for this &#10;&#10; kneading time: For this you can take a piece of dough that is about the size of a walnut and hold it between your hands. &#10;Gently and sensitively pull the piece of dough apart with both hands so that a thin layer of dough forms. &#10;This layer of dough should be pulled so thin that light can shine through. If this thin layer of dough tears, the dough has not been kneaded enough. &#10;&#10;Proofing time: For this \"problem\" there is the so-called thumb test. &#10;Press a slight notch into your dough with your thumb. &#10;If the notch springs right back, the dough is not quite ready. &#10;If the notch does not return to its original shape, the dough has been proofing too long. &#10;For optimal proofing time, the notch springs back slightly, but not to the 100% original shape.</string>
-    <string name="s.einwaagen">" No scales for the weights"</string>
-    <string name="s.mehl">Weighing out flour without scales</string>
+    <string name="f.immer">Time and again you may find so called \"Express Recipes\" for baking bread online. They promise fresh, home made bread within a few hours, often with the addition of huge amounts of yeast. Of course, this may be helpful if you want to bake fresh bread on the spur of a moment with little time available. However, if you decide to bake more regularly, with an interest in a markedly tastier result, I propose that you move towards the so called \"Long-Term Fermentation\" You can use this calculator to determine the perfect amount of yeast for your favourite recipy.</string>
+    <string name="f.jedes">Each loaf of bread deserves to be baked  through thoroughly</string>
+    <string name="f.nichts">Do not rush</string>
+    <string name="f.orga">Prepare yourself before baking</string>
+    <string name="f.ruck">Setbacks are part of it all - even when baking bread.#You will make a lot of mistakes, especially in the beginning: accidentally using the wrong ingredients, wrong quantities of ingredients, or a classic bread overproofing. Often the dough looks like it needs to be thrown out. My advice to you: Give the dough a chance and place it in the oven. You might be surprised by the result and you\'ll discover a new favorite product.</string>
+    <string name="f.dingen">"As with so many things, no  one is born a master. You should be aware of this whenever you chose a recipy. Of   course, the recipes with an incredible number of ingredients sound incredibly exciting, nevertheless I still recommend that you start with easier recipes at the beginning. As soon as you develop a feel for different dough, your basic recipes will begin working well, you can move on to more advanced recipes and inspire others with your knowledge.  "</string>
+    <string name="f.teiglinge">When will my dough or dough pieces be ready ?</string>
+    <string name="f.daumen">" For a beginner it is difficult to develop a feel for the dough. How long do I still have to knead my dough or how long does my dough have to rest. These are 2 questions I often asked myself at the beginning. There are simple tricks for this: Kneading time: For this you can take a piece of dough,   about the size of a walnut and hold it between your hands. Pull the piece of dough apart, with both hands, with great care and diligence, until a thin layer of dough forms. This layer of dough should be stretched thin enough for light to shine through it. If this thin layer of dough tears, the dough is not kneaded enough. Proofing time of the dough: To solve this \"problem\" there is the so-called thumb test. Use your thumb to make a slight indent in your dough. If the indent springs back immediately, the dough is not quite ready yet. If the indent does not spring back into its original shape at all, the dough has been proofing for too long. For the optimal proofing time, the indent springs back slightly, but not into its 100% original shape. "</string>
+    <string name="s.einwaagen">No scale for the weights</string>
+    <string name="s.mehl">Weigh out flour without scales</string>
     <string name="s.Mehlvolumen">Flour volume</string>
     <string name="s.Durchmesser">Diameter</string>
     <string name="s.Gramm">Gram</string>
-    <string name="s.Hefe">Weighing yeast without scales</string>
-    <string name="s.Knetmaschine">" Kneading without a kneading machine"</string>
+    <string name="s.Hefe">Weigh yeast without scales</string>
+    <string name="s.Knetmaschine">Kneading without kneading machine</string>
     <string name="s.Arbeitsfläche">Kneading with work surface</string>
-    <string name="s.ohneArbeitsflaeche">Kneading without a work surface</string>
-    <string name="s.Überschrift">Holiday baking</string>
-    <string name="s.BBQ">Who hasn\'t experienced it: You go on holiday and want to make a flatbread to go with the BBQ. &#10;Unfortunately, your holiday home has neither a scale nor a kneading machine. &#10;There are various solutions to these problems.</string>
+    <string name="s.ohneArbeitsflaeche">Kneading without work surface</string>
+    <string name="s.Überschrift">Baking on vacation</string>
+    <string name="s.BBQ">"Does the following sound familiar? You go on vacation and want to bake a flatbread to go with the BBQ. Unfortunately, your holiday apartment has neither a scale nor a kneading machine. There are different solutions to these problems.                   "</string>
     <string name="s.go">Go</string>
-    <string name="s.mehlwaage">To measure the flour without scales, there is a simple solution: &#10;You use the bulk density of flour. &#10;The bulk density indicates how heavy a substance is in relation to a certain volume. Water, as an example, has a bulk density of 1, which means that 1000 ml of water weighs 1 kg. &#10;Flour, on the other hand, is lighter than water. So 1000 ml of flour weighs only about 500-600g. Now you can use a container - preferably with a calibration mark - to weigh the flour. &#10;Enter the ml number into the calculator and the number of grams will be calculated.</string>
-    <string name="s.Hefewaage">To measure a quantity of yeast without a scale, you can simply form your fresh yeast into a ball. &#10;Depending on the diameter of the yeast ball, the weight of the yeast can be estimated. &#10;Simply measure the size (millimetres) of the ball with the ruler on the screen and enter the value into the calculator. &#10;The amount of yeast will be given to you in grams. Of course, these are not absolutely exact values, &#10;but it will be enough for your holidays and your spontaneous baking desire.</string>
-    <string name="s.Schüssel">If you do not have space for kneading, use a bowl and a wooden spoon. &#10;This variant is based on the lift kneader used in industry. &#10;You mix all the ingredients in a bowl and mix them by hand or with a wooden spoon. &#10;In the second step, you place your mixer at one end of the bowl and pull the dough to the middle of the bowl. Then turn the bowl a few centimetres, start again at the edge and pull the dough to the middle of the bowl. &#10;Repeat this process until your dough stretches well without tearing.</string>
-    <string name="s.Arbeitsflaeche">If you have a work surface for kneading, you can use this variant. &#10;There you also mix all the ingredients at the beginning. You can also use a bowl or directly your work surface for this. &#10;This method is based on a sprial kneader, which creates a force effect from top to bottom. &#10;To do this, you reach under the dough with your hand and fold it over itself. Then press the folded piece of dough into the dough from top to bottom. &#10;After this step, the bowl is turned a few centimetres and the kneading process starts again: You reach under the dough, fold it over itself and press the folded piece into the rest of the dough.</string>
-    <string name="s.Kneter">To make dough without a kneader, you can use the efficiency of industrial kneaders as a guide&#10;For holidays, two methods are suitable, which differ in whether you have a worktop available for kneading or not&#10;With both methods, it should be noted that the kneading time is longer than with a machine. To estimate approximately when your dough has been kneaded long enough, there is the so-called window test. &#10;(see -Tips- When is my dough or my dough pieces ready?)</string>
-    <string name="h.Hefeberechnung">Yeast \n calculation</string>
+    <string name="s.mehlwaage">"To measure the flour without a scale, there is a simple solution: You use the bulk density of flour. The bulk density indicates how heavy a substance is in a given volume. Water, as an example, has a bulk density of 1. This means that 1000 ml of water weigh 1 kg. Flour, however, is lighter than water. Therefore, 1000 ml of flour only weigh   about 500-600g. Now you can use a simple cup, or a measuring cup to weigh the flour. Enter the ml number into a calculator and the number of grams will be calculated. "</string>
+    <string name="s.Hefewaage">"To measure the amount of yeast without a scale, you can simply shape your fresh yeast into a ball.  Depending on the diameter of the yeast ball, the weight of the yeast can be estimated. Just use the ruler on the screen to measure the size (millimeters) of the ball and enter the value into the calculator. You will receive the amount of yeast in grams. Of course, these are not absolutely accurate values, but they will suffice for the holiday and your spontaneous desire to bake.                    "</string>
+    <string name="s.Schüssel">In case you don\'t have a kneading space, just use a bowl and a wooden spoon. This variant is based on the industrial L- shaped paddelkneader. For this purpose you mix all the ingredients in a bowl and mix them with your hand or a wooden spoon. In the second step you place the mixer at one end of the bowl  and use it to pull the dough into the middle of the bowl. Then you turn the bowl a few centimeters, start again at the edge and pull the dough into the middle of the bowl. Repeat this process until your dough stretches well without tearing</string>
+    <string name="s.Arbeitsflaeche">If you have a work surface for kneading, you may resort to this variant. There you also mix all the ingredients to start off with. For this purpose you may also use a bowl or your work surface. This procedure is based on a spiral kneader, in which forces are applied from top to bottom. To do this, reach under the dough with your hand and fold it over itself. Following this, the folded piece of dough is pressed into the dough from top to bottom. Finally, the bowl is rotated a few centimeters and the kneading process starts again: You reach under the dough, fold it over itself and press the folded piece into the rest of the dough.</string>
+    <string name="s.Kneter">In order to make dough without a kneading machine, you can use the  mode of operation of industrial kneaders as a guide. There are two modes for holidays, which differ in whether you have a workbench available for kneading or not. With both methods, one should take into consideration that the kneading time is longer than with a machine. In order to get an approximate estimate when your dough has been kneaded long enough, you may use the so-called window test.(see -Tips- When is my dough or my pieces of dough ready?)</string>
+    <string name="h.Hefeberechnung">Yeast   calculation</string>
     <string name="h.Mehlgewicht">Flour weight</string>
     <string name="h.inGramm">in gram</string>
-    <string name="h.Teigruhe">Dough rest(h:min)</string>
+    <string name="h.Teigruhe">Dough rest (h:min)</string>
     <string name="h.h">h</string>
     <string name="h.min">min</string>
     <string name="h.Temperatur">Temperature in °C</string>
@@ -45,13 +45,13 @@
     <string name="h.berechnen">Calculate</string>
     <string name="h.frischhefe">Fresh yeast</string>
     <string name="h.oder">or</string>
-    <string name="h.Trockenhefe">"Dry yeast "</string>
-    <string name="h.Sauerteihg">"Sourdough "</string>
-    <string name="h.Teigruhebeendet">Dough rest is finished at:</string>
+    <string name="h.Trockenhefe">Dry yeast</string>
+    <string name="h.Sauerteihg">Sourdough</string>
+    <string name="h.Teigruhebeendet">Dough resting is finished at:</string>
     <string name="e.Uschrift">Settings</string>
     <string name="Frage">\?</string>
     <string name="w.Fachbegriffe">Technical terms</string>
-    <string name="w.Woerter">Especially at the beginning, you will come across many foreign words that you don\'t know yet. To help you get started, I\'ll list the terms that are most important to me and explain them to you.</string>
+
     <string name="w.Stockgare">" bulk fermentation"</string>
     <string name="w.vordemformen">Rest the dough after kneading but before shaping.</string>
     <string name="w.Stueckgare">Piece fermentation:</string>
@@ -72,63 +72,26 @@
     <string name="w.synonym">Used as a synonym for shaping the dough.</string>
     <string name="w.ausbund">Bloom</string>
     <string name="w.ausbunderklaert">The torn part of the crust, which is formed during the baking process, is called the collar. This can be caused by a cut or by accident.</string>
+
+    <string name="w.Woerter">Especially in the beginning you will encounter many foreign words that you do not know yet. To help you get started, I\'ll list the most important terms for me and explain them to you.</string>
     <string name="settings.Entwickler">The developers introduce themselves:</string>
     <string name="settings.michi">Michi</string>
     <string name="settings.sebi">Sebi</string>
-    <string name="VorstellungMichi">My name is Michael. My professional journey began with an apprenticeship as a food technology specialist. Even then, it was clear to me that I wanted to combine my passion for food and technology to develop innovative products and advance the food industry. In the following two years, I was allowed to work in the quality department and thus gained a deep insight into the processes and standards that are essential for the production of high-quality and safe food. After my apprenticeship, I continued my education and graduated as a technician in food technology. Now I am about to start a new chapter in my career: soon I will begin a degree in biochemistry. I am very much looking forward to this challenge as it will allow me to broaden and deepen my knowledge to delve even deeper into the scientific aspects of food development. Away from my professional career, football and music club are my great passions. In football, I not only have the opportunity to be active in sports, but also to work in a team and achieve goals together. In my free time, I am always open to new experiences. I enjoy going on hikes to enjoy nature and also like to try my hand in the kitchen to create new recipes.</string>
-    <string name="VorstelungSebi">My name is Sebi and I am happy to introduce myself to you. My path began with my A-levels at the Technical High School, where I discovered my enthusiasm for technology and innovation. This was followed by my studies in computer science, which introduced me to the fascinating world of programming and digital technologies.  During my studies, I developed a particular passion for the field of autonomous driving. The idea of having vehicles navigate autonomously with the help of artificial intelligence and advanced algorithms fascinates me immensely. It is an area that is constantly growing and will have a significant impact on the future of mobility.  Besides my professional career, I am an avid mountain biker. Exploring nature and experiencing the thrill of off-road riding gives me the time out I need from the hustle and bustle of everyday life. It helps me clear my head and recharge my batteries to engage in my projects and challenges.</string>
+    <string name="VorstellungMichi">My name is Michi. My professional journey began with an apprenticeship as a food technology specialist. Even then, it was clear to me that I wanted to combine my passion for food and technology to develop innovative products and advance the food industry.   In the following two years, I was allowed to work in the quality department and thus gained a deep insight into the processes and standards that are essential for the production of high-quality and safe food.   After my apprenticeship, I continued my education and graduated as a technician in food technology. Now I am about to start a new chapter in my professional career:   I will soon be starting a biochemistry degree. I am very much looking forward to this challenge, as it will allow me to broaden and deepen my knowledge and delve even deeper into the scientific aspects of food development.  Away from my professional career, soccer and music club are my great passions. In soccer, I not only have the opportunity to be active in sports, but also to work in a team and achieve goals together. In my free time I am always open to new experiences. I like to go on hikes to enjoy nature and also like to try my hand in the kitchen to create new recipes.</string>
+    <string name="VorstelungSebi">My name is Sebi. My path began with my Abitur at the Technical High School, where I discovered my enthusiasm for technology and innovation.  This was followed by my studies in computer science, which introduced me to the fascinating world of programming and digital technologies.  During my studies, I developed a particular passion for the field of autonomous driving. The idea of having vehicles navigate autonomously using artificial intelligence and advanced algorithms fascinates me immensely. It is an area that is constantly growing and will have a significant impact on the future of mobility.   In addition to my professional career, I am an avid mountain biker. Exploring nature and experiencing the thrill of off-road riding gives me the time out I need from the hustle and bustle of everyday life. It helps me clear my head and recharge my batteries to engage in my projects and challenges.</string>
     <string name="action_settings">Settings</string>
     <string name="spenden.unterstuetzen">How can you support us?</string>
-    <string name="spenden.arten">You can support us in three different ways. You have the option to buy a delicious digital fortune biscuit for only 1€ and then receive a future reading directly after the purchase. But don\'t worry, the app of course remains free in any form and can be used without donations without any restrictions. If you don\'t want to spend money on this biscuit, you can click the button for the -free- fortune biscuit instead. All you have to do is watch a short promotional video in its entirety and you will immediately receive your fortune reading without having to pay anything. And if you don\'t like a fortune biscuit or a future reading, there is still another way you can support us. You can use the button on our Ko-Fi page to leave a contribution for our coffee fund if you like. But again, the use of the app remains free of charge and without any restrictions. Your help is greatly appreciated in any form, and we thank you for your support!</string>
-    <string name="spenden.keks">Fortune biscuit for 1€</string>
-    <string name="spenden.Kaffeekasse">Coffee fund</string>
-    <string name="spenden.kostenloser">free fortune biscuit</string>
-    <string name="spenden.buttonKeks">Fortune biscuit</string>
-    <string name="spenden.txtkeks">With this button you can buy a delicious digital fortune biscuit for only 1€ and receive your personal future reading afterwards. The fortune biscuit not only brings joy, but also gives you an insight into your future!  Please note that the fortune biscuit is purchased with real money.</string>
-    <string name="spenden.txtkostenkeks">With this special button you get a free fortune biscuit. It\'s very simple: press the button, watch the short commercial that pops up, and after you close the commercial, you\'ll immediately get the interpretation of your future. The best part is that this version of the biscuit is completely free for you! At the same time, it\'s a meaningful opportunity for us, as the ad revenue allows us to further improve the app so you can enjoy and benefit from it even more. So what are you waiting for? Get your free fortune biscuit and receive an exciting reading of the future!</string>
+    <string name="spenden.arten">You are welcome to support us in three different ways.   You have the possibility to buy a delicious digital fortune cookie for only 1€ and then receive a future interpretation directly after the purchase.  But don\'t worry, the app will of course remain free in any form and can be used without donations without any restrictions.  If you don\'t want to spend money on this cookie, you can click the button for the -free- fortune cookie instead. There, all you have to do is watch a short promotional video in its entirety and you will immediately receive your future reading without having to pay anything.  And if you don\'t like a fortune cookie or a future reading, there is still another way you can support us.  Using the button on our Ko-Fi page, you can leave us a contribution for our coffee fund if you like.  But again emphasized: the use of the app remains free of charge and without any restrictions in any case. Your help is greatly appreciated in any form, and we thank you very much for your support!</string>
+    <string name="spenden.keks">Fortune cookie for 1€</string>
+    <string name="spenden.Kaffeekasse">Coffee Fund</string>
+    <string name="spenden.kostenloser">Free fortune cookie</string>
+    <string name="spenden.buttonKeks">Fortune cookie</string>
+    <string name="spenden.txtkeks">With this button you can buy a delicious digital fortune cookie for only 1€ and get your personal future reading afterwards. The fortune cookie not only brings joy, but also gives you an insight into your future! Please note that the purchase of the fortune cookie is done with real money</string>
+    <string name="spenden.txtkostenkeks">With this special button you will receive a free fortune cookie.   It\'s very simple: press the button, watch the short commercial that appears, and after you close the commercial, you\'ll immediately get the interpretation of your future.  The best part is that this version of the cookie is completely free for you! At the same time, it\'s a meaningful opportunity for us, as the ad revenue will allow us to further improve the app so that you can enjoy and benefit from it even more.  So what are you waiting for? Get your free fortune cookie and get an exciting reading of the future!</string>
     <string name="spenden.GeldfürunsereKaffeekasse">Money for our coffee fund</string>
-    <string name="spenden.txtKaffekasse">If you click on this button, you will be taken directly to our Ko-Fi page. There you have the possibility to give us a freely selectable amount into our coffee fund with the payment method of your choice. With this money we can buy our elixir of life, coffee, and also work on improvements for the app at night.  Because as the saying goes: -Believe in miracles, love and above all coffee.    Your support is a huge help to us in making the app even better and more user-friendly. We are incredibly grateful for every contribution that enables us to continue our passion for this app and constantly improve it.  So, if you\'d like to support us and give us a cup of coffee, we\'d love any contribution you can give.  Of course, it is important for me to point out that you should not spend your last money on this app. If you are already struggling to scrape together money for important expenses like rent, just enjoy this wonderful free app and keep your money for the things that really matter to you.  Your satisfaction and well-being are very important to us and we don\'t want you to burden yourself financially in any way. The use of the app remains completely free and unlimited, so you can enjoy it at any time without any worries.</string>
-    <string name="Spracheaendern">In which language do you want to display the app?</string>
-    <string name="Code1">Today is your lucky day. Proceed with courage!</string>
-    <string name="Code2">You will soon experience an unexpected joy.</string>
-    <string name="Code3">Believe in yourself, for you are more capable than you think.</string>
-    <string name="Code4">The best things in life are still on their way to you.</string>
-    <string name="Code5">Be patient, good things take time.</string>
-    <string name="Code6">Your creativity will lead you to great successes.</string>
-    <string name="Code7">Today is a day full of positive surprises.</string>
-    <string name="Code8">A smile can do wonders, try it out.</string>
-    <string name="Code9">Good things come to those who wait.</string>
-    <string name="Code10">Your perseverance will pay off, keep at it!</string>
-    <string name="Code11">Be open to new opportunities; they might surprise you.</string>
-    <string name="Code12">You have the ability to overcome obstacles.</string>
-    <string name="Code13">Todays difficulties will be tomorrow\'s memories.</string>
-    <string name="Code14">Believe in yourself, and others will too.</string>
-    <string name="Code15">Your intuition will guide you in the right direction.</string>
-    <string name="Code16">Set clear goals and pursue them persistently.</string>
-    <string name="Code17">You will soon receive a special opportunity.</string>
-    <string name="Code18">Look out for the small joys in life.</string>
-    <string name="Code19">Luck comes to those who think positively.</string>
-    <string name="Code20">Your perseverance will lead you to your destination.</string>
-    <string name="Code21">Leave the past behind and focus on the future.</string>
-    <string name="Code22">Trust your instincts; they will guide you.</string>
-    <string name="Code23">You will benefit from the support of your friends.</string>
-    <string name="Code25">You have the power to make your dreams come true.</string>
-    <string name="Code26">Treat others the way you want to be treated.</string>
-    <string name="Code27">Your resourcefulness will be admired.</string>
-    <string name="Code28">Today is a day to be grateful for what you have.</string>
-    <string name="Code29">The solution to your problem is already within you.</string>
-    <string name="Code30">There is always a reason to smile, find yours!</string>
-    <string name="Code31">The best time for a fresh start is now.</string>
-    <string name="Code32">Believe in the magic of beginnings; anything is possible.</string>
-    <string name="Code33">Your talents will soon be recognized.</string>
-    <string name="Code34">Celebrate the small progress you make.</string>
-    <string name="Code35">Hold on to your dreams; they are worth it.</string>
-    <string name="Code36">Your kindness will bring joy to others.</string>
-    <string name="Code37">The world is waiting to be discovered by you.</string>
-    <string name="Code38">Trust in your ability to overcome obstacles.</string>
-    <string name="Code39">You are unique; show the world your individuality.</string>
+    <string name="spenden.txtKaffekasse">If you click on this button, you will be taken directly to our Ko-Fi page.   There you have the possibility to give us a freely selectable amount into our coffee fund with the payment method of your choice. With this money we can buy our elixir of life, coffee, and also work on improvements for the app at night. Because as they say:  \'\'Believe in miracles, love and most of all coffee\'\'.   Your support is a huge help to us in making the app even better and more user-friendly.  We are incredibly grateful for every contribution that allows us to continue our passion for this app and constantly improve it.  So, if you want to support us and give us a cup of coffee, we appreciate any contribution you can give.  Of course, it is important for us to point out that you should by no means spend your last money on this app. If you are already struggling to scrape together money for important expenses like rent, then just enjoy this wonderful free app and rather keep your money for the things that are really important to you.  Your satisfaction and well-being are very close to our hearts and we don\'t want you to burden yourself financially in any way.  The use of the app remains completely free and unlimited, so you can enjoy it anytime without any worries.</string>
     <string name="Code40">Today is a day to help other people.</string>
-    <string name="rechner.beschreibung">Welcome to the practical recipe calculator! This intelligent tool makes it easy to convert quantities for recipes. Whether you want to bake more bread, make a smaller dish or want different portions - this calculator makes it easy! Found a delicious recipe but it\'s only for one portion? No more problem! Enter the amount of ingredients and choose a multiplier. Double the amount with 2 or halve it with 0.5. Other factors are also possible.</string>
+    <string name="rechner.beschreibung">Welcome to the handy recipe calculator! This smart tool makes it easy to convert quantities for recipes. Whether you want to bake more bread, make a smaller dish, or want different portions - this calculator makes it easy! Found a delicious recipe, but it\'s only for one serving? No more problem! Enter the ingredient amount and choose a multiplier. Double with 2 or halve with 0.5 the amount. Other factors are also possible.</string>
     <string name="rechner.Rezeptrechner">Recipe calculator</string>
     <string name="Zutat1">Ingredient 1</string>
     <string name="zutat2">Ingredient 2</string>
@@ -138,13 +101,183 @@
     <string name="zutat6">Ingredient 6</string>
     <string name="Multiplikator">Multiplier</string>
     <string name="Rezeptrechner">Recipe calculator</string>
-    <string name="h.sinn">Everyone who bakes bread knows the problem: tempting recipes, but the given dough resting times never fit. Either no time or the desire to slow down. Now the yeast calculator helps - it adapts yeast quantities to individual schedules and temperatures. No more discarding a recipe, enjoy flexible baking instead!</string>
+    <string name="h.sinn">Everyone who bakes bread knows the problem: Tempting recipes, but the given dough resting times never fit. Either no time or the desire for bread with little yeast. Now the yeast calculator helps - it adjusts yeast quantities to individual schedules and temperatures. No more discarding a recipe, enjoy flexible baking instead!</string>
     <string name="h.mehlerklear">Enter the amount of flour required according to the recipe.</string>
     <string name="h.dauererkleart">Indicate how long you want your dough to rest before baking.</string>
-    <string name="h.temperkleart">Enter the temperature of the place where your dough will rest, e.g. room temperature (23°C) or the refrigerator (approx. 7°C).</string>
-    <string name="keinlauf">no biscuit acquired yet</string>
+    <string name="h.temperkleart">Specify the temperature of the place where your dough will rest, for example, the room temperature (23°C) or the refrigerator (about 7°C).</string>
+    <string name="keinlauf">no cookie acquired yet</string>
     <string name="uhr">Clock</string>
-    <string name="f.vorfreude">Despite understandable anticipation of baking, structured preparation is sensible and necessary.   Anyone who has ever noticed that an ingredient is missing while kneading by hand and then tried to get it out of the cupboard and weigh it with dough-smeared hands knows what I\'m talking about.   So before you start baking, think about what you need and arrange it neatly on your work surface.  If you are missing a material, get creative.   For example, a pasta strainer with an inserted kitchen towel can be a great alternative to a proofing basket.</string>
+    <string name="f.vorfreude">" It makes sense, and is necessary to prepare yourself properly, no matter how much you look forward to the baking process. Anyone who has ever noticed a missing ingredient during the hand kneading process and then tried to #take it out of the cupboard with hands covered in dough and weigh it, knows what I'm talking about. Therefore, think about what you need before you start baking and set it up neatly on your work surface. If you are missing a tool, become creative. For example, a pasta sieve with a kitchen towel inserted into it, may be a superb alternative to a fermentation basket."</string>
+    <string name="Spracheaendern">Language required</string>
+    <string name="Code1">Today is your lucky day. Go forward boldly!</string>
 
+    <string name="Code2">You will soon experience an unexpected joy.</string>
+
+    <string name="Code3">Believe in yourself, because you´re more capable than you think.</string>
+
+    <string name="Code4">The best things in life are still on their way to you.</string>
+
+    <string name="Code5">Be patient, good things take time.</string>
+
+    <string name="Code6">Your creativity will lead you to great successes.</string>
+
+    <string name="Code7">Today is a day full of positive surprises.</string>
+
+    <string name="Code8">A smile can accomplish many things, give it a try.</string>
+
+    <string name="Code9">Good things come to those who wait.</string>
+
+    <string name="Code10">Your persistence will pay off, keep at it!</string>
+
+    <string name="Code11">Be open to new possibilities, they might surprise you.</string>
+
+    <string name="Code12">You have the ability to overcome obstacles.</string>
+
+    <string name="Code13">Today´s difficulties will be tomorrow´s memories.</string>
+
+    <string name="Code14">Believe in yourself, and others will too.</string>
+
+    <string name="Code15">Your intuition will guide you in the right direction.</string>
+
+    <string name="Code16">Set clear goals and pursue them persistently.</string>
+
+    <string name="Code17">You will soon receive a special opportunity.</string>
+
+    <string name="Code18">Keep an eye out for the small joys of life.</string>
+
+    <string name="Code19">Luck comes to those who think positively.</string>
+
+    <string name="Code20">Your endurance will bring you to the goal.</string>
+
+    <string name="Code21">Leave the past behind and focus on the future.</string>
+
+    <string name="Code22">Trust your instincts, they will guide you.</string>
+
+    <string name="Code23">You will benefit from the support of your friends.</string>
+
+    <string name="Code25">You have the power to make your dreams come true.</string>
+
+    <string name="Code26">Treat others as you want to be treated.</string>
+
+    <string name="Code27">Your resourcefulness will be admired.</string>
+
+    <string name="Code28">Today is a day to be thankful for what you have.</string>
+
+    <string name="Code29">The solution to your problem is already within you.</string>
+
+    <string name="Code30">There´s always a reason to smile, find yours!</string>
+
+    <string name="Code31">The best time for a fresh start is now.</string>
+
+    <string name="Code32">Believe in the magic of beginnings, anything is possible.</string>
+
+    <string name="Code33">Your talents will soon be recognized.</string>
+
+    <string name="Code34">Celebrate the small progress you make.</string>
+
+    <string name="Code35">Hold onto your dreams, they´re worth it.</string>
+
+    <string name="Code36">Your kindness will bring joy to others.</string>
+
+    <string name="Code37">The world is waiting to be discovered by you.</string>
+
+    <string name="Code38">Trust in your ability to overcome obstacles.</string>
+
+    <string name="Code39">You are unique, show the world your individuality.</string>
+    <string name="bewerte">Rate the app!</string>
+    <string name="Rezepte">Recipes</string>
+    <string name="r.rezept">Search for a recipe...</string>
+    <string name="r.anfanger">Beginner</string>
+    <string name="r.rezeptintro">Are you looking for delicious, exciting recipes? Then these recipes are just right for you. Thanks to the cooperation with Rene from Brooot, we can provide you with 50 different recipes by level of difficulty, as well as yeast recipes and sourdough recipes.</string>
+    <string name="r.Rezepttitel1">Potato roll</string>
+    <string name="r.Rezeptinfo1">These potato rolls are small and so really fine! And in addition they are still suitable for beginners, no sourdough is necessary.</string>
+    <string name="r.bestimmungsauer">#Sourdough</string>
+    <string name="r.Rezepttitel2">Classic Basel bread</string>
+    <string name="r.Rezeptinfo2">One of the most popular breads in Switzerland is the Basel bread. It is known worldwide and really easy to bake with my recipe.</string>
+    <string name="r.bestimmunghefe">#yeast</string>
+    <string name="r.Rezepttitel3">Wholemeal toast</string>
+    <string name="r.Rezeptinfo3">Whole wheat toast is healthier and for me tastier than regular buttered toast. Here you can find my recipe for it. Vegan and non-vegan.</string>
+    <string name="r.Rezepttitel4">All-in-One Joghurt-Brot</string>
+    <string name="r.Rezeptinfo4">You are looking for a bread that goes quickly and tastes incredibly delicious? My yogurt bread baked with yeast is such a bread.</string>
+    <string name="r.Rezepttitel5">Quick 5 hours beer bread</string>
+    <string name="r.Rezeptinfo5">Even with relatively little time and without sourdough you can bake a delicious bread. Like my quick 5-hour beer bread.</string>
+    <string name="r.Rezepttitel6">Make salt sticks yourself</string>
+    <string name="r.Rezeptinfo6">These salt sticks are incredibly tasty. The reason: the potato! It gives that certain something to the taste and crumb. This is how salt sticks must taste</string>
+    <string name="r.Rezepttitel7">Breakfast rolls</string>
+    <string name="r.Rezeptinfo7">These simple breakfast rolls can be prepared in the evening and then baked in the morning. So they are on the breakfast table in time.</string>
+    <string name="r.Rezepttitel8">Make pretzel rods yourself</string>
+    <string name="r.Rezeptinfo8">Almost everyone loves pretzel pastries, right? These pretzel sticks are super easy and simply delicious. Go for the lye!</string>
+    <string name="r.Rezepttitel9">Eat stupid bread 2.0</string>
+    <string name="r.Rezeptinfo9">The simple bread recipe popular with bread beginners in a healthier version. Just as delicious, but better tolerated.</string>
+    <string name="r.Rezepttitel10">All-in-one kefir crust</string>
+    <string name="r.Rezeptinfo10">You can bake this kefir bread either with yeast only or with sourdough. Either way, it tastes fantastic.</string>
+    <string name="r.Rezepttitel11">Bake burger buns yourself</string>
+    <string name="r.Rezeptinfo11">Burgers are sooo delicious! And you can easily bake the buns yourself at home. They taste much better than bought.</string>
+    <string name="r.Rezepttitel12">Toasties - toast buns</string>
+    <string name="r.Rezeptinfo12">These small, simple and delicious toast buns you can find not only in the supermarket, but you can easily make them yourself.</string>
+    <string name="r.Rezepttitel13">No-Knead Pot Bread with Apple and Poppy Seeds</string>
+    <string name="r.Rezeptinfo13">If it may be a little variety in the bread everyday life, this pot bread with apple and poppy comes just right. And it does not need to be kneaded.</string>
+    <string name="r.Rezepttitel14">Classic Bernese bread</string>
+    <string name="r.Rezeptinfo14">Bernerbrot is known throughout Switzerland and is a classic of Swiss bread culture. It is quickly baked with delicious Ruch flour.</string>
+    <string name="r.Rezepttitel15">Wheat bread with simple dough and cold fermentation in the refrigerator</string>
+    <string name="r.Rezeptinfo15">A mild, light bread with standard wheat flours and long fermentation in the refrigerator. Tastes great freshly sliced or toasted the next day.</string>
+    <string name="r.Rezepttitel16">Whole grain grain bread in box</string>
+    <string name="r.Rezeptinfo16">Bread doesn\'t really get much healthier than this great loaf with 100% whole grains. And the seeds, almonds and seeds provide plenty of bite.</string>
+    <string name="r.Rezepttitel17">Bavarian home bread</string>
+    <string name="r.Rezeptinfo17">A slightly lighter version of a classic Bavarian house bread. The ideal bread for your hearty snack.</string>
+    <string name="r.Rezepttitel18">Fendu mixed bread corners</string>
+    <string name="r.Rezeptinfo18">A delicious mixed bread to pluck! Perfect for parties, for a snack or just in between.</string>
+    <string name="r.Rezepttitel19">Yeast farmhouse bread</string>
+    <string name="r.Rezeptinfo19">A good farmhouse bread does not necessarily have to be baked with sourdough. This is shown by my yeast farmhouse bread with Biga vorteig.</string>
+    <string name="r.Rezepttitel20">The rustic ciabatta crust</string>
+    <string name="r.Rezeptinfo20">Ciabatta in a new form: With a rustic crust, it\'s even tastier and looks great.</string>
+    <string name="r.Rezepttitel21">The home office celebration dinner</string>
+    <string name="r.Rezeptinfo21">A bread that you can bake in the home office! Set in the morning and baked in the evening. A juicy bread joy for bakers with or without sourdough.</string>
+    <string name="r.Rezepttitel22">Super soft spring bread with carrot</string>
+    <string name="r.Rezeptinfo22">A box bread like I have never eaten before: Soft without end and really tasty. And the whole thing even without sourdough!</string>
+    <string name="r.Rezepttitel23">Sunflower seed bread</string>
+    <string name="r.Rezeptinfo23">A classic among healthy breads is sunflower seed bread. My version is super fluffy and crunchy at the same time.</string>
+    <string name="r.Rezepttitel24">French baguette bake yourself</string>
+    <string name="r.Rezeptinfo24">Making a nice classic French baguette yourself is not difficult at all. It has a great crust and aromatic crumb ripened overnight.</string>
+    <string name="r.Rezepttitel25">Turkish flatbread/pide - Ramazan pidesi</string>
+    <string name="r.Rezeptinfo25">The world-famous flatbread, also called pide, is quick and easy to make and tastes twice as good from the home oven!</string>
+    <string name="r.Rezepttitel26">Pane Vallemaggia</string>
+    <string name="r.Rezeptinfo26">The Pane Vallemaggia: A very aromatic, relatively dark bread from the Swiss Ticino. It convinces with a crispy crust and an open pore.</string>
+    <string name="r.Rezepttitel27">The seed bomb</string>
+    <string name="r.Rezeptinfo27">If you want to really impress, bake this great seeded bread. With a third of seeds, it\'s a real seed bomb.</string>
+    <string name="r.Rezepttitel28">Recipe for wholemeal rye bread</string>
+    <string name="r.Rezeptinfo28">Recipe for wholemeal rye bread</string>
+    <string name="r.Rezepttitel29">Seedy root bread with wheat and rye</string>
+    <string name="r.Rezeptinfo29">An unconventional bread shape that is gaining more and more fans: the root. Make bread dough, twist, bake, done! That\'s how easy it is to bake a root loaf.</string>
+    <string name="r.Rezepttitel30">Potato beer crust bread</string>
+    <string name="r.Rezeptinfo30">Wonderful rustic crusty bread with long fermentation at low room temperature. Particularly easy to prepare and quickly in the oven the next day.</string>
+    <string name="r.Rezepttitel31">Refreshing twin breads</string>
+    <string name="r.Rezeptinfo31">Lots of sourdough leftovers and a delicious beer, make these twin breads what they are: damn good breads!</string>
+    <string name="r.Rezepttitel32">Knorzen root bread</string>
+    <string name="r.Rezeptinfo32">A Weinknorzen is a twisted root bread. This sourdough Knorzen here has an airy crumb and by twisting much crispy exterior.</string>
+    <string name="r.Rezepttitel33">Sourdough baguette</string>
+    <string name="r.Rezeptinfo33">Making a nice classic French baguette yourself is not difficult at all. It has a great crust and aromatic crumb ripened overnight.</string>
+    <string name="r.Rezepttitel34">Recipe for Frankenlaib</string>
+    <string name="r.Rezeptinfo34">One of the original classics of German bread baking history is the Frankenlaib. Hearty and intense in flavor. A great sourdough bread.</string>
+    <string name="r.Rezepttitel35">1050 bread</string>
+    <string name="r.Rezeptinfo35">No frills, just a really nice rustic sourdough bread baked with 1050 wheat flour. Juicy, crispy and delicious and in addition a simple recipe.</string>
+    <string name="r.Rezepttitel36">Six grain bread</string>
+    <string name="r.Rezeptinfo36">Are you looking for the ideal bread for a snack? Then you are right with my six-grain bread. It is simply extremely delicious and ideal for a snack.</string>
+    <string name="r.Rezepttitel37">Focaccia in box</string>
+    <string name="r.Rezeptinfo37">An atypical shape for a focaccia, but so incredibly delicious and juicy. The focaccia in the box is a recipe to fall in love with!</string>
+    <string name="r.Rezepttitel38">Farm bread in box</string>
+    <string name="r.Rezeptinfo38">The popular farmer\'s bread in a variant suitable for everyday use baked in a box. Typically aromatic and very soft and tasty.</string>
+    <string name="r.Rezepttitel39">Ruchbrot bars</string>
+    <string name="r.Rezeptinfo39">An unusual baguette shape, perfect for dinner, these Ruchbrot sticks have. Long matured, they are ready to bake whenever you want.</string>
+    <string name="r.Rezepttitel40">The Maillard mill crust</string>
+    <string name="r.Rezeptinfo40">Definitely not a standard bread, the Maillard Mill Crust has a thick, crispy crust and is quite special in taste. A highlight here on the blog.</string>
+    <string name="r.Rezepttitel41">Einkorn old bread with sourdough</string>
+    <string name="r.Rezeptinfo41">Lots of stale bread, single grain whole wheat flour and sourdough: one of the best combinations for bread ever. Proves this delicious bread here.</string>
+    <string name="r.Rezepttitel42">Bread with cereals cooked in beer</string>
+    <string name="r.Rezeptinfo42">Perhaps one of my most beautiful breads, in any case extremely tasty. The bread with cereals cooked in beer.</string>
+    <string name="schon_gebacken">already baked</string>
+    <string name="salz">Weigh salt without scales</string>
+    <string name="salztext">If you want to weigh out salt with spoons, please note that this is only a rough method and not as accurate as a kitchen scale. Spoons come in different sizes, which can result in different amounts.Here are rough estimates:A heaping teaspoon of salt equals about 10 grams. A heaping tablespoon of salt equals about 20 grams.</string>
+    <string name="impressum">"Contact: HefeHelfer@web.de "</string>
 
 </resources>
