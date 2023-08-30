@@ -240,4 +240,9 @@
     <string name="salz">Pesare il sale senza bilancia</string>
     <string name="salztext">Se volete pesare il sale con i cucchiai, tenete presente che questo è solo un metodo approssimativo e non è preciso come una bilancia da cucina. I cucchiai sono di dimensioni diverse e possono dare luogo a quantità diverse. Ecco delle stime approssimative: un cucchiaino colmo di sale corrisponde a circa 10 grammi. Un cucchiaio colmo di sale corrisponde a circa 20 grammi.</string>
     <string name="impressum">Contatto: HefeHelfer@web.de     Crediti: Un ringraziamento speciale alle persone che hanno aiutato a tradurre l\'applicazione e sono state disponibili come tester durante lo sviluppo.     In particolare ad Alex Wucherer, per aver creato le immagini e le icone del forno. Se qualcuno cerca un illustratore competente, lui è la persona giusta: https://alexwucherer.com.     Anche René merita una menzione speciale per aver fornito le immagini e i titoli delle ricette. Sul suo sito si possono trovare altre interessanti ricette e informazioni sulla panificazione. https://www.brooot.de/</string>
+    <string name="fortgeschritten">Medio</string>
+    <string name="profi">Professionale</string>
+    <string name="rezepte_hefe">Ricette con lievito</string>
+    <string name="rezept_sauer">Ricette con pasta madre</string>
+    <string name="rezepte_beides">Ricette con lievito e pasta madre</string>
 </resources>

@@ -240,5 +240,10 @@
     <string name="salz">不用天平称盐</string>
     <string name="salztext">如果您想用勺子称盐，请注意这只是一种粗略的方法，不如厨房秤精确。以下是粗略估计：一茶匙盐约为 10 克。一合汤匙盐约为 20 克。</string>
     <string name="impressum">联系方式 HefeHelfer@web.de     鸣谢： 特别感谢在开发过程中帮助翻译应用程序并担任测试员的人员。    尤其要感谢 Alex Wucherer 创作了烘焙图片和图标。如果有人想找一位称职的插图画家，他就是最佳人选：https://alexwucherer.com。    René 还特别提供了食谱的图片和标题。您可以在他的网站上找到更多关于烘焙的精彩食谱和信息。https://www.brooot.de/。</string>
+    <string name="fortgeschritten">介质</string>
+    <string name="profi">专业</string>
+    <string name="rezepte_hefe">酵母食谱</string>
+    <string name="rezept_sauer">酸面团食谱</string>
+    <string name="rezepte_beides">含酵母和酸包粉的食谱</string>
 
 </resources>

@@ -240,4 +240,9 @@
     <string name="salz">Tuzu Terazisiz Tartmak</string>
     <string name="salztext">Kaşıkla tuz tartmak isterseniz, lütfen bu sadece kabaca bir yöntem olduğunu ve mutfak terazisi kadar kesin olmadığını unutmayın. Kaşık farklı boyutlarda olabilir, bu da farklı miktarlara yol açabilir. İşte yaklaşık tahminler: Bir dolu tatlı kaşığı tuz yaklaşık 10 gramdır. Bir dolu yemek kaşığı tuz yaklaşık 20 gramdır.</string>
     <string name="impressum">İletişim: HefeHelfer@web.de  Krediler: Uygulamayı çeviren ve gelişimde test aşamasında bulunan kişilere özel teşekkürler. Özellikle, resim ve simgeleri oluşturan Alex Wucherer`a teşekkürler. Uzman bir illüstratör arıyorsanız, doğru adrestir: https://alexwucherer.com Ayrıca, resimler ve tarif başlıkları için René de teşekkürler. Web sitesinde daha fazla ilgi çekici tarif ve pişirme konusunda bilgi bulabilirsiniz. https://www.brooot.de/ </string>
+    <string name="fortgeschritten">Orta</string>
+    <string name="profi">Profesyonel</string>
+    <string name="rezepte_hefe">Mayalı tarifler</string>
+    <string name="rezept_sauer">Ekşi mayalı tarifler</string>
+    <string name="rezepte_beides">Maya ve ekşi mayalı tarifler</string>
 </resources>

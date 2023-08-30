@@ -240,6 +240,11 @@
     <string name="salz">Pesar sal sin balanza</string>
     <string name="salztext">Si desea pesar la sal con cucharas, tenga en cuenta que se trata de un método aproximado y que no es tan preciso como una balanza de cocina. Una cucharadita colmada de sal equivale a unos 10 gramos. Una cucharada colmada de sal equivale a unos 20 gramos.</string>
     <string name="impressum">"Contacto: HefeHelfer@web.de "</string>
+    <string name="fortgeschritten">Medio</string>
+    <string name="profi">Profesional</string>
+    <string name="rezepte_hefe">Recetas con levadura</string>
+    <string name="rezept_sauer">Recetas con masa madre</string>
+    <string name="rezepte_beides">Recetas con levadura y masa madre</string>
 
 
 </resources>

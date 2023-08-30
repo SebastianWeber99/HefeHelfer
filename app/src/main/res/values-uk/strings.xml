@@ -240,6 +240,11 @@
     <string name="r.Rezeptinfo25">Світово відомий пляцок "Піде" або "Піде" - легко та швидко готується вдома, а з домашньої пічки він набагато смачніший!</string>
     <string name="r.Rezepttitel26">Пане Валлемаджа</string>
     <string name="r.Rezeptinfo26">Пане Валлемаджа: дуже ароматний, відносно темний хліб зі швейцарського кантона Тесин. Він вразить вас хрусткою скоринкою та відкритою пахучою м`якою крохмальною масою.</string>
+    <string name="fortgeschritten">Середній</string>
+    <string name="profi">Професійний</string>
+    <string name="rezepte_hefe">Рецепти з дріжджами</string>
+    <string name="rezept_sauer">Рецепти на заквасці</string>
+    <string name="rezepte_beides">Рецепти з дріжджами та закваскою</string>
 
 
 </resources>

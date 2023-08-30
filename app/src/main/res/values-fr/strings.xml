@@ -241,6 +241,11 @@
     <string name="salz">Peser le sel sans balance</string>
     <string name="salztext">Si tu veux peser le sel avec des cuillères, n\'oublie pas qu\'il s\'agit d\'une méthode approximative et non pas aussi précise qu\'une balance de cuisine. Les cuillères existent en différentes tailles, ce qui peut entraîner des quantités différentes. Voici des estimations approximatives : une cuillère à café bombée de sel correspond à environ 10 grammes. Une cuillère à soupe bombée de sel équivaut à environ 20 grammes.</string>
     <string name="impressum">contact : HefeHelfer@web.de     Crédits : Nous remercions tout particulièrement les personnes qui ont participé à la traduction de l\'application et qui ont été disponibles en tant que testeurs lors du développement.     En particulier à Alex Wucherer, pour la création des images de fond et des icônes. Si quelqu\'un cherche un illustrateur compétent, il est la personne qu\'il faut : https://alexwucherer.com     Il faut également souligner la contribution de René pour la mise à disposition des images et des titres des recettes. Sur son site, tu trouveras d\'autres recettes et informations passionnantes sur le thème de la pâtisserie. https://www.brooot.de/</string>
+    <string name="fortgeschritten">Moyens</string>
+    <string name="profi">Professionnel</string>
+    <string name="rezepte_hefe">Recettes avec levure</string>
+    <string name="rezept_sauer">Recettes avec levain</string>
+    <string name="rezepte_beides">Recettes avec levure et levain</string>
 
 
 </resources>

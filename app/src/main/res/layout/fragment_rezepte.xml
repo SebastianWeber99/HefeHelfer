@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
-            android:text="Rezepte mit Hefe"
+            android:text="@string/rezepte_hefe"
 
             android:textSize="20sp"
 
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:minHeight="48dp"
-            android:text="Rezepte mit Sauerteig"
+            android:text="@string/rezept_sauer"
 
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +84,7 @@
             android:layout_gravity="right"
             android:minHeight="48dp"
             android:scrollbarSize="10dp"
-            android:text="Rezepte mit Hefe und Sauerteig"
+            android:text="@string/rezepte_beides"
 
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -97,14 +97,15 @@
             android:id="@+id/cardView"
             style="@style/CardViewStyle"
             android:layout_marginTop="10dp"
-            app:layout_constraintTop_toBottomOf="@+id/searchView"
+            android:layout_below="@+id/searchView"
+            app:layout_constraintTop_toBottomOf="@id/searchView"
             tools:layout_editor_absoluteX="32dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="vertical"
                 android:padding="16dp">
-
                 <View
                     android:id="@+id/greenBanner"
                     style="@style/GreenBannerStyle" />
@@ -2176,7 +2177,7 @@
             android:id="@+id/checkBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Anfänger"
+            android:text="@string/r.anfanger"
             android:textSize="22sp"
             app:layout_constraintEnd_toStartOf="@+id/checkBox2"
             app:layout_constraintTop_toBottomOf="@+id/switch4" />
@@ -2185,7 +2186,7 @@
             android:id="@+id/checkBox2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mittel"
+            android:text="@string/fortgeschritten"
             android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -2197,7 +2198,7 @@
             android:id="@+id/checkBox4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Profi"
+            android:text="@string/profi"
             android:textSize="22sp"
             app:layout_constraintStart_toEndOf="@+id/checkBox2"
             app:layout_constraintTop_toBottomOf="@+id/switch4" />

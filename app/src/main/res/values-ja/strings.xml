@@ -240,6 +240,11 @@
     <string name="salz">秤を使わない塩の計量</string>
     <string name="salztext">スプーンで塩を量る場合、これはあくまで大まかな方法であり、キッチン・スケールほど正確ではないことに注意してください。スプーンにはさまざまな大きさがあり、その結果、量が違ってくることがあります。大さじ1杯の塩は約20グラム。</string>
     <string name="impressum">連絡先 HefeHelfer@web.de     クレジット アプリの翻訳を手伝ってくれた方々、開発中にテスターとして参加してくれた方々に感謝します。    特に、パン作りの画像とアイコンを作ってくれたアレックス・ヴヘラーに。有能なイラストレーターを探している人がいたら、彼が適任だ。https://alexwucherer.com。    レシピの写真とタイトルを提供してくれたレネも特筆に値する。彼のサイトhttps://www.brooot.de/。</string>
+    <string name="fortgeschritten">"ミディアム "</string>
+    <string name="profi">プロフェッショナル</string>
+    <string name="rezepte_hefe">イーストを使ったレシピ</string>
+    <string name="rezept_sauer">サワードウを使ったレシピ</string>
+    <string name="rezepte_beides">イーストとサワードウを使ったレシピ</string>
 
 
 </resources>

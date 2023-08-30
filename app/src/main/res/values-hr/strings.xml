@@ -240,6 +240,11 @@
     <string name="r.Rezeptinfo25">Svima poznat turski lepinja, poznat i kao "Pide", lako i brzo ga je napraviti kod kuće i iz pećnice izlazi još ukusniji!</string>
     <string name="r.Rezepttitel26">Pane Vallemaggia</string>
     <string name="r.Rezeptinfo26">Pane Vallemaggia: Vrlo aromatičan, prilično tamna kruh iz švicarske doline Vallemaggia. Ima hrskavu koricu i otvorenu strukturu.</string>
+    <string name="fortgeschritten">Srednje jako</string>
+    <string name="profi">Profesionalan</string>
+    <string name="rezepte_hefe">Recepti s kvascem</string>
+    <string name="rezept_sauer">Recepti s kiselim tijestom</string>
+    <string name="rezepte_beides">Recepti s kvascem i kiselim tijestom</string>
 
 
 </resources>

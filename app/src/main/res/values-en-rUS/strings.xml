@@ -279,5 +279,10 @@
     <string name="salz">Weigh salt without scales</string>
     <string name="salztext">If you want to weigh out salt with spoons, please note that this is only a rough method and not as accurate as a kitchen scale. Spoons come in different sizes, which can result in different amounts.Here are rough estimates:A heaping teaspoon of salt equals about 10 grams. A heaping tablespoon of salt equals about 20 grams.</string>
     <string name="impressum">"Contact: HefeHelfer@web.de "</string>
+    <string name="fortgeschritten">Medium</string>
+    <string name="profi">Professional</string>
+    <string name="rezepte_hefe">Recipes with yeast</string>
+    <string name="rezept_sauer">Recipes with sourdough</string>
+    <string name="rezepte_beides">Recipes with yeast and sourdough</string>
 
 </resources>

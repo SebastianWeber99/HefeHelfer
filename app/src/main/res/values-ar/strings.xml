@@ -240,6 +240,11 @@
     <string name="salz">وزن الملح بدون ميزان</string>
     <string name="salztext">إذا كنت ترغب في وزن الملح بالملاعق ، يرجى ملاحظة أن هذه ليست سوى طريقة تقريبية وليست دقيقة مثل ميزان المطبخ. تأتي الملاعق بأحجام مختلفة ، مما قد يؤدي إلى كميات مختلفة. فيما يلي تقديرات تقريبية:ملعقة صغيرة ممتلئة من الملح تساوي حوالي 10 جرامات. ملعقة كبيرة من الملح تعادل حوالي 20 جراما.</string>
     <string name="impressum">"للاتصال: HefeHelfer@web.de "</string>
+    <string name="fortgeschritten">متوسط</string>
+    <string name="profi">محترف</string>
+    <string name="rezepte_hefe">وصفات مع الخميرة</string>
+    <string name="rezept_sauer">وصفات مع العجين المخمر</string>
+    <string name="rezepte_beides">وصفات مع الخميرة والعجين المخمر</string>
 
 
 </resources>

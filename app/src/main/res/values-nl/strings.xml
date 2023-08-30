@@ -240,4 +240,9 @@
     <string name="salz">Zout wegen zonder weegschaal</string>
     <string name="salztext">Als je zout wilt wegen met lepels, houd er dan rekening mee dat dit slechts een ruwe methode is en niet zo nauwkeurig als een keukenweegschaal. Lepels zijn er in verschillende maten, wat kan resulteren in verschillende hoeveelheden.Hier zijn ruwe schattingen:Een opgehoopte theelepel zout is ongeveer 10 gram. Een volle eetlepel zout is ongeveer 20 gram.</string>
     <string name="impressum">Contact: HefeHelfer@web.de     Credits: Speciale dank aan de mensen die hebben geholpen bij het vertalen van de app en beschikbaar waren als testers tijdens de ontwikkeling.     In het bijzonder aan Alex Wucherer, voor het maken van de bakafbeeldingen en iconen. Als iemand op zoek is naar een bekwame illustrator, dan is hij de juiste persoon: https://alexwucherer.com.     René verdient ook een speciale vermelding voor het maken van de foto\'s en titels van de recepten. Je kunt meer spannende recepten en informatie over bakken vinden op zijn site. https://www.brooot.de/</string>
+    <string name="fortgeschritten">Medium</string>
+    <string name="profi">Professioneel</string>
+    <string name="rezepte_hefe">Recepten met gist</string>
+    <string name="rezept_sauer">Recepten met zuurdesem</string>
+    <string name="rezepte_beides">Recepten met gist en zuurdesem</string>
 </resources>
