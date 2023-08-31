@@ -1,7 +1,10 @@
 package hefe.example.hefe.ui.settings;
 
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -138,6 +141,15 @@ private MotionButton button7;
             startReviewFlow();
         });
 
+        PackageInfo pInfo = null;
+        try {
+            pInfo = this.getContext().getPackageManager().getPackageInfo(this.getContext().getPackageName(), 0);
+            String version = pInfo.versionName;
+            versionText.setText("Version: " + version);
+            Log.d(TAG, "onCreateView: " + version);
+        } catch (PackageManager.NameNotFoundException e) {
+            throw new RuntimeException(e);
+        }
         return rootView;
     }
 

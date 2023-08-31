@@ -1,12 +1,15 @@
     package hefe.example.hefe.ui.rezepte;
 
+    import android.content.Context;
     import android.content.Intent;
+    import android.content.SharedPreferences;
     import android.net.Uri;
     import android.os.Bundle;
     import android.util.Log;
     import android.view.LayoutInflater;
     import android.view.View;
     import android.view.ViewGroup;
+    import android.widget.CheckBox;
 
     import androidx.annotation.NonNull;
     import androidx.appcompat.widget.SearchView;
@@ -40,6 +43,9 @@
             View view = inflater.inflate(R.layout.fragment_rezepte, container, false);
             SearchView searchView = view.findViewById(R.id.searchView);
 
+            SharedPreferences pref = requireContext().getSharedPreferences("my_pref", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = pref.edit();
+
 
 
             // Inflate the first_content.xml layout
@@ -67,6 +73,32 @@
             View cardView20 = view.findViewById(R.id.cardView20);
             View cardView21 = view.findViewById(R.id.cardView21);
 
+
+            CheckBox checkBox5 = view.findViewById(R.id.checkbox5);
+            CheckBox checkBox6 = view.findViewById(R.id.checkbox6);
+            CheckBox checkBox7 = view.findViewById(R.id.checkbox7);
+            CheckBox checkBox8 = view.findViewById(R.id.checkbox8);
+            CheckBox checkBox9 = view.findViewById(R.id.checkbox9);
+            CheckBox checkBox10 = view.findViewById(R.id.checkbox10);
+            CheckBox checkBox11 = view.findViewById(R.id.checkbox11);
+            CheckBox checkBox12 = view.findViewById(R.id.checkbox12);
+            CheckBox checkBox13 = view.findViewById(R.id.checkbox13);
+            CheckBox checkBox14 = view.findViewById(R.id.checkbox14);
+            CheckBox checkBox15 = view.findViewById(R.id.checkbox15);
+            CheckBox checkBox16 = view.findViewById(R.id.checkbox16);
+            CheckBox checkBox17 = view.findViewById(R.id.checkbox17);
+            CheckBox checkBox18 = view.findViewById(R.id.checkbox18);
+            CheckBox checkBox19 = view.findViewById(R.id.checkbox19);
+            CheckBox checkBox20 = view.findViewById(R.id.checkbox20);
+            CheckBox checkBox21 = view.findViewById(R.id.checkbox21);
+            CheckBox checkBox22 = view.findViewById(R.id.checkbox22);
+            CheckBox checkBox23 = view.findViewById(R.id.checkbox23);
+            CheckBox checkBox24 = view.findViewById(R.id.checkbox24);
+            CheckBox checkBox25 = view.findViewById(R.id.checkbox25);
+            CheckBox checkBox26 = view.findViewById(R.id.checkbox26);
+
+
+
             View secondContentView = inflater.inflate(R.layout.second_content, container, false);
             View cardView22 = view.findViewById(R.id.cardView22);
             View cardView23 = view.findViewById(R.id.cardView23);
@@ -86,6 +118,24 @@
             View cardView38 = view.findViewById(R.id.cardView38);
             View cardView39 = view.findViewById(R.id.cardView39);
             View cardView40 = view.findViewById(R.id.cardView40);
+            CheckBox checkBox27 = view.findViewById(R.id.checkbox27);
+            CheckBox checkBox28 = view.findViewById(R.id.checkbox28);
+            CheckBox checkBox29 = view.findViewById(R.id.checkbox29);
+            CheckBox checkBox30 = view.findViewById(R.id.checkbox30);
+            CheckBox checkBox31 = view.findViewById(R.id.checkbox31);
+            CheckBox checkBox32 = view.findViewById(R.id.checkbox32);
+            CheckBox checkBox33 = view.findViewById(R.id.checkbox33);
+            CheckBox checkBox34 = view.findViewById(R.id.checkbox34);
+            CheckBox checkBox35 = view.findViewById(R.id.checkbox35);
+            CheckBox checkBox36 = view.findViewById(R.id.checkbox36);
+            CheckBox checkBox37 = view.findViewById(R.id.checkbox37);
+            CheckBox checkBox38 = view.findViewById(R.id.checkbox38);
+            CheckBox checkBox39 = view.findViewById(R.id.checkbox39);
+            CheckBox checkBox40 = view.findViewById(R.id.checkbox40);
+            CheckBox checkBox41 = view.findViewById(R.id.checkbox41);
+            CheckBox checkBox42 = view.findViewById(R.id.checkbox42);
+            CheckBox checkBox43 = view.findViewById(R.id.checkbox43);
+            CheckBox checkBox44 = view.findViewById(R.id.checkbox44);
 
 
             setupCardViewClickListener((CardView) cardView, "https://www.brooot.de/broetchen/kartoffelbroetchen/");
@@ -130,6 +180,296 @@
             setupCardViewClickListener((CardView) cardView39, "https://www.brooot.de/weizenbrote/ruchbrot-stangen/");
             setupCardViewClickListener((CardView) cardView40, "https://www.brooot.de/mischbrote/die-maillard-muehlenkruste/");
 
+            checkBox5.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox5 in den SharedPreferences
+                editor.putBoolean("checkBox5_state", isChecked);
+                editor.apply();
+            });
+
+            checkBox6.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox6 in den SharedPreferences
+                editor.putBoolean("checkBox6_state", isChecked);
+                editor.apply();
+            });
+            checkBox7.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox7 in den SharedPreferences
+                editor.putBoolean("checkBox7_state", isChecked);
+                editor.apply();
+            });
+
+            checkBox8.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox8 in den SharedPreferences
+                editor.putBoolean("checkBox8_state", isChecked);
+                editor.apply();
+            });
+            checkBox9.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox9 in den SharedPreferences
+                editor.putBoolean("checkBox9_state", isChecked);
+                editor.apply();
+            });
+
+            checkBox10.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox10_state", isChecked);
+                editor.apply();
+            });
+            checkBox11.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox11_state", isChecked);
+                editor.apply();
+            });
+            checkBox12.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox12_state", isChecked);
+                editor.apply();
+            });
+            checkBox13.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox13_state", isChecked);
+                editor.apply();
+            });
+            checkBox14.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox14_state", isChecked);
+                editor.apply();
+            });
+            checkBox15.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox15_state", isChecked);
+                editor.apply();
+            });
+            checkBox16.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox16_state", isChecked);
+                editor.apply();
+            });
+            checkBox17.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox17_state", isChecked);
+                editor.apply();
+            });
+            checkBox18.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox18_state", isChecked);
+                editor.apply();
+            });
+            checkBox19.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox19_state", isChecked);
+                editor.apply();
+            });
+            checkBox20.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox20_state", isChecked);
+                editor.apply();
+            });
+            checkBox21.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox21_state", isChecked);
+                editor.apply();
+            });
+            checkBox22.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox22_state", isChecked);
+                editor.apply();
+            });
+            checkBox23.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox23_state", isChecked);
+                editor.apply();
+            });
+            checkBox24.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox24_state", isChecked);
+                editor.apply();
+            });
+            checkBox25.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox25_state", isChecked);
+                editor.apply();
+            });
+            checkBox26.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox26_state", isChecked);
+                editor.apply();
+            });
+            checkBox27.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox27_state", isChecked);
+                editor.apply();
+            });
+            checkBox28.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox28_state", isChecked);
+                editor.apply();
+            });
+            checkBox29.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox29_state", isChecked);
+                editor.apply();
+            });
+            checkBox30.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox30_state", isChecked);
+                editor.apply();
+            });
+            checkBox31.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox31_state", isChecked);
+                editor.apply();
+            });
+            checkBox32.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox32_state", isChecked);
+                editor.apply();
+            });
+            checkBox33.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox33_state", isChecked);
+                editor.apply();
+            });
+            checkBox34.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox34_state", isChecked);
+                editor.apply();
+            });
+            checkBox35.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox35_state", isChecked);
+                editor.apply();
+            });
+            checkBox36.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox36_state", isChecked);
+                editor.apply();
+            });
+            checkBox37.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox37_state", isChecked);
+                editor.apply();
+            });
+            checkBox38.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox38_state", isChecked);
+                editor.apply();
+            });
+            checkBox39.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox39_state", isChecked);
+                editor.apply();
+            });
+            checkBox40.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox40_state", isChecked);
+                editor.apply();
+            });
+            checkBox41.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox41_state", isChecked);
+                editor.apply();
+            });
+            checkBox42.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox42_state", isChecked);
+                editor.apply();
+            });
+            checkBox43.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox44_state", isChecked);
+                editor.apply();
+            });
+            checkBox44.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                // Speichere den Zustand von checkBox10 in den SharedPreferences
+                editor.putBoolean("checkBox44_state", isChecked);
+                editor.apply();
+            });
+
+
+
+            boolean checkBox5State = pref.getBoolean("checkBox5_state", false);
+            boolean checkBox6State = pref.getBoolean("checkBox6_state", false);
+            boolean checkBox7State = pref.getBoolean("checkBox7_state", false);
+            boolean checkBox8State = pref.getBoolean("checkBox8_state", false);
+            boolean checkBox9State = pref.getBoolean("checkBox9_state", false);
+            boolean checkBox10State = pref.getBoolean("checkBox10_state", false);
+            boolean checkBox11State = pref.getBoolean("checkBox11_state", false);
+            boolean checkBox12State = pref.getBoolean("checkBox12_state", false);
+            boolean checkBox13State = pref.getBoolean("checkBox13_state", false);
+            boolean checkBox14State = pref.getBoolean("checkBox14_state", false);
+            boolean checkBox15State = pref.getBoolean("checkBox15_state", false);
+            boolean checkBox16State = pref.getBoolean("checkBox16_state", false);
+            boolean checkBox17State = pref.getBoolean("checkBox17_state", false);
+            boolean checkBox18State = pref.getBoolean("checkBox18_state", false);
+            boolean checkBox19State = pref.getBoolean("checkBox19_state", false);
+            boolean checkBox20State = pref.getBoolean("checkBox20_state", false);
+            boolean checkBox21State = pref.getBoolean("checkBox21_state", false);
+            boolean checkBox22State = pref.getBoolean("checkBox22_state", false);
+            boolean checkBox23State = pref.getBoolean("checkBox23_state", false);
+            boolean checkBox24State = pref.getBoolean("checkBox24_state", false);
+            boolean checkBox25State = pref.getBoolean("checkBox25_state", false);
+            boolean checkBox26State = pref.getBoolean("checkBox26_state", false);
+            boolean checkBox27State = pref.getBoolean("checkBox27_state", false);
+            boolean checkBox28State = pref.getBoolean("checkBox28_state", false);
+            boolean checkBox29State = pref.getBoolean("checkBox29_state", false);
+            boolean checkBox30State = pref.getBoolean("checkBox30_state", false);
+            boolean checkBox31State = pref.getBoolean("checkBox31_state", false);
+            boolean checkBox32State = pref.getBoolean("checkBox32_state", false);
+            boolean checkBox33State = pref.getBoolean("checkBox33_state", false);
+            boolean checkBox34State = pref.getBoolean("checkBox34_state", false);
+            boolean checkBox35State = pref.getBoolean("checkBox35_state", false);
+            boolean checkBox36State = pref.getBoolean("checkBox36_state", false);
+            boolean checkBox37State = pref.getBoolean("checkBox37_state", false);
+            boolean checkBox38State = pref.getBoolean("checkBox38_state", false);
+            boolean checkBox39State = pref.getBoolean("checkBox39_state", false);
+            boolean checkBox40State = pref.getBoolean("checkBox40_state", false);
+            boolean checkBox41State = pref.getBoolean("checkBox41_state", false);
+            boolean checkBox42State = pref.getBoolean("checkBox42_state", false);
+            boolean checkBox43State = pref.getBoolean("checkBox43_state", false);
+            boolean checkBox44State = pref.getBoolean("checkBox44_state", false);
+
+
+            checkBox5.setChecked(checkBox5State);
+            checkBox6.setChecked(checkBox6State);
+            checkBox7.setChecked(checkBox7State);
+            checkBox8.setChecked(checkBox8State);
+            checkBox9.setChecked(checkBox9State);
+            checkBox10.setChecked(checkBox10State);
+            checkBox11.setChecked(checkBox11State);
+            checkBox12.setChecked(checkBox12State);
+            checkBox13.setChecked(checkBox13State);
+            checkBox14.setChecked(checkBox14State);
+            checkBox15.setChecked(checkBox15State);
+            checkBox16.setChecked(checkBox16State);
+            checkBox17.setChecked(checkBox17State);
+            checkBox18.setChecked(checkBox18State);
+            checkBox19.setChecked(checkBox19State);
+            checkBox20.setChecked(checkBox20State);
+            checkBox21.setChecked(checkBox21State);
+            checkBox22.setChecked(checkBox22State);
+            checkBox23.setChecked(checkBox23State);
+            checkBox24.setChecked(checkBox24State);
+            checkBox25.setChecked(checkBox25State);
+            checkBox26.setChecked(checkBox26State);
+            checkBox27.setChecked(checkBox27State);
+            checkBox28.setChecked(checkBox28State);
+            checkBox29.setChecked(checkBox29State);
+            checkBox30.setChecked(checkBox30State);
+            checkBox31.setChecked(checkBox31State);
+            checkBox32.setChecked(checkBox32State);
+            checkBox33.setChecked(checkBox33State);
+            checkBox34.setChecked(checkBox34State);
+            checkBox35.setChecked(checkBox35State);
+            checkBox36.setChecked(checkBox36State);
+            checkBox37.setChecked(checkBox37State);
+            checkBox38.setChecked(checkBox38State);
+            checkBox39.setChecked(checkBox39State);
+            checkBox40.setChecked(checkBox40State);
+            checkBox41.setChecked(checkBox41State);
+            checkBox42.setChecked(checkBox42State);
+            checkBox43.setChecked(checkBox43State);
+            checkBox44.setChecked(checkBox44State);
+
+
             MobileAds.initialize(requireContext(), new OnInitializationCompleteListener() {
                 @Override
                 public void onInitializationComplete(InitializationStatus initializationStatus) {
@@ -152,6 +492,9 @@
                             Log.e(TAG, "Interstitial ad failed to load: " + loadAdError.getMessage());
                         }
                     });
+
+
+
             return view;
         }
         private void loadInterstitialAd() {
@@ -203,5 +546,4 @@
             startActivity(intent);
         }
 
-        // Rest of the code remains the same
     }
