@@ -4,21 +4,44 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
+import androidx.appcompat.widget.SearchView;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+
+import java.util.ArrayList;
 
 import hefe.example.hefe.R;
 
 public class RezepteFragment extends Fragment {
+private SearchView searchView;
 
-
+    private ArrayList<View> allCardViews;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_rezepte, container, false);
+        SearchView searchView = view.findViewById(R.id.searchView);
 
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                // Perform search based on the query
+                performSearch(query);
+                return true;
+            }
 
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                // Update search results as the user types
+                updateSearchResults(newText);
+                return true;
+            }
+        });
 
+        allCardViews = new ArrayList<>();
+        collectCardViews(view);
 
         // Inflate the first_content.xml layout
         View firstContentView = inflater.inflate(R.layout.first_content, container, false);
@@ -64,8 +87,38 @@ public class RezepteFragment extends Fragment {
         View cardView38 = view.findViewById(R.id.cardView38);
         View cardView39 = view.findViewById(R.id.cardView39);
         View cardView40 = view.findViewById(R.id.cardView40);
-
         return view;
     }
-}
+    private void collectCardViews(View view) {
 
+        if (view instanceof CardView) {
+            allCardViews.add(view);
+        } else if (view instanceof ViewGroup) {
+            ViewGroup viewGroup = (ViewGroup) view;
+            for (int i = 0; i < viewGroup.getChildCount(); i++) {
+                collectCardViews(viewGroup.getChildAt(i));
+            }
+        }
+    }
+    private void performSearch(String query) {
+        for (View cardView : allCardViews) {
+
+
+        }
+    }
+
+    private void updateSearchResults(String newText) {
+        for (View cardView : allCardViews) {
+            TextView titleTextView = cardView.findViewById(R.id.cardView);
+
+            if (titleTextView != null) {
+                String title = titleTextView.getText().toString();
+
+                if (title.toLowerCase().contains(newText.toLowerCase())) {
+                    cardView.setVisibility(View.VISIBLE);
+                } else {
+                    cardView.setVisibility(View.GONE);
+                }
+            }
+        }
+    }}
