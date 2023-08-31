@@ -10,6 +10,8 @@
     import android.view.View;
     import android.view.ViewGroup;
     import android.widget.CheckBox;
+    import android.widget.CompoundButton;
+    import android.widget.Switch;
 
     import androidx.annotation.NonNull;
     import androidx.appcompat.widget.SearchView;
@@ -37,11 +39,23 @@
         private InterstitialAd mInterstitialAd;
         private static final String TAG = "RezepteFragment"; // Update TAG appropriately
 
+        private Switch switch2;
+        private Switch switch3;
+        private Switch switch4;
+        private CheckBox checkBox;
+        private CheckBox checkBox2;
+        private CheckBox checkBox4;
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View view = inflater.inflate(R.layout.fragment_rezepte, container, false);
             SearchView searchView = view.findViewById(R.id.searchView);
+            switch2 = view.findViewById(R.id.switch2);
+            switch3 = view.findViewById(R.id.switch3);
+            switch4 = view.findViewById(R.id.switch4);
+            checkBox2 = view.findViewById(R.id.checkBox2);
+
+
 
             SharedPreferences pref = requireContext().getSharedPreferences("my_pref", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = pref.edit();
@@ -470,6 +484,213 @@
             checkBox44.setChecked(checkBox44State);
 
 
+
+
+
+
+
+
+
+
+
+            switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    if (isChecked) {
+                        cardView28.setVisibility(View.GONE);
+                        cardView29.setVisibility(View.GONE);
+                        cardView30.setVisibility(View.GONE);
+                        cardView31.setVisibility(View.GONE);
+                        cardView32.setVisibility(View.GONE);
+                        cardView33.setVisibility(View.GONE);
+                        cardView34.setVisibility(View.GONE);
+                        cardView35.setVisibility(View.GONE);
+                        cardView36.setVisibility(View.GONE);
+                        cardView37.setVisibility(View.GONE);
+                        cardView38.setVisibility(View.GONE);
+                        cardView39.setVisibility(View.GONE);
+                        cardView40.setVisibility(View.GONE);
+                    } else {
+                        cardView28.setVisibility(View.VISIBLE);
+                        cardView29.setVisibility(View.VISIBLE);
+                        cardView30.setVisibility(View.VISIBLE);
+                        cardView31.setVisibility(View.VISIBLE);
+                        cardView32.setVisibility(View.VISIBLE);
+                        cardView33.setVisibility(View.VISIBLE);
+                        cardView34.setVisibility(View.VISIBLE);
+                        cardView35.setVisibility(View.VISIBLE);
+                        cardView36.setVisibility(View.VISIBLE);
+                        cardView37.setVisibility(View.VISIBLE);
+                        cardView38.setVisibility(View.VISIBLE);
+                        cardView39.setVisibility(View.VISIBLE);
+                        cardView40.setVisibility(View.VISIBLE);
+                    }
+                }
+            });
+            switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    if (isChecked) {
+                        cardView.setVisibility(View.GONE);
+                        cardView1.setVisibility(View.GONE);
+                        cardView2.setVisibility(View.GONE);
+                        cardView3.setVisibility(View.GONE);
+                        cardView4.setVisibility(View.GONE);
+                        cardView5.setVisibility(View.GONE);
+                        cardView6.setVisibility(View.GONE);
+                        cardView7.setVisibility(View.GONE);
+                        cardView8.setVisibility(View.GONE);
+                        cardView9.setVisibility(View.GONE);
+                        cardView10.setVisibility(View.GONE);
+                        cardView11.setVisibility(View.GONE);
+                        cardView12.setVisibility(View.GONE);
+                        cardView13.setVisibility(View.GONE);
+                        cardView14.setVisibility(View.GONE);
+                        cardView15.setVisibility(View.GONE);
+                        cardView16.setVisibility(View.GONE);
+                        cardView17.setVisibility(View.GONE);
+                        cardView18.setVisibility(View.GONE);
+                        cardView19.setVisibility(View.GONE);
+                        cardView20.setVisibility(View.GONE);
+                        cardView21.setVisibility(View.GONE);
+                        cardView22.setVisibility(View.GONE);
+                        cardView23.setVisibility(View.GONE);
+                        cardView24.setVisibility(View.GONE);
+                        cardView25.setVisibility(View.GONE);
+                        cardView26.setVisibility(View.GONE);
+
+
+
+                    } else {
+                        cardView.setVisibility(View.VISIBLE);
+                        cardView1.setVisibility(View.VISIBLE);
+                        cardView2.setVisibility(View.VISIBLE);
+                        cardView3.setVisibility(View.VISIBLE);
+                        cardView4.setVisibility(View.VISIBLE);
+                        cardView5.setVisibility(View.VISIBLE);
+                        cardView6.setVisibility(View.VISIBLE);
+                        cardView7.setVisibility(View.VISIBLE);
+                        cardView8.setVisibility(View.VISIBLE);
+                        cardView9.setVisibility(View.VISIBLE);
+                        cardView10.setVisibility(View.VISIBLE);
+                        cardView11.setVisibility(View.VISIBLE);
+                        cardView12.setVisibility(View.VISIBLE);
+                        cardView13.setVisibility(View.VISIBLE);
+                        cardView14.setVisibility(View.VISIBLE);
+                        cardView15.setVisibility(View.VISIBLE);
+                        cardView16.setVisibility(View.VISIBLE);
+                        cardView17.setVisibility(View.VISIBLE);
+                        cardView18.setVisibility(View.VISIBLE);
+                        cardView19.setVisibility(View.VISIBLE);
+                        cardView20.setVisibility(View.VISIBLE);
+                        cardView21.setVisibility(View.VISIBLE);
+                        cardView22.setVisibility(View.VISIBLE);
+                        cardView23.setVisibility(View.VISIBLE);
+                        cardView24.setVisibility(View.VISIBLE);
+                        cardView25.setVisibility(View.VISIBLE);
+                        cardView26.setVisibility(View.VISIBLE);
+
+
+
+                    }
+                }
+            });
+            switch4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    if (isChecked) {
+                        cardView.setVisibility(View.GONE);
+                        cardView1.setVisibility(View.GONE);
+                        cardView2.setVisibility(View.GONE);
+                        cardView3.setVisibility(View.GONE);
+                        cardView4.setVisibility(View.GONE);
+                        cardView5.setVisibility(View.GONE);
+                        cardView6.setVisibility(View.GONE);
+                        cardView7.setVisibility(View.GONE);
+                        cardView8.setVisibility(View.GONE);
+                        cardView9.setVisibility(View.GONE);
+                        cardView10.setVisibility(View.GONE);
+                        cardView11.setVisibility(View.GONE);
+                        cardView12.setVisibility(View.GONE);
+                        cardView13.setVisibility(View.GONE);
+                        cardView14.setVisibility(View.GONE);
+                        cardView15.setVisibility(View.GONE);
+                        cardView16.setVisibility(View.GONE);
+                        cardView17.setVisibility(View.GONE);
+                        cardView18.setVisibility(View.GONE);
+                        cardView19.setVisibility(View.GONE);
+                        cardView20.setVisibility(View.GONE);
+                        cardView21.setVisibility(View.GONE);
+                        cardView22.setVisibility(View.GONE);
+                        cardView23.setVisibility(View.GONE);
+                        cardView24.setVisibility(View.GONE);
+                        cardView25.setVisibility(View.GONE);
+                        cardView26.setVisibility(View.GONE);
+                        cardView28.setVisibility(View.GONE);
+                        cardView29.setVisibility(View.GONE);
+                        cardView30.setVisibility(View.GONE);
+                        cardView31.setVisibility(View.GONE);
+                        cardView32.setVisibility(View.GONE);
+                        cardView33.setVisibility(View.GONE);
+                        cardView34.setVisibility(View.GONE);
+                        cardView35.setVisibility(View.GONE);
+                        cardView36.setVisibility(View.GONE);
+                        cardView37.setVisibility(View.GONE);
+                        cardView38.setVisibility(View.GONE);
+                        cardView39.setVisibility(View.GONE);
+                        cardView40.setVisibility(View.GONE);
+                        cardView28.setVisibility(View.GONE);
+
+                    } else {
+                        cardView.setVisibility(View.VISIBLE);
+                        cardView1.setVisibility(View.VISIBLE);
+                        cardView2.setVisibility(View.VISIBLE);
+                        cardView3.setVisibility(View.VISIBLE);
+                        cardView4.setVisibility(View.VISIBLE);
+                        cardView5.setVisibility(View.VISIBLE);
+                        cardView6.setVisibility(View.VISIBLE);
+                        cardView7.setVisibility(View.VISIBLE);
+                        cardView8.setVisibility(View.VISIBLE);
+                        cardView9.setVisibility(View.VISIBLE);
+                        cardView10.setVisibility(View.VISIBLE);
+                        cardView11.setVisibility(View.VISIBLE);
+                        cardView12.setVisibility(View.VISIBLE);
+                        cardView13.setVisibility(View.VISIBLE);
+                        cardView14.setVisibility(View.VISIBLE);
+                        cardView15.setVisibility(View.VISIBLE);
+                        cardView16.setVisibility(View.VISIBLE);
+                        cardView17.setVisibility(View.VISIBLE);
+                        cardView18.setVisibility(View.VISIBLE);
+                        cardView19.setVisibility(View.VISIBLE);
+                        cardView20.setVisibility(View.VISIBLE);
+                        cardView21.setVisibility(View.VISIBLE);
+                        cardView22.setVisibility(View.VISIBLE);
+                        cardView23.setVisibility(View.VISIBLE);
+                        cardView24.setVisibility(View.VISIBLE);
+                        cardView25.setVisibility(View.VISIBLE);
+                        cardView26.setVisibility(View.VISIBLE);
+                        cardView28.setVisibility(View.VISIBLE);
+                        cardView28.setVisibility(View.VISIBLE);
+                        cardView29.setVisibility(View.VISIBLE);
+                        cardView30.setVisibility(View.VISIBLE);
+                        cardView31.setVisibility(View.VISIBLE);
+                        cardView32.setVisibility(View.VISIBLE);
+                        cardView33.setVisibility(View.VISIBLE);
+                        cardView34.setVisibility(View.VISIBLE);
+                        cardView35.setVisibility(View.VISIBLE);
+                        cardView36.setVisibility(View.VISIBLE);
+                        cardView37.setVisibility(View.VISIBLE);
+                        cardView38.setVisibility(View.VISIBLE);
+                        cardView39.setVisibility(View.VISIBLE);
+                        cardView40.setVisibility(View.VISIBLE);
+
+                    }
+                }
+            });
+
+
+
+
             MobileAds.initialize(requireContext(), new OnInitializationCompleteListener() {
                 @Override
                 public void onInitializationComplete(InitializationStatus initializationStatus) {
@@ -492,6 +713,11 @@
                             Log.e(TAG, "Interstitial ad failed to load: " + loadAdError.getMessage());
                         }
                     });
+
+
+
+
+
 
 
 

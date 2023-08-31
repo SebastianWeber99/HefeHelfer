@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:hyphenationFrequency="full">
@@ -14,106 +15,112 @@
         android:padding="16dp" >
 
 
-<androidx.cardview.widget.CardView
-android:id="@+id/cardView22"
-style="@style/CardViewStyle">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView22"
+            style="@style/CardViewStyle"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="16dp">
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="16dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
 
-    <View
-        android:id="@+id/greenBanner22"
-        style="@style/OrangeBannerStyle" />
+                <View
+                    android:id="@+id/greenBanner22"
+                    style="@style/OrangeBannerStyle" />
 
-    <TextView
-        android:id="@+id/headlineTextView28"
-        style="@style/HeadlineStyle"
-        android:text="@string/r.Rezepttitel23" />
+                <TextView
+                    android:id="@+id/headlineTextView28"
+                    style="@style/HeadlineStyle"
+                    android:text="@string/r.Rezepttitel23" />
 
-    <TextView
-        android:id="@+id/textView23"
-        style="@style/TextViewStyle"
-        android:layout_below="@+id/headlineTextView28"
-        android:text="@string/r.Rezeptinfo23" />
+                <TextView
+                    android:id="@+id/textView23"
+                    style="@style/TextViewStyle"
+                    android:layout_below="@+id/headlineTextView28"
+                    android:text="@string/r.Rezeptinfo23" />
 
-    <ImageView
-        android:id="@+id/imageView23"
-        style="@style/ImageViewStyle"
-        android:layout_height="643px"
-        android:layout_below="@+id/textView23"
-        android:background="@drawable/rezept23" />
+                <ImageView
+                    android:id="@+id/imageView23"
+                    style="@style/ImageViewStyle"
+                    android:layout_height="643px"
+                    android:layout_below="@+id/textView23"
+                    android:background="@drawable/rezept23" />
 
-    <TextView
-        android:id="@+id/bestimmung22"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_below="@id/imageView23"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="2dp"
-        android:text="@string/r.bestimmunghefe"
-        android:textSize="28dp" />
-    <CheckBox
-        android:id="@+id/checkbox27"
-        style="@style/checkbox"
-        android:layout_below="@id/bestimmung22"
-        android:layout_centerHorizontal="true"/>
-</RelativeLayout>
-</androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/bestimmung22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView23"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/r.bestimmunghefe"
+                    android:textSize="28dp" />
 
-<androidx.cardview.widget.CardView
-android:id="@+id/cardView23"
-style="@style/CardViewStyle"
-android:layout_below="@+id/cardView22"
+                <CheckBox
+                    android:id="@+id/checkbox27"
+                    style="@style/checkbox"
+                    android:layout_below="@id/bestimmung22"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
 
-app:layout_constraintTop_toBottomOf="@id/cardView22">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView23"
+            style="@style/CardViewStyle"
+            android:layout_below="@+id/cardView22"
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="16dp">
 
-    <View
-        android:id="@+id/greenBanner23"
-        style="@style/OrangeBannerStyle" />
+            app:layout_constraintTop_toBottomOf="@id/cardView22"
+            tools:layout_editor_absoluteX="16dp">
 
-    <TextView
-        android:id="@+id/headlineTextView29"
-        style="@style/HeadlineStyle"
-        android:text="@string/r.Rezepttitel24" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
 
-    <TextView
-        android:id="@+id/textView24"
-        style="@style/TextViewStyle"
-        android:layout_below="@+id/headlineTextView29"
-        android:text="@string/r.Rezeptinfo24" />
+                <View
+                    android:id="@+id/greenBanner23"
+                    style="@style/OrangeBannerStyle" />
 
-    <ImageView
-        android:id="@+id/imageView24"
-        style="@style/ImageViewStyle"
-        android:layout_height="672px"
-        android:layout_below="@+id/textView24"
-        android:background="@drawable/rezept24" />
+                <TextView
+                    android:id="@+id/headlineTextView29"
+                    style="@style/HeadlineStyle"
+                    android:text="@string/r.Rezepttitel24" />
 
-    <TextView
-        android:id="@+id/bestimmung23"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_below="@id/imageView24"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="2dp"
-        android:text="@string/r.bestimmunghefe"
-        android:textSize="28dp" />
-    <CheckBox
-        android:id="@+id/checkbox28"
-        style="@style/checkbox"
-        android:layout_below="@id/bestimmung23"
-        android:layout_centerHorizontal="true"/>
-</RelativeLayout>
-</androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/textView24"
+                    style="@style/TextViewStyle"
+                    android:layout_below="@+id/headlineTextView29"
+                    android:text="@string/r.Rezeptinfo24" />
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    style="@style/ImageViewStyle"
+                    android:layout_height="672px"
+                    android:layout_below="@+id/textView24"
+                    android:background="@drawable/rezept24" />
+
+                <TextView
+                    android:id="@+id/bestimmung23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/r.bestimmunghefe"
+                    android:textSize="28dp" />
+
+                <CheckBox
+                    android:id="@+id/checkbox28"
+                    style="@style/checkbox"
+                    android:layout_below="@id/bestimmung23"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
 
 <androidx.cardview.widget.CardView
 android:id="@+id/cardView24"
