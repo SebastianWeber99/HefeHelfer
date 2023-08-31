@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,11 +17,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import hefe.example.hefe.R;
-
 import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.TimeZone;
+
+import hefe.example.hefe.R;
 
 public class HomeFragment extends Fragment {
     private EditText numberField;
@@ -98,7 +97,23 @@ public class HomeFragment extends Fragment {
                 updatecontentTextView3Visibility();
             }
         });
+        resultLabel4.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                // Nicht benötigt
+            }
 
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                editor.putString("resultLabel4", charSequence.toString());
+                editor.apply();
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+                // Nicht benötigt
+            }
+        });
 
         return rootView;
     }
