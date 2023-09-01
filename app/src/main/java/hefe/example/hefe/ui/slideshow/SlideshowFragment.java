@@ -80,6 +80,7 @@ public class SlideshowFragment extends Fragment {
         headlineTextView3.setVisibility(View.GONE);
         headlineTextView5.setVisibility(View.GONE);
         headlineTextView6.setVisibility(View.GONE);
+        headlineTextView8.setVisibility(View.GONE);
         textView13.setVisibility(View.GONE); // Hide textView13 initially
         textView14.setVisibility(View.GONE); // Hide textView14 initially
         textView15.setVisibility(View.GONE); // Hide textView15 initially
@@ -92,7 +93,8 @@ public class SlideshowFragment extends Fragment {
         textView12.setVisibility(View.GONE); // Hide textView12 initially
         textView11.setVisibility(View.GONE); // Hide textView11 initially
         linealEditText.setVisibility(View.GONE); // Hide linealEditText initially
-        textView15.setVisibility(View.GONE); // Hide textView15 initially
+        textView15.setVisibility(View.GONE);
+        textView20.setVisibility(View.GONE);// Hide textView15 initially
         editText1.setVisibility(View.GONE);
         editText2.setVisibility(View.GONE);
         editText3.setVisibility(View.GONE);

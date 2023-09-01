@@ -278,7 +278,7 @@
     <string name="schon_gebacken">already baked</string>
     <string name="salz">Weigh salt without scales</string>
     <string name="salztext">If you want to weigh out salt with spoons, please note that this is only a rough method and not as accurate as a kitchen scale. Spoons come in different sizes, which can result in different amounts.Here are rough estimates:A heaping teaspoon of salt equals about 10 grams. A heaping tablespoon of salt equals about 20 grams.</string>
-    <string name="impressum">"Contact: HefeHelfer@web.de "</string>
+    <string name="impressum">Contact: HefeHelfer@web.de     Credits: Special thanks to the people who helped translate the app and were available as testers during development.     Especially to Alex Wucherer, for creating the back images and icons. If anyone is looking for a competent illustrator, he is the right one: https://alexwucherer.com.     Also René has to be mentioned for providing the pictures and titles of the recipes. On his site you will find more exciting recipes and information about baking. https://www.brooot.de/</string>
     <string name="fortgeschritten">Medium</string>
     <string name="profi">Professional</string>
     <string name="rezepte_hefe">Recipes with yeast</string>

@@ -239,7 +239,7 @@
     <string name="schon_gebacken">już upieczony</string>
     <string name="salz">Ważenie soli bez użycia wagi</string>
     <string name="salztext">Jeśli chcesz zważyć sól za pomocą łyżek, pamiętaj, że jest to tylko przybliżona metoda i nie jest tak dokładna jak waga kuchenna. Łyżeczki mają różne rozmiary, co może skutkować różnymi ilościami. Oto przybliżone szacunki: czubata łyżeczka soli to około 10 gramów. Czubata łyżka stołowa soli to około 20 gramów.</string>
-    <string name="impressum">"Kontakt: HefeHelfer@web.de "</string>
+    <string name="impressum">Kontakt: HefeHelfer@web.de     Podziękowania: Specjalne podziękowania dla osób, które pomogły w tłumaczeniu aplikacji i były dostępne jako testerzy podczas jej tworzenia.     W szczególności dla Alexa Wucherera za stworzenie obrazów i ikon do pieczenia. Jeśli ktoś szuka kompetentnego ilustratora, to jest to właściwa osoba: https://alexwucherer.com.     René zasługuje również na specjalne wyróżnienie za dostarczenie zdjęć i tytułów przepisów. Więcej ekscytujących przepisów i informacji na temat pieczenia można znaleźć na jego stronie internetowej: https://www.brooot.de/.</string>
     <string name="fortgeschritten">Średni</string>
     <string name="profi">Profesjonalny</string>
     <string name="rezepte_hefe">Przepisy z drożdżami</string>

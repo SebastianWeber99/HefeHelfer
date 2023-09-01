@@ -239,7 +239,7 @@
     <string name="schon_gebacken">ya cocido</string>
     <string name="salz">Pesar sal sin balanza</string>
     <string name="salztext">Si desea pesar la sal con cucharas, tenga en cuenta que se trata de un método aproximado y que no es tan preciso como una balanza de cocina. Una cucharadita colmada de sal equivale a unos 10 gramos. Una cucharada colmada de sal equivale a unos 20 gramos.</string>
-    <string name="impressum">"Contacto: HefeHelfer@web.de "</string>
+    <string name="impressum">Contacto: HefeHelfer@web.de     Créditos: Un agradecimiento especial a las personas que ayudaron a traducir la aplicación y estuvieron disponibles como probadores durante el desarrollo.     Especialmente a Alex Wucherer, por crear las imágenes e iconos de repostería. Si alguien busca un ilustrador competente, él es la persona adecuada: https://alexwucherer.com.     René también merece una mención especial por proporcionar las imágenes y los títulos de las recetas. En su sitio web encontrará más recetas interesantes e información sobre repostería. https://www.brooot.de/</string>
     <string name="fortgeschritten">Medio</string>
     <string name="profi">Profesional</string>
     <string name="rezepte_hefe">Recetas con levadura</string>

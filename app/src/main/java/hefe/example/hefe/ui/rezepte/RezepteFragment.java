@@ -32,12 +32,14 @@
     import hefe.example.hefe.R;
 
     public class RezepteFragment extends Fragment {
+
     private SearchView searchView;
 
         private ArrayList<View> allCardViews;
         private String currentLink = "";
         private InterstitialAd mInterstitialAd;
         private static final String TAG = "RezepteFragment"; // Update TAG appropriately
+
 
         private Switch switch2;
         private Switch switch3;
@@ -717,7 +719,20 @@
 
 
 
+            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                @Override
+                public boolean onQueryTextSubmit(String query) {
+                    // Diese Methode wird aufgerufen, wenn der Such-Button in der Tastatur gedrückt wird
+                    return false;
+                }
 
+                @Override
+                public boolean onQueryTextChange(String newText) {
+                    // Diese Methode wird aufgerufen, wenn der Text in der SuchView geändert wird
+                    // Hier können Sie Ihre Suchlogik implementieren und Ihre RecyclerView aktualisieren
+                    return true;
+                }
+            });
 
 
 
