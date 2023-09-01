@@ -14,7 +14,6 @@
     import android.widget.Switch;
 
     import androidx.annotation.NonNull;
-    import androidx.appcompat.widget.SearchView;
     import androidx.cardview.widget.CardView;
     import androidx.fragment.app.Fragment;
 
@@ -33,7 +32,7 @@
 
     public class RezepteFragment extends Fragment {
 
-    private SearchView searchView;
+
 
         private ArrayList<View> allCardViews;
         private String currentLink = "";
@@ -44,18 +43,16 @@
         private Switch switch2;
         private Switch switch3;
         private Switch switch4;
-        private CheckBox checkBox;
-        private CheckBox checkBox2;
-        private CheckBox checkBox4;
+
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View view = inflater.inflate(R.layout.fragment_rezepte, container, false);
-            SearchView searchView = view.findViewById(R.id.searchView);
+
             switch2 = view.findViewById(R.id.switch2);
             switch3 = view.findViewById(R.id.switch3);
             switch4 = view.findViewById(R.id.switch4);
-            checkBox2 = view.findViewById(R.id.checkBox2);
+
 
 
 
@@ -601,47 +598,7 @@
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                     if (isChecked) {
-                        cardView.setVisibility(View.GONE);
-                        cardView1.setVisibility(View.GONE);
-                        cardView2.setVisibility(View.GONE);
-                        cardView3.setVisibility(View.GONE);
-                        cardView4.setVisibility(View.GONE);
-                        cardView5.setVisibility(View.GONE);
-                        cardView6.setVisibility(View.GONE);
-                        cardView7.setVisibility(View.GONE);
-                        cardView8.setVisibility(View.GONE);
-                        cardView9.setVisibility(View.GONE);
-                        cardView10.setVisibility(View.GONE);
-                        cardView11.setVisibility(View.GONE);
-                        cardView12.setVisibility(View.GONE);
-                        cardView13.setVisibility(View.GONE);
-                        cardView14.setVisibility(View.GONE);
-                        cardView15.setVisibility(View.GONE);
-                        cardView16.setVisibility(View.GONE);
-                        cardView17.setVisibility(View.GONE);
-                        cardView18.setVisibility(View.GONE);
-                        cardView19.setVisibility(View.GONE);
-                        cardView20.setVisibility(View.GONE);
-                        cardView21.setVisibility(View.GONE);
-                        cardView22.setVisibility(View.GONE);
-                        cardView23.setVisibility(View.GONE);
-                        cardView24.setVisibility(View.GONE);
-                        cardView25.setVisibility(View.GONE);
-                        cardView26.setVisibility(View.GONE);
-                        cardView28.setVisibility(View.GONE);
-                        cardView29.setVisibility(View.GONE);
-                        cardView30.setVisibility(View.GONE);
-                        cardView31.setVisibility(View.GONE);
-                        cardView32.setVisibility(View.GONE);
-                        cardView33.setVisibility(View.GONE);
-                        cardView34.setVisibility(View.GONE);
-                        cardView35.setVisibility(View.GONE);
-                        cardView36.setVisibility(View.GONE);
-                        cardView37.setVisibility(View.GONE);
-                        cardView38.setVisibility(View.GONE);
-                        cardView39.setVisibility(View.GONE);
-                        cardView40.setVisibility(View.GONE);
-                        cardView28.setVisibility(View.GONE);
+
 
                     } else {
                         cardView.setVisibility(View.VISIBLE);
@@ -719,20 +676,6 @@
 
 
 
-            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-                @Override
-                public boolean onQueryTextSubmit(String query) {
-                    // Diese Methode wird aufgerufen, wenn der Such-Button in der Tastatur gedrückt wird
-                    return false;
-                }
-
-                @Override
-                public boolean onQueryTextChange(String newText) {
-                    // Diese Methode wird aufgerufen, wenn der Text in der SuchView geändert wird
-                    // Hier können Sie Ihre Suchlogik implementieren und Ihre RecyclerView aktualisieren
-                    return true;
-                }
-            });
 
 
 

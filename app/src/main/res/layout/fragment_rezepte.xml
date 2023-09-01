@@ -39,15 +39,7 @@
             app:layout_constraintTop_toBottomOf="@+id/ueberschrfit2" />
 
 
-        <androidx.appcompat.widget.SearchView
-            android:id="@+id/searchView"
-            android:layout_width="0dp"
-            android:layout_height="55dp"
-            android:layout_below="@id/switch4"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox"
-            app:queryHint="@string/r.rezept" />
+
 
         <Switch
             android:id="@+id/switch2"
@@ -95,12 +87,12 @@
             android:id="@+id/lytfirstcontent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/searchView"
+            android:layout_below="@id/switch4"
 
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/searchView">
+            app:layout_constraintTop_toBottomOf="@+id/switch4">
 
             <include layout="@layout/first_content" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -115,36 +107,6 @@
             <include layout="@layout/second_content"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/switch4"
-            android:text="@string/r.anfanger"
-            android:textSize="22sp"
-            app:layout_constraintEnd_toStartOf="@+id/checkBox2"
-            app:layout_constraintTop_toBottomOf="@+id/switch4" />
-
-        <CheckBox
-            android:id="@+id/checkBox2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/fortgeschritten"
-            android:textSize="22sp"
-            app:layout_constraintTop_toBottomOf="@+id/switch4"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/checkBox"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <CheckBox
-            android:id="@+id/checkBox4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/profi"
-            app:layout_constraintTop_toBottomOf="@+id/switch4"
-            android:textSize="22sp"
-            app:layout_constraintStart_toEndOf="@+id/checkBox2" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
