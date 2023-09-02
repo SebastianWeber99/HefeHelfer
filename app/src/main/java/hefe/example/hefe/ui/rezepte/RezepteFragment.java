@@ -33,7 +33,6 @@
     public class RezepteFragment extends Fragment {
 
 
-
         private ArrayList<View> allCardViews;
         private String currentLink = "";
         private InterstitialAd mInterstitialAd;
@@ -54,11 +53,8 @@
             switch4 = view.findViewById(R.id.switch4);
 
 
-
-
             SharedPreferences pref = requireContext().getSharedPreferences("my_pref", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = pref.edit();
-
 
 
             // Inflate the first_content.xml layout
@@ -109,7 +105,6 @@
             CheckBox checkBox24 = view.findViewById(R.id.checkbox24);
             CheckBox checkBox25 = view.findViewById(R.id.checkbox25);
             CheckBox checkBox26 = view.findViewById(R.id.checkbox26);
-
 
 
             View secondContentView = inflater.inflate(R.layout.second_content, container, false);
@@ -398,7 +393,6 @@
             });
 
 
-
             boolean checkBox5State = pref.getBoolean("checkBox5_state", false);
             boolean checkBox6State = pref.getBoolean("checkBox6_state", false);
             boolean checkBox7State = pref.getBoolean("checkBox7_state", false);
@@ -483,18 +477,10 @@
             checkBox44.setChecked(checkBox44State);
 
 
-
-
-
-
-
-
-
-
-
             switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    updateSwitch4State();
                     if (isChecked) {
                         cardView28.setVisibility(View.GONE);
                         cardView29.setVisibility(View.GONE);
@@ -529,6 +515,7 @@
             switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    updateSwitch4State();
                     if (isChecked) {
                         cardView.setVisibility(View.GONE);
                         cardView1.setVisibility(View.GONE);
@@ -559,7 +546,6 @@
                         cardView26.setVisibility(View.GONE);
 
 
-
                     } else {
                         cardView.setVisibility(View.VISIBLE);
                         cardView1.setVisibility(View.VISIBLE);
@@ -588,7 +574,6 @@
                         cardView24.setVisibility(View.VISIBLE);
                         cardView25.setVisibility(View.VISIBLE);
                         cardView26.setVisibility(View.VISIBLE);
-
 
 
                     }
@@ -648,8 +633,6 @@
             });
 
 
-
-
             MobileAds.initialize(requireContext(), new OnInitializationCompleteListener() {
                 @Override
                 public void onInitializationComplete(InitializationStatus initializationStatus) {
@@ -659,7 +642,7 @@
 
             // Load the interstitial ad
             AdRequest adRequest = new AdRequest.Builder().build();
-            InterstitialAd.load(requireContext(), "ca-app-pub-3940256099942544/3419835294", adRequest,
+            InterstitialAd.load(requireContext(), "ca-app-pub-2553874194034729~6102378184", adRequest,
                     new InterstitialAdLoadCallback() {
                         @Override
                         public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
@@ -674,16 +657,12 @@
                     });
 
 
-
-
-
-
-
             return view;
         }
+
         private void loadInterstitialAd() {
             AdRequest adRequest = new AdRequest.Builder().build();
-            InterstitialAd.load(requireContext(), "ca-app-pub-3940256099942544/1033173712", adRequest,
+            InterstitialAd.load(requireContext(), "ca-app-pub-2553874194034729~6102378184", adRequest,
                     new InterstitialAdLoadCallback() {
                         @Override
                         public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
@@ -730,4 +709,19 @@
             startActivity(intent);
         }
 
+        private void updateSwitch4State() {
+            boolean switch2State = switch2.isChecked();
+            boolean switch3State = switch3.isChecked();
+
+            if (switch2State && switch3State) {
+                // Schalten Sie switch4 ein
+                switch4.setChecked(true);
+                // Schalten Sie switch2 und switch3 aus
+                switch2.setChecked(false);
+                switch3.setChecked(false);
+            } else {
+                // Wenn switch2 oder switch3 deaktiviert ist, lassen Sie switch4 unverändert
+                // Sie können hier je nach Ihren Anforderungen weitere Logik hinzufügen
+            }
+        }
     }
