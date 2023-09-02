@@ -97,7 +97,7 @@ public class SpendenFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_spenden, container, false);
         AdRequest adRequest = new AdRequest.Builder().build();
-        RewardedAd.load(this.getContext(), "ca-app-pub-2553874194034729~6102378184",
+        RewardedAd.load(this.getContext(), "ca-app-pub-2553874194034729/1131864329",
                 adRequest, new RewardedAdLoadCallback() {
                     @Override
                     public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
