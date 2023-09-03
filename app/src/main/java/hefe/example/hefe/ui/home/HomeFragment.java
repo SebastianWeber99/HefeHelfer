@@ -61,7 +61,7 @@ public class HomeFragment extends Fragment {
         calculateButton = rootView.findViewById(R.id.calculateButton);
         resultLabel = rootView.findViewById(R.id.resultlabel);
         resultLabel2 = rootView.findViewById(R.id.resultlabel2);
-        resultLabel3 = rootView.findViewById(R.id.resultlabel3);
+        textView16 = rootView.findViewById(R.id.textView18);
         resultLabel4 = rootView.findViewById(R.id.resultlabel4);
         Celsius = rootView.findViewById(R.id.editText3);
         editText4 = rootView.findViewById(R.id.editText4); // Initialize the new EditText
@@ -209,18 +209,18 @@ public class HomeFragment extends Fragment {
 
             double result = (number * 0.4603 + 15.34) * (6.4167364361284 * Math.exp(-0.1857846786979 * factor2) * factor1);
             double dividedResult = result / 3.0;
-            double result2 = result * 7;
+
 
             // Format the results to display only 2 decimal places
             DecimalFormat decimalFormat = new DecimalFormat("#.##");
             String formattedResult = decimalFormat.format(result) + "g";
             String formattedDividedResult = decimalFormat.format(dividedResult) + "g";
-            String formattedResult2 = decimalFormat.format(result2) + "g";
+
 
 
             resultLabel.setText(formattedResult);
             resultLabel2.setText(formattedDividedResult);
-            resultLabel3.setText(formattedResult2);
+
 
         } catch (NumberFormatException e) {
             // Fehler beim Parsen der Zahl, zeige eine Fehlermeldung oder handle es entsprechend
