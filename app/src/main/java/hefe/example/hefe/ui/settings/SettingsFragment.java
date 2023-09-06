@@ -3,6 +3,7 @@ package hefe.example.hefe.ui.settings;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -10,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,7 +20,6 @@ import androidx.fragment.app.Fragment;
 import com.google.android.play.core.review.ReviewInfo;
 import com.google.android.play.core.review.ReviewManager;
 import com.google.android.play.core.review.ReviewManagerFactory;
-import com.google.android.play.core.tasks.Task;
 
 import hefe.example.hefe.LanguageManager;
 import hefe.example.hefe.R;
@@ -138,7 +137,11 @@ private MotionButton button7;
         // ... (language button click listeners)
 
         button7.setOnClickListener(view -> {
-            startReviewFlow();
+            String url = "https://www.google.de"; // Ersetzen Sie dies durch Ihre gewünschte URL
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+            startActivity(intent);
+
+
         });
 
         PackageInfo pInfo = null;
@@ -153,47 +156,11 @@ private MotionButton button7;
         return rootView;
     }
 
-    private void activateReviewInfo() {
-        Task<ReviewInfo> managerInfoTask = manager.requestReviewFlow();
-        managerInfoTask.addOnCompleteListener(task -> {
-            if (task.isSuccessful()) {
-                reviewInfo = task.getResult();
-            } else {
-                Toast.makeText(requireContext(), "Review failed to start", Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
-
-    // ... rest of your code ...
-    private void startReviewFlow() {
-        if (reviewInfo != null) {
-            Task<Void> flow = manager.launchReviewFlow(requireActivity(), reviewInfo);
-            flow.addOnCompleteListener(task -> {
-                if (task.isSuccessful()) {
-                    Toast.makeText(requireContext(), "Rating is completed", Toast.LENGTH_SHORT).show();
-                    // Speichern, dass der Benutzer eine Bewertung abgegeben hat
-                    // Zum Beispiel durch Shared Preferences oder in deiner Datenbank
-                } else {
-                    Toast.makeText(requireContext(), "Rating was not completed", Toast.LENGTH_SHORT).show();
-                }
-            });
-        } else {
-            Toast.makeText(requireContext(), "Review information is not available", Toast.LENGTH_SHORT).show();
-        }
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        // Request review flow information when the fragment is resumed
-        activateReviewInfo();
-    }
 
 
 
-        // ... rest of your code ...
 
-        // Helper method to restart the activity to apply language changes to all components
+
         private void restartActivity() {
             Intent intent = getActivity().getIntent();
             requireActivity().finish();
