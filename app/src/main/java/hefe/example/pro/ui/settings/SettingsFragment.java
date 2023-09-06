@@ -1,9 +1,8 @@
-package hefe.example.hefe.ui.settings;
+package hefe.example.pro.ui.settings;
 
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -21,8 +20,8 @@ import com.google.android.play.core.review.ReviewInfo;
 import com.google.android.play.core.review.ReviewManager;
 import com.google.android.play.core.review.ReviewManagerFactory;
 
-import hefe.example.hefe.LanguageManager;
 import hefe.example.hefe.R;
+import hefe.example.pro.LanguageManager;
 
 public class SettingsFragment extends Fragment {
 
@@ -68,7 +67,7 @@ private MotionButton button7;
         languageCN = rootView.findViewById(R.id.languageCN);
         languageUSA = rootView.findViewById(R.id.languageUSA);
         versionText = rootView.findViewById(R.id.Version);
-        button7 = rootView.findViewById(R.id.button7);
+
 
         LanguageManager languageManager = new LanguageManager(getActivity());
 
@@ -136,13 +135,7 @@ private MotionButton button7;
 
         // ... (language button click listeners)
 
-        button7.setOnClickListener(view -> {
-            String url = "https://www.google.de"; // Ersetzen Sie dies durch Ihre gewünschte URL
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            startActivity(intent);
 
-
-        });
 
         PackageInfo pInfo = null;
         try {

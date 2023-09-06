@@ -7,48 +7,48 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="hefe.example.hefe.ui.home.HomeFragment"
+        android:name="hefe.example.pro.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="hefe.example.hefe.ui.gallery.GalleryFragment"
+        android:name="hefe.example.pro.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="hefe.example.hefe.ui.slideshow.SlideshowFragment"
+        android:name="hefe.example.pro.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_fach"
-        android:name="hefe.example.hefe.ui.fach.fach"
+        android:name="hefe.example.pro.ui.fach.fach"
         android:label="@string/menu_fach"
         tools:layout="@layout/fragment_fach"/>
 
     <fragment
         android:id="@+id/nav_settings"
-        android:name="hefe.example.hefe.ui.settings.SettingsFragment"
+        android:name="hefe.example.pro.ui.settings.SettingsFragment"
         android:label="@string/menu_settings"
         tools:layout="@layout/fragment_settings"/>
     <fragment
         android:id="@+id/nav_spenden"
-        android:name="hefe.example.hefe.ui.spenden.SpendenFragment"
+        android:name="hefe.example.pro.ui.spenden.SpendenFragment"
         android:label="@string/menu_spenden"
         tools:layout="@layout/fragment_spenden"/>
 
     <fragment
         android:id="@+id/nav_rechner"
-        android:name="hefe.example.hefe.ui.rechner.RechnerFragment"
+        android:name="hefe.example.pro.ui.rechner.RechnerFragment"
         android:label="@string/rechner.Rezeptrechner"
         tools:layout="@layout/fragment_rechner"/>
 
     <fragment
         android:id="@+id/nav_rezepte"
-        android:name="hefe.example.hefe.ui.rezepte.RezepteFragment"
+        android:name="hefe.example.pro.ui.rezepte.RezepteFragment"
         android:label="@string/Rezepte"
         tools:layout="@layout/fragment_rezepte"/>
 

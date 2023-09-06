@@ -1,4 +1,4 @@
-package hefe.example.hefe;
+package hefe.example.pro;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +17,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
 
+import hefe.example.hefe.R;
 import hefe.example.hefe.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {

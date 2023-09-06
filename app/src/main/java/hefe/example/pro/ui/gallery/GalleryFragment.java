@@ -1,4 +1,4 @@
-package hefe.example.hefe.ui.gallery;
+package hefe.example.pro.ui.gallery;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;

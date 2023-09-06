@@ -1,4 +1,4 @@
-    package hefe.example.hefe.ui.rezepte;
+    package hefe.example.pro.ui.rezepte;
 
     import android.content.Context;
     import android.content.Intent;
@@ -642,7 +642,7 @@
 
             // Load the interstitial ad
             AdRequest adRequest = new AdRequest.Builder().build();
-            InterstitialAd.load(requireContext(), "ca-app-pub-2553874194034729/1472691396", adRequest,
+            InterstitialAd.load(requireContext(), "", adRequest,
                     new InterstitialAdLoadCallback() {
                         @Override
                         public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
@@ -662,7 +662,7 @@
 
         private void loadInterstitialAd() {
             AdRequest adRequest = new AdRequest.Builder().build();
-            InterstitialAd.load(requireContext(), "ca-app-pub-2553874194034729/1472691396", adRequest,
+            InterstitialAd.load(requireContext(), "", adRequest,
                     new InterstitialAdLoadCallback() {
                         @Override
                         public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {

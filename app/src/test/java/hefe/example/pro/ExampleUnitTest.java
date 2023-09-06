@@ -1,4 +1,4 @@
-package hefe.example.hefe;
+package hefe.example.pro;
 
 import org.junit.Test;
 

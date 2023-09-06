@@ -1,4 +1,4 @@
-package hefe.example.hefe.ui.home;
+package hefe.example.pro.ui.home;
 
 import android.content.Context;
 import android.content.SharedPreferences;

@@ -1,4 +1,4 @@
-package hefe.example.hefe.ui.slideshow;
+package hefe.example.pro.ui.slideshow;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

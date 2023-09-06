@@ -1,14 +1,10 @@
-package hefe.example.hefe;
+package hefe.example.pro;
 
 import android.content.Context;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.os.LocaleListCompat;
-
-import java.util.Locale;
 
 public class LanguageManager extends AppCompatActivity {
     private Context ct;
