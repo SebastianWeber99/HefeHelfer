@@ -245,4 +245,5 @@
     <string name="rezepte_hefe">Mayalı tarifler</string>
     <string name="rezept_sauer">Ekşi mayalı tarifler</string>
     <string name="rezepte_beides">Maya ve ekşi mayalı tarifler</string>
+    <string name="keinewerbung">Tarif seçerken reklamlardan bıktınız mı?</string>
 </resources>

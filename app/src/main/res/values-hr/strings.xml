@@ -245,6 +245,7 @@
     <string name="rezepte_hefe">Recepti s kvascem</string>
     <string name="rezept_sauer">Recepti s kiselim tijestom</string>
     <string name="rezepte_beides">Recepti s kvascem i kiselim tijestom</string>
+    <string name="keinewerbung">Umorni ste od oglašavanja pri odabiru recepata?</string>
 
 
 </resources>

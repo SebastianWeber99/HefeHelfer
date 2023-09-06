@@ -284,5 +284,6 @@
     <string name="rezepte_hefe">Recipes with yeast</string>
     <string name="rezept_sauer">Recipes with sourdough</string>
     <string name="rezepte_beides">Recipes with yeast and sourdough</string>
+    <string name="keinewerbung">Tired of advertising when choosing recipes?</string>
 
 </resources>

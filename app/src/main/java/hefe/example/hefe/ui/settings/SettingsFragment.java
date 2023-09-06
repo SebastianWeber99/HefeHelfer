@@ -137,7 +137,7 @@ private MotionButton button7;
         // ... (language button click listeners)
 
         button7.setOnClickListener(view -> {
-            String url = "https://www.google.de"; // Ersetzen Sie dies durch Ihre gewünschte URL
+            String url = "https://play.google.com/store/apps/details?id=pro.example.pro"; // Ersetzen Sie dies durch Ihre gewünschte URL
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(intent);
 

@@ -246,6 +246,7 @@
     <string name="rezepte_hefe">Recettes avec levure</string>
     <string name="rezept_sauer">Recettes avec levain</string>
     <string name="rezepte_beides">Recettes avec levure et levain</string>
+    <string name="keinewerbung">Vous en avez assez de la publicité lors de la sélection des recettes ?</string>
 
 
 </resources>

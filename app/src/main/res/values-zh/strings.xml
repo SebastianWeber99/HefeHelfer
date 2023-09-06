@@ -245,5 +245,6 @@
     <string name="rezepte_hefe">酵母食谱</string>
     <string name="rezept_sauer">酸面团食谱</string>
     <string name="rezepte_beides">含酵母和酸包粉的食谱</string>
+    <string name="keinewerbung">厌倦了选择食谱时的广告？</string>
 
 </resources>
