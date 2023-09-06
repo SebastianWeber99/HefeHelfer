@@ -1,4 +1,4 @@
-package hefe.example.pro.ui.settings;
+package pro.example.pro.ui.settings;
 
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -21,7 +21,7 @@ import com.google.android.play.core.review.ReviewManager;
 import com.google.android.play.core.review.ReviewManagerFactory;
 
 import hefe.example.hefe.R;
-import hefe.example.pro.LanguageManager;
+import pro.example.pro.LanguageManager;
 
 public class SettingsFragment extends Fragment {
 

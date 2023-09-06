@@ -1,4 +1,4 @@
-    package hefe.example.pro.ui.rezepte;
+    package pro.example.pro.ui.rezepte;
 
     import android.content.Context;
     import android.content.Intent;

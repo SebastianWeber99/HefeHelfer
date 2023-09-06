@@ -1,4 +1,4 @@
-package hefe.example.pro.ui.slideshow;
+package pro.example.pro.ui.slideshow;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

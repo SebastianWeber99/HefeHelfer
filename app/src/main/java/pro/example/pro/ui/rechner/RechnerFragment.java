@@ -1,4 +1,4 @@
-package hefe.example.pro.ui.rechner;
+package pro.example.pro.ui.rechner;
 
 import android.content.Context;
 import android.content.SharedPreferences;

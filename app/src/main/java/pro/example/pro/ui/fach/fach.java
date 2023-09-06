@@ -1,4 +1,4 @@
-package hefe.example.pro.ui.fach;
+package pro.example.pro.ui.fach;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;

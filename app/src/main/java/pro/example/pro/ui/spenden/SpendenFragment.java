@@ -1,4 +1,4 @@
-package hefe.example.pro.ui.spenden;
+package pro.example.pro.ui.spenden;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
