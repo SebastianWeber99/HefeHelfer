@@ -15,8 +15,8 @@ android {
         applicationId "pro.example.pro"
         minSdk 24
         targetSdk 33
-        versionCode 43
-        versionName "43"
+        versionCode 44
+        versionName "44"
         resConfig("en,de,pl,fr,es,hr,tr,nl,it,cn,ja,ru,uk,ar,zh,en-rGB,en-rUS")
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
