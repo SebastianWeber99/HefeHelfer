@@ -52,7 +52,7 @@ public class MyApplication extends Application implements Application.ActivityLi
     /** Inner class that loads and shows app open ads. */
     private class AppOpenAdManager {
         private static final String LOG_TAG = "AppOpenAdManager";
-        private static final String AD_UNIT_ID = "ca-app-pub-3940256099942544/3419835294";
+        private static final String AD_UNIT_ID = "ca-app-pub-2553874194034729/9687831560";
 
         private AppOpenAd appOpenAd = null;
         private boolean isLoadingAd = false;
@@ -172,9 +172,7 @@ public class MyApplication extends Application implements Application.ActivityLi
     @Override
     public void onActivityResumed(Activity activity) {
         // Laden Sie die Anzeige erneut, wenn die App wieder in den Vordergrund geholt wird
-        if (activity == currentActivity && !appOpenAdManager.isShowingAd) {
-            appOpenAdManager.loadAd(this);
-        }
+
     }
 
     @Override

@@ -642,7 +642,7 @@
 
             // Load the interstitial ad
             AdRequest adRequest = new AdRequest.Builder().build();
-            InterstitialAd.load(requireContext(), "ca-app-pub-2553874194034729/1472691396", adRequest,
+            InterstitialAd.load(requireContext(), "ca-app-pub-3940256099942544/1033173712", adRequest,
                     new InterstitialAdLoadCallback() {
                         @Override
                         public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
@@ -660,21 +660,25 @@
             return view;
         }
 
-        private void loadInterstitialAd() {
-            AdRequest adRequest = new AdRequest.Builder().build();
-            InterstitialAd.load(requireContext(), "ca-app-pub-2553874194034729/1472691396", adRequest,
-                    new InterstitialAdLoadCallback() {
-                        @Override
-                        public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
-                            mInterstitialAd = interstitialAd;
-                            Log.i(TAG, "Interstitial ad loaded");
-                        }
 
-                        @Override
-                        public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-                            Log.e(TAG, "Interstitial ad failed to load: " + loadAdError.getMessage());
-                        }
-                    });
+
+        private void loadInterstitialAd() {
+            if (mInterstitialAd == null) {
+                AdRequest adRequest = new AdRequest.Builder().build();
+                InterstitialAd.load(requireContext(), "ca-app-pub-2553874194034729/1472691396", adRequest,
+                        new InterstitialAdLoadCallback() {
+                            @Override
+                            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                                mInterstitialAd = interstitialAd;
+                                Log.i(TAG, "Interstitial ad loaded");
+                            }
+
+                            @Override
+                            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                                Log.e(TAG, "Interstitial ad failed to load: " + loadAdError.getMessage());
+                            }
+                        });
+            }
         }
 
         private void showInterstitialAdAndOpenLink(String link) {
@@ -684,7 +688,6 @@
                     public void onAdDismissedFullScreenContent() {
                         Log.d(TAG, "Ad dismissed fullscreen content.");
                         openLink(link);
-                        loadInterstitialAd(); // Load a new ad for the next time
                     }
                 });
 
@@ -702,7 +705,10 @@
                     showInterstitialAdAndOpenLink(link);
                 }
             });
+
         }
+
+
 
         private void openLink(String link) {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
