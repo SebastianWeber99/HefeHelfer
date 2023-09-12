@@ -15,8 +15,8 @@ android {
         applicationId "hefe.example.hefe"
         minSdk 24
         targetSdk 33
-        versionCode 45
-        versionName "45"
+        versionCode 46
+        versionName "46"
         resConfig("en,de,pl,fr,es,hr,tr,nl,it,cn,ja,ru,uk,ar,zh,en-rGB,en-rUS")
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -60,7 +60,6 @@ dependencies {
     implementation "com.android.billingclient:billing:$billing_version"
 
 
-    implementation 'com.google.android.gms:play-services-ads:22.3.0'
 
     def lifecycle_version = "2.0.0"
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
