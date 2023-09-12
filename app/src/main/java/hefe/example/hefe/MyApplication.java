@@ -23,14 +23,11 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 
 import java.util.Date;
 
-/** Application class that initializes, loads and show ads when activities change states. */
 public class MyApplication extends Application implements Application.ActivityLifecycleCallbacks, LifecycleObserver {
-
 
     private AppOpenAdManager appOpenAdManager;
     private Activity currentActivity;
     public long loadTime = 0;
-
     @Override
     public void onCreate() {
         super.onCreate();
@@ -42,18 +39,17 @@ public class MyApplication extends Application implements Application.ActivityLi
                 });
         ProcessLifecycleOwner.get().getLifecycle().addObserver(this);
         appOpenAdManager = new AppOpenAdManager(this);
-
     }
+    /** LifecycleObserver method that shows the app open ad when the app moves to foreground. */
     @OnLifecycleEvent(Lifecycle.Event.ON_START)
     protected void onMoveToForeground() {
         // Show the ad (if available) when the app moves to foreground.
         appOpenAdManager.showAdIfAvailable(currentActivity);
     }
-
     /** Inner class that loads and shows app open ads. */
     private class AppOpenAdManager {
         private static final String LOG_TAG = "AppOpenAdManager";
-        private static final String AD_UNIT_ID = "ca-app-pub-2553874194034729/7226648746";
+        private static final String AD_UNIT_ID = "ca-app-pub-3940256099942544/3419835294";
 
         private AppOpenAd appOpenAd = null;
         private boolean isLoadingAd = false;
@@ -64,6 +60,7 @@ public class MyApplication extends Application implements Application.ActivityLi
 
         /** Request an ad. */
         private void loadAd(Context context) {
+            // We will implement this below.
             if (isLoadingAd || isAdAvailable()) {
                 return;
             }
@@ -80,6 +77,7 @@ public class MyApplication extends Application implements Application.ActivityLi
                             Log.d(LOG_TAG, "Ad was loaded.");
                             appOpenAd = ad;
                             isLoadingAd = false;
+                            loadTime = (new Date()).getTime();
                         }
 
                         @Override
@@ -87,13 +85,12 @@ public class MyApplication extends Application implements Application.ActivityLi
                             // Called when an app open ad has failed to load.
                             Log.d(LOG_TAG, loadAdError.getMessage());
                             isLoadingAd = false;
-                            loadTime = (new Date()).getTime();
                         }
                     });
-
         }
         public void showAdIfAvailable(
                 @NonNull final Activity activity){
+
             // If the app open ad is already showing, do not show the ad again.
             if (isShowingAd) {
                 Log.d(LOG_TAG, "The app open ad is already showing.");
@@ -109,7 +106,7 @@ public class MyApplication extends Application implements Application.ActivityLi
             }
 
             appOpenAd.setFullScreenContentCallback(
-                    new FullScreenContentCallback() {
+                    new FullScreenContentCallback (){
 
                 @Override
                 public void onAdDismissedFullScreenContent() {
@@ -118,8 +115,6 @@ public class MyApplication extends Application implements Application.ActivityLi
                     Log.d(LOG_TAG, "Ad dismissed fullscreen content.");
                     appOpenAd = null;
                     isShowingAd = false;
-
-
                     loadAd(activity);
                 }
 
@@ -144,6 +139,7 @@ public class MyApplication extends Application implements Application.ActivityLi
             isShowingAd = true;
             appOpenAd.show(activity);
         }
+
         /** Check if ad exists and can be shown. */
         private boolean isAdAvailable() {
             return appOpenAd != null && wasLoadTimeLessThanNHoursAgo(4);
@@ -155,6 +151,7 @@ public class MyApplication extends Application implements Application.ActivityLi
         long numMilliSecondsPerHour = 3600000;
         return (dateDifference < (numMilliSecondsPerHour * numHours));
     }
+    /** ActivityLifecycleCallback methods. */
     @Override
     public void onActivityCreated(Activity activity, Bundle savedInstanceState) {}
 
@@ -180,4 +177,5 @@ public class MyApplication extends Application implements Application.ActivityLi
 
     @Override
     public void onActivityDestroyed(Activity activity) {}
+
 }
