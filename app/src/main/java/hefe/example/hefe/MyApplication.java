@@ -39,17 +39,20 @@ public class MyApplication extends Application implements Application.ActivityLi
                 });
         ProcessLifecycleOwner.get().getLifecycle().addObserver(this);
         appOpenAdManager = new AppOpenAdManager(this);
+        appOpenAdManager.showAdIfAvailable(currentActivity); // Hier wird die Anzeige beim Start der App geladen und im Vordergrund angezeigt
     }
+
     /** LifecycleObserver method that shows the app open ad when the app moves to foreground. */
     @OnLifecycleEvent(Lifecycle.Event.ON_START)
     protected void onMoveToForeground() {
         // Show the ad (if available) when the app moves to foreground.
         appOpenAdManager.showAdIfAvailable(currentActivity);
+        appOpenAdManager.loadAd(this);
     }
     /** Inner class that loads and shows app open ads. */
     private class AppOpenAdManager {
         private static final String LOG_TAG = "AppOpenAdManager";
-        private static final String AD_UNIT_ID = "ca-app-pub-3940256099942544/3419835294";
+        private static final String AD_UNIT_ID = "ca-app-pub-2553874194034729/7226648746";
 
         private AppOpenAd appOpenAd = null;
         private boolean isLoadingAd = false;
@@ -78,6 +81,7 @@ public class MyApplication extends Application implements Application.ActivityLi
                             appOpenAd = ad;
                             isLoadingAd = false;
                             loadTime = (new Date()).getTime();
+                            showAdIfAvailable(currentActivity);
                         }
 
                         @Override
@@ -105,7 +109,9 @@ public class MyApplication extends Application implements Application.ActivityLi
                 return;
             }
 
+
             appOpenAd.setFullScreenContentCallback(
+
                     new FullScreenContentCallback (){
 
                 @Override
@@ -164,7 +170,12 @@ public class MyApplication extends Application implements Application.ActivityLi
     }
 
     @Override
-    public void onActivityResumed(Activity activity) {}
+    public void onActivityResumed(Activity activity) {
+        // Laden Sie die Anzeige erneut, wenn die App wieder in den Vordergrund geholt wird
+        if (activity == currentActivity) {
+            appOpenAdManager.loadAd(this);
+        }
+    }
 
     @Override
     public void onActivityStopped(Activity activity) {}
