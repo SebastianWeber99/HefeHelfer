@@ -642,7 +642,7 @@
 
             // Load the interstitial ad
             AdRequest adRequest = new AdRequest.Builder().build();
-            InterstitialAd.load(requireContext(), "ca-app-pub-3940256099942544/1033173712", adRequest,
+            InterstitialAd.load(requireContext(), "ca-app-pub-2553874194034729/1472691396", adRequest,
                     new InterstitialAdLoadCallback() {
                         @Override
                         public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
