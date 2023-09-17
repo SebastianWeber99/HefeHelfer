@@ -148,7 +148,7 @@ public class MyApplication extends Application implements Application.ActivityLi
 
         /** Check if ad exists and can be shown. */
         private boolean isAdAvailable() {
-            return appOpenAd != null && wasLoadTimeLessThanNHoursAgo(4);
+            return appOpenAd != null && wasLoadTimeLessThanNHoursAgo(0);
         }
     }
     /** Utility method to check if ad was loaded more than n hours ago. */
